@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Page Not Found | Ighi's Home Radio</title>
+    <style>
+        body {
+            font-family: 'Inter', -apple-system, sans-serif;
+            background: #0a0a0a;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            text-align: center;
+        }
+        .container {
+            max-width: 600px;
+            padding: 40px 20px;
+        }
+        h1 {
+            font-size: 120px;
+            margin: 0;
+            background: linear-gradient(135deg, #ff2d55, #007aff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            line-height: 1;
+        }
+        h2 {
+            font-size: 28px;
+            margin: 20px 0;
+            color: #00ff88;
+        }
+        p {
+            font-size: 18px;
+            color: #b3b3b3;
+            margin: 20px 0;
+        }
+        .buttons {
+            margin-top: 40px;
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        a {
+            display: inline-block;
+            padding: 15px 30px;
+            background: linear-gradient(135deg, #007aff, #00ff88);
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            transition: transform 0.2s;
+        }
+        a:hover {
+            transform: scale(1.05);
+        }
+        .secondary {
+            background: #1a1a1a;
+            border: 2px solid #007aff;
+        }
+        .record {
+            font-size: 100px;
+            margin: 20px 0;
+            animation: spin 4s linear infinite;
+        }
+        @keyframes spin {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="record">💿</div>
+        <h1>404</h1>
+        <h2>Oops! This track seems to be missing!</h2>
+        <p>The page you're looking for has gone off-air. Let's get you back to the music!</p>
+        <div class="buttons">
+            <a href="/">Back to Radio</a>
+            <a href="/#contact" class="secondary">Contact Us</a>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,23 @@
+{
+    "timestamp": 1750456531,
+    "datetime": "2025-06-20 21:55:31",
+    "source": "Manual",
+    "data": {
+        "title": "California Gurls",
+        "artist": "Katy Perry feat. Snoop Dogg",
+        "album": null,
+        "year": null,
+        "label": null,
+        "artwork": null,
+        "genre": null,
+        "isrc": null,
+        "upc": null,
+        "spotify_id": null,
+        "youtube_id": null,
+        "source": "ICY",
+        "raw": "Katy Perry feat. Snoop Dogg - California Gurls"
+    },
+    "recognized_at": 1750456531,
+    "enrichment_complete": false,
+    "trivia_requested": false
+}

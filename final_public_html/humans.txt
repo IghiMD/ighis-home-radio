@@ -1,0 +1,24 @@
+/* TEAM */
+    
+Founder & Radio Host: Ighi
+Role: Anesthesiologist, 90s Music Enthusiast
+Location: Czech Republic
+
+Co-Host: Kika  
+Role: Gen Z Music Curator
+Location: Czech Republic
+
+/* THANKS */
+
+Music Recognition: AudD.io
+Chat Support: Crisp.chat
+Hosting: Your hosting provider
+Listeners: You! Thank you for tuning in!
+
+/* SITE */
+
+Last update: 2024/01/15
+Language: English / Slovak
+Standards: HTML5, CSS3, ES6
+Components: AudD API, Crisp Chat
+Software: VS Code, Git

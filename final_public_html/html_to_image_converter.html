@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML to Image Converter</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: #0a0a0a;
+            color: #fff;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .controls {
+            background: rgba(255,255,255,0.1);
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .btn {
+            background: linear-gradient(135deg, #00ff88, #007aff);
+            color: #000;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+        }
+
+        .btn.secondary {
+            background: linear-gradient(135deg, #ff6b6b, #ffa500);
+        }
+
+        .btn.success {
+            background: linear-gradient(135deg, #4CAF50, #45a049);
+        }
+
+        .format-selector {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+
+        .format-selector label {
+            color: #00ff88;
+            font-weight: 600;
+        }
+
+        .format-selector select {
+            padding: 8px 12px;
+            border-radius: 5px;
+            border: none;
+            background: rgba(255,255,255,0.9);
+            color: #000;
+        }
+
+        .quality-selector {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+
+        .quality-selector input {
+            width: 60px;
+            padding: 8px;
+            border-radius: 5px;
+            border: none;
+            background: rgba(255,255,255,0.9);
+            color: #000;
+            text-align: center;
+        }
+
+        /* Demo poster styles */
+        .poster {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 20px;
+            padding: 40px;
+            margin: 20px 0;
+            text-align: center;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+            border: 3px solid #00ff88;
+            min-height: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .poster::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grain" width="100" height="100" patternUnits="userSpaceOnUse"><circle cx="50" cy="50" r="0.5" fill="rgba(255,255,255,0.1)"/></pattern></defs><rect width="100" height="100" fill="url(%23grain)"/></svg>');
+            pointer-events: none;
+        }
+
+        .poster-content {
+            position: relative;
+            z-index: 2;
+        }
+
+        .poster h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            background: linear-gradient(135deg, #00ff88, #ffffff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .poster h2 {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            color: #ffffff;
+            opacity: 0.9;
+        }
+
+        .poster p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            max-width: 600px;
+            margin: 0 auto 30px;
+            color: #f0f0f0;
+        }
+
+        .poster-stats {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin-top: 30px;
+        }
+
+        .stat {
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #00ff88;
+            display: block;
+        }
+
+        .stat-label {
+            font-size: 0.9rem;
+            color: #ddd;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .download-preview {
+            background: rgba(255,255,255,0.1);
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .preview-image {
+            max-width: 100%;
+            max-height: 300px;
+            border-radius: 10px;
+            margin: 10px 0;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+        }
+
+        .status {
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin: 10px 0;
+            font-weight: 600;
+        }
+
+        .status.success {
+            background: rgba(76, 175, 80, 0.2);
+            color: #4CAF50;
+            border: 1px solid #4CAF50;
+        }
+
+        .status.error {
+            background: rgba(244, 67, 54, 0.2);
+            color: #f44336;
+            border: 1px solid #f44336;
+        }
+
+        .status.info {
+            background: rgba(33, 150, 243, 0.2);
+            color: #2196F3;
+            border: 1px solid #2196F3;
+        }
+
+        @media (max-width: 768px) {
+            .controls {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .poster h1 {
+                font-size: 2rem;
+            }
+
+            .poster-stats {
+                flex-direction: column;
+                gap: 20px;
+            }
+        }
+
+        /* Custom poster editable area */
+        .editable-poster {
+            background: linear-gradient(135deg, #ff6b6b 0%, #ffa500 50%, #00ff88 100%);
+            border-radius: 15px;
+            padding: 30px;
+            margin: 20px 0;
+            text-align: center;
+            min-height: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            position: relative;
+            border: 2px solid #fff;
+        }
+
+        .editable-poster h1 {
+            font-size: 2.5rem;
+            color: #000;
+            margin-bottom: 15px;
+            text-shadow: 1px 1px 2px rgba(255,255,255,0.3);
+        }
+
+        .editable-poster p {
+            font-size: 1.1rem;
+            color: #222;
+            margin-bottom: 20px;
+        }
+
+        .edit-controls {
+            background: rgba(255,255,255,0.1);
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .edit-controls input, .edit-controls textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: none;
+            border-radius: 5px;
+            background: rgba(255,255,255,0.9);
+            color: #000;
+        }
+
+        .edit-controls textarea {
+            resize: vertical;
+            min-height: 60px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 style="text-align: center; color: #00ff88; margin-bottom: 30px;">
+            🖼️ HTML to Image Converter
+        </h1>
+
+        <!-- Controls -->
+        <div class="controls">
+            <div class="format-selector">
+                <label for="imageFormat">Formát:</label>
+                <select id="imageFormat">
+                    <option value="png">PNG (vysoká kvalita)</option>
+                    <option value="jpeg">JPEG (menšia veľkosť)</option>
+                    <option value="webp">WebP (moderný)</option>
+                </select>
+            </div>
+
+            <div class="quality-selector">
+                <label for="imageQuality">Kvalita JPEG:</label>
+                <input type="number" id="imageQuality" value="90" min="10" max="100">
+            </div>
+
+            <button class="btn" onclick="captureElement('demoPoster')">
+                📸 Zachytiť Demo Poster
+            </button>
+
+            <button class="btn secondary" onclick="captureElement('editablePoster')">
+                📸 Zachytiť Vlastný Poster
+            </button>
+
+            <button class="btn success" onclick="captureFullPage()">
+                📄 Zachytiť celú stránku
+            </button>
+        </div>
+
+        <!-- Editable Poster -->
+        <div class="edit-controls">
+            <h3 style="color: #00ff88; margin-bottom: 15px;">✏️ Upraviť vlastný poster</h3>
+            <input type="text" id="customTitle" placeholder="Názov posteru" value="Ighi's Home Radio">
+            <textarea id="customText" placeholder="Text posteru">🎵 Medzigeneračné rádio spájajúce 90s klasiky s modernými hitmi</textarea>
+            <button class="btn" onclick="updateCustomPoster()">🔄 Aktualizovať poster</button>
+        </div>
+
+        <!-- Custom Editable Poster -->
+        <div id="editablePoster" class="editable-poster">
+            <h1 id="posterTitle">Ighi's Home Radio</h1>
+            <p id="posterText">🎵 Medzigeneračné rádio spájajúce 90s klasiky s modernými hitmi</p>
+            <div style="font-size: 1rem; color: #333;">
+                📅 24/7 LIVE • 🌐 ighishomeradio.net
+            </div>
+        </div>
+
+        <!-- Demo Poster -->
+        <div id="demoPoster" class="poster">
+            <div class="poster-content">
+                <h1>🎵 Ighi's Home Radio</h1>
+                <h2>Medzigeneračné Internetové Rádio</h2>
+                <p>
+                    Spájame generácie prostredníctvom hudby od 90. rokov až po dnešné hity. 
+                    Otec a dcéra vytvorili jedinečný rádiový zážitok, ktorý vystihuje ducha 
+                    rôznych hudobných éier.
+                </p>
+                
+                <div class="poster-stats">
+                    <div class="stat">
+                        <span class="stat-number">24/7</span>
+                        <span class="stat-label">Live Vysielanie</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">2</span>
+                        <span class="stat-label">Generácie</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">∞</span>
+                        <span class="stat-label">Hitov</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Download Preview -->
+        <div id="downloadPreview" class="download-preview" style="display: none;">
+            <h3 style="color: #00ff88;">📥 Náhľad a stiahnutie</h3>
+            <img id="previewImage" class="preview-image" alt="Generated Image">
+            <br>
+            <a id="downloadLink" class="btn" download style="margin-top: 10px;">
+                💾 Stiahnuť obrázok
+            </a>
+        </div>
+
+        <!-- Status Messages -->
+        <div id="statusMessage"></div>
+    </div>
+
+    <script>
+        // Funkcia pre zachytenie konkrétneho elementu
+        async function captureElement(elementId) {
+            showStatus('Generujem obrázok...', 'info');
+            
+            try {
+                const element = document.getElementById(elementId);
+                const format = document.getElementById('imageFormat').value;
+                const quality = document.getElementById('imageQuality').value / 100;
+
+                const canvas = await html2canvas(element, {
+                    backgroundColor: null,
+                    scale: 2, // Vyššie rozlíšenie
+                    useCORS: true,
+                    allowTaint: true,
+                    scrollX: 0,
+                    scrollY: 0,
+                    width: element.offsetWidth,
+                    height: element.offsetHeight
+                });
+
+                // Konverzia na požadovaný formát
+                let dataURL;
+                let fileName;
+                
+                if (format === 'jpeg') {
+                    dataURL = canvas.toDataURL('image/jpeg', quality);
+                    fileName = `${elementId}_poster.jpg`;
+                } else if (format === 'webp') {
+                    dataURL = canvas.toDataURL('image/webp', quality);
+                    fileName = `${elementId}_poster.webp`;
+                } else {
+                    dataURL = canvas.toDataURL('image/png');
+                    fileName = `${elementId}_poster.png`;
+                }
+
+                // Zobrazenie náhľadu a download linku
+                showPreview(dataURL, fileName);
+                showStatus(`Obrázok vygenerovaný úspešně! Formát: ${format.toUpperCase()}`, 'success');
+
+            } catch (error) {
+                console.error('Chyba pri generovaní obrázka:', error);
+                showStatus('Chyba pri generovaní obrázka: ' + error.message, 'error');
+            }
+        }
+
+        // Funkcia pre zachytenie celej stránky
+        async function captureFullPage() {
+            showStatus('Generujem screenshot celej stránky...', 'info');
+            
+            try {
+                const format = document.getElementById('imageFormat').value;
+                const quality = document.getElementById('imageQuality').value / 100;
+
+                const canvas = await html2canvas(document.body, {
+                    backgroundColor: '#0a0a0a',
+                    scale: 1.5,
+                    useCORS: true,
+                    allowTaint: true,
+                    height: window.innerHeight,
+                    width: window.innerWidth,
+                    scrollX: 0,
+                    scrollY: 0
+                });
+
+                let dataURL;
+                let fileName;
+                
+                if (format === 'jpeg') {
+                    dataURL = canvas.toDataURL('image/jpeg', quality);
+                    fileName = 'full_page.jpg';
+                } else if (format === 'webp') {
+                    dataURL = canvas.toDataURL('image/webp', quality);
+                    fileName = 'full_page.webp';
+                } else {
+                    dataURL = canvas.toDataURL('image/png');
+                    fileName = 'full_page.png';
+                }
+
+                showPreview(dataURL, fileName);
+                showStatus('Screenshot celej stránky vytvorený!', 'success');
+
+            } catch (error) {
+                console.error('Chyba pri vytváraní screenshotu:', error);
+                showStatus('Chyba pri vytváraní screenshotu: ' + error.message, 'error');
+            }
+        }
+
+        // Aktualizácia vlastného posteru
+        function updateCustomPoster() {
+            const title = document.getElementById('customTitle').value;
+            const text = document.getElementById('customText').value;
+            
+            document.getElementById('posterTitle').textContent = title;
+            document.getElementById('posterText').textContent = text;
+            
+            showStatus('Poster aktualizovaný!', 'info');
+        }
+
+        // Zobrazenie náhľadu a download linku
+        function showPreview(dataURL, fileName) {
+            const preview = document.getElementById('downloadPreview');
+            const previewImage = document.getElementById('previewImage');
+            const downloadLink = document.getElementById('downloadLink');
+            
+            previewImage.src = dataURL;
+            downloadLink.href = dataURL;
+            downloadLink.download = fileName;
+            downloadLink.textContent = `💾 Stiahnuť ${fileName}`;
+            
+            preview.style.display = 'block';
+            preview.scrollIntoView({ behavior: 'smooth' });
+        }
+
+        // Zobrazenie status správy
+        function showStatus(message, type) {
+            const statusDiv = document.getElementById('statusMessage');
+            statusDiv.innerHTML = `<div class="status ${type}">${message}</div>`;
+            
+            if (type !== 'info') {
+                setTimeout(() => {
+                    statusDiv.innerHTML = '';
+                }, 5000);
+            }
+        }
+
+        // Detekcia podpory WebP
+        function supportsWebP() {
+            const canvas = document.createElement('canvas');
+            canvas.width = 1;
+            canvas.height = 1;
+            return canvas.toDataURL('image/webp').indexOf('data:image/webp') === 0;
+        }
+
+        // Inicializácia
+        document.addEventListener('DOMContentLoaded', function() {
+            if (!supportsWebP()) {
+                const webpOption = document.querySelector('option[value="webp"]');
+                if (webpOption) {
+                    webpOption.disabled = true;
+                    webpOption.textContent += ' (nepodporované)';
+                }
+            }
+            
+            showStatus('Připraven na generování obrázků! Vyberte element a stiskněte tlačítko.', 'info');
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+{
+  "name": "ighis-home-radio",
+  "version": "2.0.0",
+  "description": "Cross-generational internet radio station bridging 90s classics to today's hits",
+  "main": "index.html",
+  "scripts": {
+    "start": "php -S localhost:8000",
+    "test": "echo \"No tests configured yet\"",
+    "lint:php": "php -l *.php",
+    "format": "prettier --write \"**/*.{html,css,js,json,md}\"",
+    "check-format": "prettier --check \"**/*.{html,css,js,json,md}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/ighis-home-radio.git"
+  },
+  "keywords": [
+    "radio",
+    "streaming",
+    "music",
+    "internet-radio",
+    "php",
+    "icecast",
+    "family-radio",
+    "slovak-radio"
+  ],
+  "author": {
+    "name": "Ighi's Home Radio",
+    "email": "hello@ighishomeradio.com",
+    "url": "https://ighishomeradio.net"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/ighis-home-radio/issues"
+  },
+  "homepage": "https://ighishomeradio.net",
+  "devDependencies": {
+    "prettier": "^3.0.0"
+  },
+  "prettier": {
+    "semi": true,
+    "singleQuote": true,
+    "tabWidth": 2,
+    "useTabs": false,
+    "trailingComma": "es5",
+    "bracketSpacing": true,
+    "arrowParens": "avoid",
+    "endOfLine": "lf",
+    "overrides": [
+      {
+        "files": "*.php",
+        "options": {
+          "tabWidth": 4
+        }
+      }
+    ]
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "php": ">=8.2.0"
+  },
+  "private": true
+}

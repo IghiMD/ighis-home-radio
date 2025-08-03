@@ -1,0 +1,2803 @@
+[
+    {
+        "timestamp": 1750456531,
+        "datetime": "2025-06-20 21:55:31",
+        "source": "Manual",
+        "data": {
+            "title": "California Gurls",
+            "artist": "Katy Perry feat. Snoop Dogg",
+            "album": null,
+            "year": null,
+            "label": null,
+            "artwork": null,
+            "genre": null,
+            "isrc": null,
+            "upc": null,
+            "spotify_id": null,
+            "youtube_id": null,
+            "source": "ICY",
+            "raw": "Katy Perry feat. Snoop Dogg - California Gurls",
+            "metadata_completeness": 40,
+            "quality_score": 20
+        }
+    },
+    {
+        "timestamp": 1750456227,
+        "datetime": "2025-06-20 21:50:27",
+        "source": "Manual",
+        "data": {
+            "title": "Voda \u010co Ma Dr\u017e\u00ed Nad Vodou",
+            "artist": "Va\u0161o Patejdl",
+            "album": null,
+            "year": null,
+            "label": null,
+            "artwork": null,
+            "genre": null,
+            "isrc": null,
+            "upc": null,
+            "spotify_id": null,
+            "youtube_id": null,
+            "source": "ICY",
+            "raw": "Va\u0161o Patejdl - Voda \u010co Ma Dr\u017e\u00ed Nad Vodou",
+            "metadata_completeness": 40,
+            "quality_score": 20
+        }
+    },
+    {
+        "timestamp": 1750455976,
+        "datetime": "2025-06-20 21:46:16",
+        "source": "Manual",
+        "data": {
+            "title": "Rush - Radio Version",
+            "artist": "Freak Power",
+            "album": null,
+            "year": null,
+            "label": null,
+            "artwork": null,
+            "genre": null,
+            "isrc": null,
+            "upc": null,
+            "spotify_id": null,
+            "youtube_id": null,
+            "source": "ICY",
+            "raw": "Freak Power - Rush - Radio Version",
+            "metadata_completeness": 40,
+            "quality_score": 20
+        }
+    },
+    {
+        "timestamp": 1750455747,
+        "datetime": "2025-06-20 21:42:27",
+        "source": "Manual",
+        "data": {
+            "title": "That Don't Impress Me Much",
+            "artist": "Shania Twain",
+            "album": null,
+            "year": null,
+            "label": null,
+            "artwork": null,
+            "genre": null,
+            "isrc": null,
+            "upc": null,
+            "spotify_id": null,
+            "youtube_id": null,
+            "source": "ICY",
+            "raw": "Shania Twain - That Don't Impress Me Much",
+            "metadata_completeness": 40,
+            "quality_score": 20
+        }
+    },
+    {
+        "timestamp": 1750455532,
+        "datetime": "2025-06-20 21:38:52",
+        "source": "Manual",
+        "data": {
+            "title": "An Angel",
+            "artist": "The Kelly Family",
+            "album": null,
+            "year": null,
+            "label": null,
+            "artwork": null,
+            "genre": null,
+            "isrc": null,
+            "upc": null,
+            "spotify_id": null,
+            "youtube_id": null,
+            "source": "ICY",
+            "raw": "The Kelly Family - An Angel",
+            "metadata_completeness": 40,
+            "quality_score": 20
+        }
+    },
+    {
+        "timestamp": 1750455342,
+        "datetime": "2025-06-20 21:35:42",
+        "source": "Manual",
+        "data": {
+            "title": "Hard Rock Hallelujah",
+            "artist": "Lordi",
+            "album": null,
+            "year": null,
+            "label": null,
+            "artwork": null,
+            "genre": null,
+            "isrc": null,
+            "upc": null,
+            "spotify_id": null,
+            "youtube_id": null,
+            "source": "ICY",
+            "raw": "Lordi - Hard Rock Hallelujah",
+            "metadata_completeness": 40,
+            "quality_score": 20
+        }
+    },
+    {
+        "timestamp": 1750455115,
+        "datetime": "2025-06-20 21:31:55",
+        "source": "Manual",
+        "data": {
+            "title": "Super Trouper (radio version)",
+            "artist": "A-Teens",
+            "album": null,
+            "year": null,
+            "label": null,
+            "artwork": null,
+            "genre": null,
+            "isrc": null,
+            "upc": null,
+            "spotify_id": null,
+            "youtube_id": null,
+            "source": "ICY",
+            "raw": "A-Teens - Super Trouper (radio version)",
+            "metadata_completeness": 40,
+            "quality_score": 20
+        }
+    },
+    {
+        "timestamp": 1750454871,
+        "datetime": "2025-06-20 21:27:51",
+        "source": "Manual",
+        "data": {
+            "title": "Sisq",
+            "artist": "Unknown Artist",
+            "album": null,
+            "year": null,
+            "label": null,
+            "artwork": null,
+            "genre": null,
+            "isrc": null,
+            "upc": null,
+            "spotify_id": null,
+            "youtube_id": null,
+            "source": "ICY",
+            "raw": "Sisq",
+            "metadata_completeness": 40,
+            "quality_score": 20
+        }
+    },
+    {
+        "timestamp": 1750454677,
+        "datetime": "2025-06-20 21:24:37",
+        "source": "Manual",
+        "data": {
+            "title": "Rescue Me (radio edit)",
+            "artist": "Bell, Book & Candle",
+            "album": null,
+            "year": null,
+            "label": null,
+            "artwork": null,
+            "genre": null,
+            "isrc": null,
+            "upc": null,
+            "spotify_id": null,
+            "youtube_id": null,
+            "source": "ICY",
+            "raw": "Bell, Book & Candle - Rescue Me (radio edit)",
+            "metadata_completeness": 40,
+            "quality_score": 20
+        }
+    },
+    {
+        "timestamp": 1750454455,
+        "datetime": "2025-06-20 21:20:55",
+        "source": "Manual",
+        "data": {
+            "title": "Hold On Tight",
+            "artist": "Lambda",
+            "album": null,
+            "year": null,
+            "label": null,
+            "artwork": null,
+            "genre": null,
+            "isrc": null,
+            "upc": null,
+            "spotify_id": null,
+            "youtube_id": null,
+            "source": "ICY",
+            "raw": "Lambda - Hold On Tight",
+            "metadata_completeness": 40,
+            "quality_score": 20
+        }
+    },
+    {
+        "timestamp": 1750454236,
+        "datetime": "2025-06-20 21:17:16",
+        "source": "Manual",
+        "data": {
+            "title": "J'adore hardcore",
+            "artist": "Scooter",
+            "album": null,
+            "year": null,
+            "label": null,
+            "artwork": null,
+            "genre": null,
+            "isrc": null,
+            "upc": null,
+            "spotify_id": null,
+            "youtube_id": null,
+            "source": "ICY",
+            "raw": "Scooter - J'adore hardcore",
+            "metadata_completeness": 40,
+            "quality_score": 20
+        }
+    },
+    {
+        "timestamp": 1750453996,
+        "datetime": "2025-06-20 21:13:16",
+        "source": "Manual",
+        "data": {
+            "title": "Da Beat Goes",
+            "artist": "Red 5",
+            "album": null,
+            "year": null,
+            "label": null,
+            "artwork": null,
+            "genre": null,
+            "isrc": null,
+            "upc": null,
+            "spotify_id": null,
+            "youtube_id": null,
+            "source": "ICY",
+            "raw": "Red 5 - Da Beat Goes",
+            "metadata_completeness": 40,
+            "quality_score": 20
+        }
+    },
+    {
+        "timestamp": 1750453771,
+        "datetime": "2025-06-20 21:09:31",
+        "source": "Manual",
+        "data": {
+            "title": "Take Me Away (radio edit)",
+            "artist": "Culture Beat",
+            "album": null,
+            "year": null,
+            "label": null,
+            "artwork": null,
+            "genre": null,
+            "isrc": null,
+            "upc": null,
+            "spotify_id": null,
+            "youtube_id": null,
+            "source": "ICY",
+            "raw": "Culture Beat - Take Me Away (radio edit)",
+            "metadata_completeness": 40,
+            "quality_score": 20
+        }
+    },
+    {
+        "timestamp": 1750453530,
+        "datetime": "2025-06-20 21:05:30",
+        "source": "Manual",
+        "data": {
+            "title": "Dirty Money feat. Skylar Grey - Coming Home",
+            "artist": "Diddy",
+            "album": null,
+            "year": null,
+            "label": null,
+            "artwork": null,
+            "genre": null,
+            "isrc": null,
+            "upc": null,
+            "spotify_id": null,
+            "youtube_id": null,
+            "source": "ICY",
+            "raw": "Diddy - Dirty Money feat. Skylar Grey - Coming Home",
+            "metadata_completeness": 40,
+            "quality_score": 20
+        }
+    },
+    {
+        "timestamp": 1750453392,
+        "datetime": "2025-06-20 21:03:12",
+        "source": "Manual",
+        "data": {
+            "title": "Madame (Feat. Alec Chambers)",
+            "artist": "22bullets",
+            "album": null,
+            "year": null,
+            "label": null,
+            "artwork": null,
+            "genre": null,
+            "isrc": null,
+            "upc": null,
+            "spotify_id": null,
+            "youtube_id": null,
+            "source": "ICY",
+            "raw": "22bullets - Madame (Feat. Alec Chambers)",
+            "metadata_completeness": 40,
+            "quality_score": 20
+        }
+    },
+    {
+        "timestamp": 1750453236,
+        "datetime": "2025-06-20 21:00:36",
+        "source": "Manual",
+        "data": {
+            "title": "Intro",
+            "artist": "Jerry Lee Lewis",
+            "album": null,
+            "year": null,
+            "label": null,
+            "artwork": null,
+            "genre": null,
+            "isrc": null,
+            "upc": null,
+            "spotify_id": null,
+            "youtube_id": null,
+            "source": "ICY",
+            "raw": "Jerry Lee Lewis - Intro",
+            "metadata_completeness": 40,
+            "quality_score": 20
+        }
+    },
+    {
+        "timestamp": 1750453165,
+        "datetime": "2025-06-20 20:59:25",
+        "source": "Manual",
+        "data": {
+            "title": "Maniac (Flashdance Version)",
+            "artist": "Michael Sembello",
+            "album": null,
+            "year": null,
+            "label": null,
+            "artwork": null,
+            "genre": null,
+            "isrc": null,
+            "upc": null,
+            "spotify_id": null,
+            "youtube_id": null,
+            "source": "ICY",
+            "raw": "Michael Sembello - Maniac (Flashdance Version)",
+            "metadata_completeness": 40,
+            "quality_score": 20
+        }
+    },
+    {
+        "timestamp": 1750452966,
+        "datetime": "2025-06-20 20:56:06",
+        "source": "Manual",
+        "data": {
+            "title": "Jump That Rock",
+            "artist": "Scooter vs. Status Quo",
+            "album": null,
+            "year": null,
+            "label": null,
+            "artwork": null,
+            "genre": null,
+            "isrc": null,
+            "upc": null,
+            "spotify_id": null,
+            "youtube_id": null,
+            "source": "ICY",
+            "raw": "Scooter vs. Status Quo - Jump That Rock",
+            "metadata_completeness": 40,
+            "quality_score": 20
+        }
+    },
+    {
+        "timestamp": 1750452652,
+        "datetime": "2025-06-20 20:50:52",
+        "source": "Manual",
+        "data": {
+            "title": "Mark\u00e9tka",
+            "artist": "Marie Rottrov\u00e1",
+            "album": null,
+            "year": null,
+            "label": null,
+            "artwork": null,
+            "genre": null,
+            "isrc": null,
+            "upc": null,
+            "spotify_id": null,
+            "youtube_id": null,
+            "source": "ICY",
+            "raw": "Marie Rottrov\u00e1 - Mark\u00e9tka",
+            "metadata_completeness": 40,
+            "quality_score": 20
+        }
+    },
+    {
+        "timestamp": 1750452462,
+        "datetime": "2025-06-20 20:47:42",
+        "source": "Manual",
+        "data": {
+            "title": "Oh Carolina",
+            "artist": "Shaggy",
+            "album": null,
+            "year": null,
+            "label": null,
+            "artwork": null,
+            "genre": null,
+            "isrc": null,
+            "upc": null,
+            "spotify_id": null,
+            "youtube_id": null,
+            "source": "ICY",
+            "raw": "Shaggy - Oh Carolina",
+            "metadata_completeness": 40,
+            "quality_score": 20
+        }
+    },
+    {
+        "timestamp": 1750452231,
+        "datetime": "2025-06-20 20:43:51",
+        "source": "Manual",
+        "data": {
+            "title": "Summer Son",
+            "artist": "Texas",
+            "album": null,
+            "year": null,
+            "label": null,
+            "artwork": null,
+            "genre": null,
+            "isrc": null,
+            "upc": null,
+            "spotify_id": null,
+            "youtube_id": null,
+            "source": "ICY",
+            "raw": "Texas - Summer Son",
+            "metadata_completeness": 40,
+            "quality_score": 20
+        }
+    },
+    {
+        "timestamp": 1750451970,
+        "datetime": "2025-06-20 20:39:30",
+        "source": "Manual",
+        "data": {
+            "title": "Senza una donna (Without a Woman)",
+            "artist": "Zucchero & Paul Young",
+            "album": null,
+            "year": null,
+            "label": null,
+            "artwork": null,
+            "genre": null,
+            "isrc": null,
+            "upc": null,
+            "spotify_id": null,
+            "youtube_id": null,
+            "source": "ICY",
+            "raw": "Zucchero & Paul Young - Senza una donna (Without a Woman)",
+            "metadata_completeness": 40,
+            "quality_score": 20
+        }
+    },
+    {
+        "timestamp": 1750451718,
+        "datetime": "2025-06-20 20:35:18",
+        "source": "Manual",
+        "data": {
+            "title": "Unlove You (Nicky Romero Remix)",
+            "artist": "Armin van Buuren, Ne-Yo & Nicky Romero",
+            "album": null,
+            "year": null,
+            "label": null,
+            "artwork": null,
+            "genre": null,
+            "isrc": null,
+            "upc": null,
+            "spotify_id": null,
+            "youtube_id": null,
+            "source": "ICY",
+            "raw": "Armin van Buuren, Ne-Yo & Nicky Romero - Unlove You (Nicky Romero Remix)",
+            "metadata_completeness": 40,
+            "quality_score": 20
+        }
+    },
+    {
+        "timestamp": 1750451527,
+        "datetime": "2025-06-20 20:32:07",
+        "source": "Manual",
+        "data": {
+            "title": "Flowers 126",
+            "artist": "Miley Cyrus",
+            "album": null,
+            "year": null,
+            "label": null,
+            "artwork": null,
+            "genre": null,
+            "isrc": null,
+            "upc": null,
+            "spotify_id": null,
+            "youtube_id": null,
+            "source": "ICY",
+            "raw": "Miley Cyrus - Flowers 126",
+            "metadata_completeness": 40,
+            "quality_score": 20
+        }
+    },
+    {
+        "timestamp": 1750451322,
+        "datetime": "2025-06-20 20:28:42",
+        "source": "Manual",
+        "data": {
+            "title": "Whoops Now (radio edit)",
+            "artist": "Janet Jackson",
+            "album": null,
+            "year": null,
+            "label": null,
+            "artwork": null,
+            "genre": null,
+            "isrc": null,
+            "upc": null,
+            "spotify_id": null,
+            "youtube_id": null,
+            "source": "ICY",
+            "raw": "Janet Jackson - Whoops Now (radio edit)",
+            "metadata_completeness": 40,
+            "quality_score": 20
+        }
+    },
+    {
+        "timestamp": 1750451076,
+        "datetime": "2025-06-20 20:24:36",
+        "source": "Manual",
+        "data": {
+            "title": "Runaway Train",
+            "artist": "Soul Asylum",
+            "album": null,
+            "year": null,
+            "label": null,
+            "artwork": null,
+            "genre": null,
+            "isrc": null,
+            "upc": null,
+            "spotify_id": null,
+            "youtube_id": null,
+            "source": "ICY",
+            "raw": "Soul Asylum - Runaway Train",
+            "metadata_completeness": 40,
+            "quality_score": 20
+        }
+    },
+    {
+        "timestamp": 1750450824,
+        "datetime": "2025-06-20 20:20:24",
+        "source": "Manual",
+        "data": {
+            "title": "Enjoy the Silence",
+            "artist": "Depeche Mode",
+            "album": null,
+            "year": null,
+            "label": null,
+            "artwork": null,
+            "genre": null,
+            "isrc": null,
+            "upc": null,
+            "spotify_id": null,
+            "youtube_id": null,
+            "source": "ICY",
+            "raw": "Depeche Mode - Enjoy the Silence",
+            "metadata_completeness": 40,
+            "quality_score": 20
+        }
+    },
+    {
+        "timestamp": 1750450623,
+        "datetime": "2025-06-20 20:17:03",
+        "source": "Manual",
+        "data": {
+            "title": "Give It Up (radio mix)",
+            "artist": "Captain Jack",
+            "album": null,
+            "year": null,
+            "label": null,
+            "artwork": null,
+            "genre": null,
+            "isrc": null,
+            "upc": null,
+            "spotify_id": null,
+            "youtube_id": null,
+            "source": "ICY",
+            "raw": "Captain Jack - Give It Up (radio mix)",
+            "metadata_completeness": 40,
+            "quality_score": 20
+        }
+    },
+    {
+        "timestamp": 1750450413,
+        "datetime": "2025-06-20 20:13:33",
+        "source": "Manual",
+        "data": {
+            "title": "Rainbow in the Sky (K and A's Radio Blast)",
+            "artist": "DJ Paul Elstak",
+            "album": null,
+            "year": null,
+            "label": null,
+            "artwork": null,
+            "genre": null,
+            "isrc": null,
+            "upc": null,
+            "spotify_id": null,
+            "youtube_id": null,
+            "source": "ICY",
+            "raw": "DJ Paul Elstak - Rainbow in the Sky (K and A's Radio Blast)",
+            "metadata_completeness": 40,
+            "quality_score": 20
+        }
+    },
+    {
+        "timestamp": 1750450167,
+        "datetime": "2025-06-20 20:09:27",
+        "source": "Manual",
+        "data": {
+            "title": "U Got 2 Know",
+            "artist": "Cappella",
+            "album": null,
+            "year": null,
+            "label": null,
+            "artwork": null,
+            "genre": null,
+            "isrc": null,
+            "upc": null,
+            "spotify_id": null,
+            "youtube_id": null,
+            "source": "ICY",
+            "raw": "Cappella - U Got 2 Know",
+            "metadata_completeness": 40,
+            "quality_score": 20
+        }
+    },
+    {
+        "timestamp": 1750449918,
+        "datetime": "2025-06-20 20:05:18",
+        "source": "Manual",
+        "data": {
+            "title": "Dura (remix)",
+            "artist": "Daddy Yankee feat. Becky G, Bad Bunny & Natti Natasha",
+            "album": null,
+            "year": null,
+            "label": null,
+            "artwork": null,
+            "genre": null,
+            "isrc": null,
+            "upc": null,
+            "spotify_id": null,
+            "youtube_id": null,
+            "source": "ICY",
+            "raw": "Daddy Yankee feat. Becky G, Bad Bunny & Natti Natasha - Dura (remix)",
+            "metadata_completeness": 40,
+            "quality_score": 20
+        }
+    },
+    {
+        "timestamp": 1750449637,
+        "datetime": "2025-06-20 20:00:37",
+        "source": "Manual",
+        "data": {
+            "title": "All Summer Long (album version)",
+            "artist": "Kid Rock",
+            "album": null,
+            "year": null,
+            "label": null,
+            "artwork": null,
+            "genre": null,
+            "isrc": null,
+            "upc": null,
+            "spotify_id": null,
+            "youtube_id": null,
+            "source": "ICY",
+            "raw": "Kid Rock - All Summer Long (album version)",
+            "metadata_completeness": 40,
+            "quality_score": 20
+        }
+    },
+    {
+        "timestamp": 1750449397,
+        "datetime": "2025-06-20 19:56:37",
+        "source": "Manual",
+        "data": {
+            "title": "The Time (Dirty Bit)",
+            "artist": "Black Eyed Peas",
+            "album": null,
+            "year": null,
+            "label": null,
+            "artwork": null,
+            "genre": null,
+            "isrc": null,
+            "upc": null,
+            "spotify_id": null,
+            "youtube_id": null,
+            "source": "ICY",
+            "raw": "Black Eyed Peas - The Time (Dirty Bit)",
+            "metadata_completeness": 40,
+            "quality_score": 20
+        }
+    },
+    {
+        "timestamp": 1750449222,
+        "datetime": "2025-06-20 19:53:42",
+        "source": "Manual",
+        "data": {
+            "title": "Radioactive",
+            "artist": "Imagine Dragons",
+            "album": null,
+            "year": null,
+            "label": null,
+            "artwork": null,
+            "genre": null,
+            "isrc": null,
+            "upc": null,
+            "spotify_id": null,
+            "youtube_id": null,
+            "source": "ICY",
+            "raw": "Imagine Dragons - Radioactive",
+            "metadata_completeness": 40,
+            "quality_score": 20
+        }
+    },
+    {
+        "timestamp": 1750448935,
+        "datetime": "2025-06-20 19:48:55",
+        "source": "Manual",
+        "data": {
+            "title": "Okno M\u00e9 L\u00e1sky (L\u00e1ska)",
+            "artist": "Olympic",
+            "album": null,
+            "year": null,
+            "label": null,
+            "artwork": null,
+            "genre": null,
+            "isrc": null,
+            "upc": null,
+            "spotify_id": null,
+            "youtube_id": null,
+            "source": "ICY",
+            "raw": "Olympic - Okno M\u00e9 L\u00e1sky (L\u00e1ska)",
+            "metadata_completeness": 40,
+            "quality_score": 20
+        }
+    },
+    {
+        "timestamp": 1750448716,
+        "datetime": "2025-06-20 19:45:16",
+        "source": "Manual",
+        "data": {
+            "title": "C U When U Get There",
+            "artist": "Coolio feat. 40 Thevz",
+            "album": null,
+            "year": null,
+            "label": null,
+            "artwork": null,
+            "genre": null,
+            "isrc": null,
+            "upc": null,
+            "spotify_id": null,
+            "youtube_id": null,
+            "source": "ICY",
+            "raw": "Coolio feat. 40 Thevz - C U When U Get There",
+            "metadata_completeness": 40,
+            "quality_score": 20
+        }
+    },
+    {
+        "timestamp": 1750448472,
+        "datetime": "2025-06-20 19:41:12",
+        "source": "Manual",
+        "data": {
+            "title": "Hangin' Tough",
+            "artist": "New Kids on the Block",
+            "album": null,
+            "year": null,
+            "label": null,
+            "artwork": null,
+            "genre": null,
+            "isrc": null,
+            "upc": null,
+            "spotify_id": null,
+            "youtube_id": null,
+            "source": "ICY",
+            "raw": "New Kids on the Block - Hangin' Tough",
+            "metadata_completeness": 40,
+            "quality_score": 20
+        }
+    },
+    {
+        "timestamp": 1750448362,
+        "datetime": "2025-06-20 19:39:22",
+        "source": "Manual",
+        "data": {
+            "title": "All I Have to Give (album version)",
+            "artist": "Backstreet Boys",
+            "album": null,
+            "year": null,
+            "label": null,
+            "artwork": null,
+            "genre": null,
+            "isrc": null,
+            "upc": null,
+            "spotify_id": null,
+            "youtube_id": null,
+            "source": "ICY",
+            "raw": "Backstreet Boys - All I Have to Give (album version)",
+            "metadata_completeness": 40,
+            "quality_score": 20
+        }
+    },
+    {
+        "timestamp": 1750274525,
+        "datetime": "2025-06-18 19:22:05",
+        "source": "Manual",
+        "data": {
+            "title": "Starships",
+            "artist": "Nicki Minaj",
+            "album": null,
+            "year": null,
+            "label": null,
+            "artwork": null,
+            "genre": null,
+            "isrc": null,
+            "upc": null,
+            "spotify_id": null,
+            "youtube_id": null,
+            "source": "ICY",
+            "raw": "Nicki Minaj - Starships",
+            "metadata_completeness": 40,
+            "quality_score": 20
+        }
+    },
+    {
+        "timestamp": 1750274113,
+        "datetime": "2025-06-18 19:15:13",
+        "source": "Manual",
+        "data": {
+            "title": "Loops & Tings (Fruit Loops remix)",
+            "artist": "Jens",
+            "album": null,
+            "year": null,
+            "label": null,
+            "artwork": null,
+            "genre": null,
+            "isrc": null,
+            "upc": null,
+            "spotify_id": null,
+            "youtube_id": null,
+            "source": "ICY",
+            "raw": "Jens - Loops & Tings (Fruit Loops remix)",
+            "metadata_completeness": 40,
+            "quality_score": 20
+        }
+    },
+    {
+        "timestamp": 1750273897,
+        "datetime": "2025-06-18 19:11:37",
+        "source": "Manual",
+        "data": {
+            "title": "No Scrubs Dj Arman Aveiru Hype Intro (Dirty) 100",
+            "artist": "Calvo and Dazz",
+            "album": null,
+            "year": null,
+            "label": null,
+            "artwork": null,
+            "genre": null,
+            "isrc": null,
+            "upc": null,
+            "spotify_id": null,
+            "youtube_id": null,
+            "source": "ICY",
+            "raw": "Calvo and Dazz - No Scrubs Dj Arman Aveiru Hype Intro (Dirty) 100",
+            "metadata_completeness": 40,
+            "quality_score": 20
+        }
+    },
+    {
+        "timestamp": 1750273700,
+        "datetime": "2025-06-18 19:08:20",
+        "source": "Manual",
+        "data": {
+            "title": "Love Is an Angel",
+            "artist": "Sylver",
+            "album": null,
+            "year": null,
+            "label": null,
+            "artwork": null,
+            "genre": null,
+            "isrc": null,
+            "upc": null,
+            "spotify_id": null,
+            "youtube_id": null,
+            "source": "ICY",
+            "raw": "Sylver - Love Is an Angel",
+            "metadata_completeness": 40,
+            "quality_score": 20
+        }
+    },
+    {
+        "timestamp": 1750273510,
+        "datetime": "2025-06-18 19:05:10",
+        "source": "Manual",
+        "data": {
+            "title": "Your Love",
+            "artist": "The Outfield",
+            "album": null,
+            "year": null,
+            "label": null,
+            "artwork": null,
+            "genre": null,
+            "isrc": null,
+            "upc": null,
+            "spotify_id": null,
+            "youtube_id": null,
+            "source": "ICY",
+            "raw": "The Outfield - Your Love",
+            "metadata_completeness": 40,
+            "quality_score": 20
+        }
+    },
+    {
+        "timestamp": 1750273498,
+        "datetime": "2025-06-18 19:04:58",
+        "source": "Manual",
+        "data": {
+            "title": "Gimme That Noise",
+            "artist": "Scooter, Harris & Ford & SHIBUI",
+            "album": null,
+            "year": null,
+            "label": null,
+            "artwork": null,
+            "genre": null,
+            "isrc": null,
+            "upc": null,
+            "spotify_id": null,
+            "youtube_id": null,
+            "source": "ICY",
+            "raw": "Scooter, Harris & Ford & SHIBUI - Gimme That Noise",
+            "metadata_completeness": 40,
+            "quality_score": 20
+        }
+    },
+    {
+        "timestamp": 1750273262,
+        "datetime": "2025-06-18 19:01:02",
+        "source": "Manual",
+        "data": {
+            "title": "Eye of the Tiger",
+            "artist": "Survivor",
+            "album": null,
+            "year": null,
+            "label": null,
+            "artwork": null,
+            "genre": null,
+            "isrc": null,
+            "upc": null,
+            "spotify_id": null,
+            "youtube_id": null,
+            "source": "ICY",
+            "raw": "Survivor - Eye of the Tiger",
+            "metadata_completeness": 40,
+            "quality_score": 20
+        }
+    },
+    {
+        "timestamp": 1750273111,
+        "datetime": "2025-06-18 18:58:31",
+        "source": "Manual",
+        "data": {
+            "title": "Moravo",
+            "artist": "Vesna & EGO",
+            "album": null,
+            "year": null,
+            "label": null,
+            "artwork": null,
+            "genre": null,
+            "isrc": null,
+            "upc": null,
+            "spotify_id": null,
+            "youtube_id": null,
+            "source": "ICY",
+            "raw": "Vesna & EGO - Moravo",
+            "metadata_completeness": 40,
+            "quality_score": 20
+        }
+    },
+    {
+        "timestamp": 1750272687,
+        "datetime": "2025-06-18 18:51:27",
+        "source": "Manual",
+        "data": {
+            "title": "Gimme That Noise",
+            "artist": "Scooter, Harris & Ford & SHIBUI",
+            "album": null,
+            "year": null,
+            "label": null,
+            "artwork": null,
+            "genre": null,
+            "isrc": null,
+            "upc": null,
+            "spotify_id": null,
+            "youtube_id": null,
+            "source": "ICY",
+            "raw": "Scooter, Harris & Ford & SHIBUI - Gimme That Noise",
+            "metadata_completeness": 40,
+            "quality_score": 20
+        }
+    },
+    {
+        "timestamp": 1750272213,
+        "datetime": "2025-06-18 18:43:33",
+        "source": "Manual",
+        "data": {
+            "title": "Don't Stop Believin'  (2022 Remaster)",
+            "artist": "Journey",
+            "album": null,
+            "year": null,
+            "label": null,
+            "artwork": null,
+            "genre": null,
+            "isrc": null,
+            "upc": null,
+            "spotify_id": null,
+            "youtube_id": null,
+            "source": "ICY",
+            "raw": "Journey - Don't Stop Believin'  (2022 Remaster)",
+            "metadata_completeness": 40,
+            "quality_score": 20
+        }
+    },
+    {
+        "timestamp": 1750271983,
+        "datetime": "2025-06-18 18:39:43",
+        "source": "Manual",
+        "data": {
+            "title": "Gimme All Your Lovin'",
+            "artist": "ZZ Top",
+            "album": null,
+            "year": null,
+            "label": null,
+            "artwork": null,
+            "genre": null,
+            "isrc": null,
+            "upc": null,
+            "spotify_id": null,
+            "youtube_id": null,
+            "source": "ICY",
+            "raw": "ZZ Top - Gimme All Your Lovin'",
+            "metadata_completeness": 40,
+            "quality_score": 20
+        }
+    },
+    {
+        "timestamp": 1750271581,
+        "datetime": "2025-06-18 18:33:01",
+        "source": "Manual",
+        "data": {
+            "title": "Paradise City",
+            "artist": "Guns N' Roses",
+            "album": null,
+            "year": null,
+            "label": null,
+            "artwork": null,
+            "genre": null,
+            "isrc": null,
+            "upc": null,
+            "spotify_id": null,
+            "youtube_id": null,
+            "source": "ICY",
+            "raw": "Guns N' Roses - Paradise City",
+            "metadata_completeness": 40,
+            "quality_score": 20
+        }
+    },
+    {
+        "timestamp": 1750271340,
+        "datetime": "2025-06-18 18:29:00",
+        "source": "Manual",
+        "data": {
+            "title": "Summer of 69 (Classic Version)",
+            "artist": "Bryan Adams",
+            "album": null,
+            "year": null,
+            "label": null,
+            "artwork": null,
+            "genre": null,
+            "isrc": null,
+            "upc": null,
+            "spotify_id": null,
+            "youtube_id": null,
+            "source": "ICY",
+            "raw": "Bryan Adams - Summer of 69 (Classic Version)",
+            "metadata_completeness": 40,
+            "quality_score": 20
+        }
+    },
+    {
+        "timestamp": 1750271077,
+        "datetime": "2025-06-18 18:24:37",
+        "source": "Manual",
+        "data": {
+            "title": "Born In the U.S.A.",
+            "artist": "Bruce Springsteen",
+            "album": null,
+            "year": null,
+            "label": null,
+            "artwork": null,
+            "genre": null,
+            "isrc": null,
+            "upc": null,
+            "spotify_id": null,
+            "youtube_id": null,
+            "source": "ICY",
+            "raw": "Bruce Springsteen - Born In the U.S.A.",
+            "metadata_completeness": 40,
+            "quality_score": 20
+        }
+    },
+    {
+        "timestamp": 1750270576,
+        "datetime": "2025-06-18 18:16:16",
+        "source": "Manual",
+        "data": {
+            "title": "Wanted Dead or Alive",
+            "artist": "Bon Jovi",
+            "album": null,
+            "year": null,
+            "label": null,
+            "artwork": null,
+            "genre": null,
+            "isrc": null,
+            "upc": null,
+            "spotify_id": null,
+            "youtube_id": null,
+            "source": "ICY",
+            "raw": "Bon Jovi - Wanted Dead or Alive",
+            "metadata_completeness": 40,
+            "quality_score": 20
+        }
+    },
+    {
+        "timestamp": 1750270369,
+        "datetime": "2025-06-18 18:12:49",
+        "source": "Manual",
+        "data": {
+            "title": "Start Me Up",
+            "artist": "The Rolling Stones",
+            "album": null,
+            "year": null,
+            "label": null,
+            "artwork": null,
+            "genre": null,
+            "isrc": null,
+            "upc": null,
+            "spotify_id": null,
+            "youtube_id": null,
+            "source": "ICY",
+            "raw": "The Rolling Stones - Start Me Up",
+            "metadata_completeness": 40,
+            "quality_score": 20
+        }
+    },
+    {
+        "timestamp": 1750270171,
+        "datetime": "2025-06-18 18:09:31",
+        "source": "Manual",
+        "data": {
+            "title": "Call Me (Digitally Remastered 98)",
+            "artist": "Blondie",
+            "album": null,
+            "year": null,
+            "label": null,
+            "artwork": null,
+            "genre": null,
+            "isrc": null,
+            "upc": null,
+            "spotify_id": null,
+            "youtube_id": null,
+            "source": "ICY",
+            "raw": "Blondie - Call Me (Digitally Remastered 98)",
+            "metadata_completeness": 40,
+            "quality_score": 20
+        }
+    },
+    {
+        "timestamp": 1750269942,
+        "datetime": "2025-06-18 18:05:42",
+        "source": "Manual",
+        "data": {
+            "title": "Livin' On a Prayer",
+            "artist": "Bon Jovi",
+            "album": null,
+            "year": null,
+            "label": null,
+            "artwork": null,
+            "genre": null,
+            "isrc": null,
+            "upc": null,
+            "spotify_id": null,
+            "youtube_id": null,
+            "source": "ICY",
+            "raw": "Bon Jovi - Livin' On a Prayer",
+            "metadata_completeness": 40,
+            "quality_score": 20
+        }
+    },
+    {
+        "timestamp": 1750269733,
+        "datetime": "2025-06-18 18:02:13",
+        "source": "Manual",
+        "data": {
+            "title": "Another One Bites the Dust",
+            "artist": "Queen",
+            "album": null,
+            "year": null,
+            "label": null,
+            "artwork": null,
+            "genre": null,
+            "isrc": null,
+            "upc": null,
+            "spotify_id": null,
+            "youtube_id": null,
+            "source": "ICY",
+            "raw": "Queen - Another One Bites the Dust",
+            "metadata_completeness": 40,
+            "quality_score": 20
+        }
+    },
+    {
+        "timestamp": 1750269451,
+        "datetime": "2025-06-18 17:57:31",
+        "source": "Manual",
+        "data": {
+            "title": "Rebel Yell",
+            "artist": "Billy Idol",
+            "album": null,
+            "year": null,
+            "label": null,
+            "artwork": null,
+            "genre": null,
+            "isrc": null,
+            "upc": null,
+            "spotify_id": null,
+            "youtube_id": null,
+            "source": "ICY",
+            "raw": "Billy Idol - Rebel Yell",
+            "metadata_completeness": 40,
+            "quality_score": 20
+        }
+    },
+    {
+        "timestamp": 1750268920,
+        "datetime": "2025-06-18 17:48:40",
+        "source": "Manual",
+        "data": {
+            "title": "Jump",
+            "artist": "Van Halen",
+            "album": null,
+            "year": null,
+            "label": null,
+            "artwork": null,
+            "genre": null,
+            "isrc": null,
+            "upc": null,
+            "spotify_id": null,
+            "youtube_id": null,
+            "source": "ICY",
+            "raw": "Van Halen - Jump",
+            "metadata_completeness": 40,
+            "quality_score": 20
+        }
+    },
+    {
+        "timestamp": 1750268437,
+        "datetime": "2025-06-18 17:40:37",
+        "source": "Manual",
+        "data": {
+            "title": "The Final Countdown",
+            "artist": "Europe",
+            "album": null,
+            "year": null,
+            "label": null,
+            "artwork": null,
+            "genre": null,
+            "isrc": null,
+            "upc": null,
+            "spotify_id": null,
+            "youtube_id": null,
+            "source": "ICY",
+            "raw": "Europe - The Final Countdown",
+            "metadata_completeness": 40,
+            "quality_score": 20
+        }
+    },
+    {
+        "timestamp": 1750268013,
+        "datetime": "2025-06-18 17:33:33",
+        "source": "Manual",
+        "data": {
+            "title": "I Love Rock 'N Roll",
+            "artist": "Joan Jett & The Blackhearts",
+            "album": null,
+            "year": null,
+            "label": null,
+            "artwork": null,
+            "genre": null,
+            "isrc": null,
+            "upc": null,
+            "spotify_id": null,
+            "youtube_id": null,
+            "source": "ICY",
+            "raw": "Joan Jett & The Blackhearts - I Love Rock 'N Roll",
+            "metadata_completeness": 40,
+            "quality_score": 20
+        }
+    },
+    {
+        "timestamp": 1750267523,
+        "datetime": "2025-06-18 17:25:23",
+        "source": "Manual",
+        "data": {
+            "title": "Every Breath You Take (Remastered 2003)",
+            "artist": "The Police",
+            "album": null,
+            "year": null,
+            "label": null,
+            "artwork": null,
+            "genre": null,
+            "isrc": null,
+            "upc": null,
+            "spotify_id": null,
+            "youtube_id": null,
+            "source": "ICY",
+            "raw": "The Police - Every Breath You Take (Remastered 2003)",
+            "metadata_completeness": 40,
+            "quality_score": 20
+        }
+    },
+    {
+        "timestamp": 1750267056,
+        "datetime": "2025-06-18 17:17:36",
+        "source": "Manual",
+        "data": {
+            "title": "Should I Stay or Should I Go",
+            "artist": "The Clash",
+            "album": null,
+            "year": null,
+            "label": null,
+            "artwork": null,
+            "genre": null,
+            "isrc": null,
+            "upc": null,
+            "spotify_id": null,
+            "youtube_id": null,
+            "source": "ICY",
+            "raw": "The Clash - Should I Stay or Should I Go",
+            "metadata_completeness": 40,
+            "quality_score": 20
+        }
+    },
+    {
+        "timestamp": 1750266634,
+        "datetime": "2025-06-18 17:10:34",
+        "source": "Manual",
+        "data": {
+            "title": "I Want To Break Free",
+            "artist": "Queen",
+            "album": null,
+            "year": null,
+            "label": null,
+            "artwork": null,
+            "genre": null,
+            "isrc": null,
+            "upc": null,
+            "spotify_id": null,
+            "youtube_id": null,
+            "source": "ICY",
+            "raw": "Queen - I Want To Break Free",
+            "metadata_completeness": 40,
+            "quality_score": 20
+        }
+    },
+    {
+        "timestamp": 1750266145,
+        "datetime": "2025-06-18 17:02:25",
+        "source": "Manual",
+        "data": {
+            "title": "Back In Black",
+            "artist": "AC-DC",
+            "album": null,
+            "year": null,
+            "label": null,
+            "artwork": null,
+            "genre": null,
+            "isrc": null,
+            "upc": null,
+            "spotify_id": null,
+            "youtube_id": null,
+            "source": "ICY",
+            "raw": "AC-DC - Back In Black",
+            "metadata_completeness": 40,
+            "quality_score": 20
+        }
+    },
+    {
+        "timestamp": 1750265818,
+        "datetime": "2025-06-18 16:56:58",
+        "source": "Manual",
+        "data": {
+            "title": "Young Blood",
+            "artist": "Saint Raymond",
+            "album": null,
+            "year": null,
+            "label": null,
+            "artwork": null,
+            "genre": null,
+            "isrc": null,
+            "upc": null,
+            "spotify_id": null,
+            "youtube_id": null,
+            "source": "ICY",
+            "raw": "Saint Raymond - Young Blood",
+            "metadata_completeness": 40,
+            "quality_score": 20
+        }
+    },
+    {
+        "timestamp": 1750265665,
+        "datetime": "2025-06-18 16:54:25",
+        "source": "Manual",
+        "data": {
+            "title": "Grenade",
+            "artist": "Bruno Mars",
+            "album": null,
+            "year": null,
+            "label": null,
+            "artwork": null,
+            "genre": null,
+            "isrc": null,
+            "upc": null,
+            "spotify_id": null,
+            "youtube_id": null,
+            "source": "ICY",
+            "raw": "Bruno Mars - Grenade",
+            "metadata_completeness": 40,
+            "quality_score": 20
+        }
+    },
+    {
+        "timestamp": 1750265425,
+        "datetime": "2025-06-18 16:50:25",
+        "source": "Manual",
+        "data": {
+            "title": "N\u00e1hrobn\u00ed K\u00e1men",
+            "artist": "Flamengo",
+            "album": null,
+            "year": null,
+            "label": null,
+            "artwork": null,
+            "genre": null,
+            "isrc": null,
+            "upc": null,
+            "spotify_id": null,
+            "youtube_id": null,
+            "source": "ICY",
+            "raw": "Flamengo - N\u00e1hrobn\u00ed K\u00e1men",
+            "metadata_completeness": 40,
+            "quality_score": 20
+        }
+    },
+    {
+        "timestamp": 1750265116,
+        "datetime": "2025-06-18 16:45:16",
+        "source": "Manual",
+        "data": {
+            "title": "Whatta Man",
+            "artist": "Salt-N-Pepa",
+            "album": null,
+            "year": null,
+            "label": null,
+            "artwork": null,
+            "genre": null,
+            "isrc": null,
+            "upc": null,
+            "spotify_id": null,
+            "youtube_id": null,
+            "source": "ICY",
+            "raw": "Salt-N-Pepa - Whatta Man",
+            "metadata_completeness": 40,
+            "quality_score": 20
+        }
+    },
+    {
+        "timestamp": 1750264932,
+        "datetime": "2025-06-18 16:42:12",
+        "source": "Manual",
+        "data": {
+            "title": "Surfin' (aus der TV-Series \"Gegen den Wind\")",
+            "artist": "Smokie",
+            "album": null,
+            "year": null,
+            "label": null,
+            "artwork": null,
+            "genre": null,
+            "isrc": null,
+            "upc": null,
+            "spotify_id": null,
+            "youtube_id": null,
+            "source": "ICY",
+            "raw": "Smokie - Surfin' (aus der TV-Series \"Gegen den Wind\")",
+            "metadata_completeness": 40,
+            "quality_score": 20
+        }
+    },
+    {
+        "timestamp": 1750264738,
+        "datetime": "2025-06-18 16:38:58",
+        "source": "Manual",
+        "data": {
+            "title": "Too Much Love Will Kill You",
+            "artist": "Queen",
+            "album": null,
+            "year": null,
+            "label": null,
+            "artwork": null,
+            "genre": null,
+            "isrc": null,
+            "upc": null,
+            "spotify_id": null,
+            "youtube_id": null,
+            "source": "ICY",
+            "raw": "Queen - Too Much Love Will Kill You",
+            "metadata_completeness": 40,
+            "quality_score": 20
+        }
+    },
+    {
+        "timestamp": 1750108541,
+        "datetime": "2025-06-16 21:15:41",
+        "source": "Manual",
+        "data": {
+            "title": "Dream to Me",
+            "artist": "Dario G",
+            "album": null,
+            "year": null,
+            "label": null,
+            "artwork": null,
+            "genre": null,
+            "isrc": null,
+            "upc": null,
+            "spotify_id": null,
+            "youtube_id": null,
+            "source": "ICY",
+            "raw": "Dario G - Dream to Me",
+            "metadata_completeness": 40,
+            "quality_score": 20
+        }
+    },
+    {
+        "timestamp": 1750108315,
+        "datetime": "2025-06-16 21:11:55",
+        "source": "Manual",
+        "data": {
+            "title": "Believe (2012 remaster)",
+            "artist": "Cher",
+            "album": null,
+            "year": null,
+            "label": null,
+            "artwork": null,
+            "genre": null,
+            "isrc": null,
+            "upc": null,
+            "spotify_id": null,
+            "youtube_id": null,
+            "source": "ICY",
+            "raw": "Cher - Believe (2012 remaster)",
+            "metadata_completeness": 40,
+            "quality_score": 20
+        }
+    },
+    {
+        "timestamp": 1750108069,
+        "datetime": "2025-06-16 21:07:49",
+        "source": "Manual",
+        "data": {
+            "title": "Life",
+            "artist": "Haddaway",
+            "album": null,
+            "year": null,
+            "label": null,
+            "artwork": null,
+            "genre": null,
+            "isrc": null,
+            "upc": null,
+            "spotify_id": null,
+            "youtube_id": null,
+            "source": "ICY",
+            "raw": "Haddaway - Life",
+            "metadata_completeness": 40,
+            "quality_score": 20
+        }
+    },
+    {
+        "timestamp": 1750107845,
+        "datetime": "2025-06-16 21:04:05",
+        "source": "Manual",
+        "data": {
+            "title": "Get It On",
+            "artist": "Dante Thomas",
+            "album": null,
+            "year": null,
+            "label": null,
+            "artwork": null,
+            "genre": null,
+            "isrc": null,
+            "upc": null,
+            "spotify_id": null,
+            "youtube_id": null,
+            "source": "ICY",
+            "raw": "Dante Thomas - Get It On",
+            "metadata_completeness": 40,
+            "quality_score": 20
+        }
+    },
+    {
+        "timestamp": 1750107712,
+        "datetime": "2025-06-16 21:01:52",
+        "source": "Manual",
+        "data": {
+            "title": "Rhythm Divine",
+            "artist": "Enrique Iglesias",
+            "album": null,
+            "year": null,
+            "label": null,
+            "artwork": null,
+            "genre": null,
+            "isrc": null,
+            "upc": null,
+            "spotify_id": null,
+            "youtube_id": null,
+            "source": "ICY",
+            "raw": "Enrique Iglesias - Rhythm Divine",
+            "metadata_completeness": 40,
+            "quality_score": 20
+        }
+    },
+    {
+        "timestamp": 1750106958,
+        "datetime": "2025-06-16 20:49:18",
+        "source": "Manual",
+        "data": {
+            "title": "Who Let the Dogs Out",
+            "artist": "Baha Men",
+            "album": null,
+            "year": null,
+            "label": null,
+            "artwork": null,
+            "genre": null,
+            "isrc": null,
+            "upc": null,
+            "spotify_id": null,
+            "youtube_id": null,
+            "source": "ICY",
+            "raw": "Baha Men - Who Let the Dogs Out",
+            "metadata_completeness": 40,
+            "quality_score": 20
+        }
+    },
+    {
+        "timestamp": 1750106722,
+        "datetime": "2025-06-16 20:45:22",
+        "source": "Manual",
+        "data": {
+            "title": "Slzy Tvy Mamy",
+            "artist": "Olympic",
+            "album": null,
+            "year": null,
+            "label": null,
+            "artwork": null,
+            "genre": null,
+            "isrc": null,
+            "upc": null,
+            "spotify_id": null,
+            "youtube_id": null,
+            "source": "ICY",
+            "raw": "Olympic - Slzy Tvy Mamy",
+            "metadata_completeness": 40,
+            "quality_score": 20
+        }
+    },
+    {
+        "timestamp": 1750106461,
+        "datetime": "2025-06-16 20:41:01",
+        "source": "Manual",
+        "data": {
+            "title": "Angels",
+            "artist": "Robbie Williams",
+            "album": null,
+            "year": null,
+            "label": null,
+            "artwork": null,
+            "genre": null,
+            "isrc": null,
+            "upc": null,
+            "spotify_id": null,
+            "youtube_id": null,
+            "source": "ICY",
+            "raw": "Robbie Williams - Angels",
+            "metadata_completeness": 40,
+            "quality_score": 20
+        }
+    },
+    {
+        "timestamp": 1750106200,
+        "datetime": "2025-06-16 20:36:40",
+        "source": "Manual",
+        "data": {
+            "title": "Counting Stars",
+            "artist": "OneRepublic",
+            "album": null,
+            "year": null,
+            "label": null,
+            "artwork": null,
+            "genre": null,
+            "isrc": null,
+            "upc": null,
+            "spotify_id": null,
+            "youtube_id": null,
+            "source": "ICY",
+            "raw": "OneRepublic - Counting Stars",
+            "metadata_completeness": 40,
+            "quality_score": 20
+        }
+    },
+    {
+        "timestamp": 1750105934,
+        "datetime": "2025-06-16 20:32:14",
+        "source": "Manual",
+        "data": {
+            "title": "Shape of My Heart",
+            "artist": "Sting",
+            "album": null,
+            "year": null,
+            "label": null,
+            "artwork": null,
+            "genre": null,
+            "isrc": null,
+            "upc": null,
+            "spotify_id": null,
+            "youtube_id": null,
+            "source": "ICY",
+            "raw": "Sting - Shape of My Heart",
+            "metadata_completeness": 40,
+            "quality_score": 20
+        }
+    },
+    {
+        "timestamp": 1750105860,
+        "datetime": "2025-06-16 20:31:00",
+        "source": "Manual",
+        "data": {
+            "title": "Something Got Me Started",
+            "artist": "Simply Red",
+            "album": null,
+            "year": null,
+            "label": null,
+            "artwork": null,
+            "genre": null,
+            "isrc": null,
+            "upc": null,
+            "spotify_id": null,
+            "youtube_id": null,
+            "source": "ICY",
+            "raw": "Simply Red - Something Got Me Started",
+            "metadata_completeness": 40,
+            "quality_score": 20
+        }
+    },
+    {
+        "timestamp": 1750105505,
+        "datetime": "2025-06-16 20:25:05",
+        "source": "ACRCloud",
+        "data": {
+            "title": "Shine (Beatmasters 7\" Mix)",
+            "artist": "Aswad",
+            "album": "Shine",
+            "release_date": "1994-04-01",
+            "year": "1994",
+            "label": "Bubblin' Records",
+            "duration": 219,
+            "timestamp": 1750105505,
+            "confidence": 19,
+            "isrc": "GBBRL9590279",
+            "upc": "0884385507107",
+            "genres": [],
+            "external_metadata": {
+                "youtube": {
+                    "vid": "IIw3BtSPHtI"
+                },
+                "deezer": {
+                    "album": {
+                        "id": "144492",
+                        "name": "Shine"
+                    },
+                    "artists": [
+                        {
+                            "name": "Aswad",
+                            "id": "5353"
+                        }
+                    ],
+                    "track": {
+                        "name": "Shine (Beatmasters 7\" Mix)",
+                        "id": "1414480"
+                    }
+                },
+                "spotify": {
+                    "album": {
+                        "id": "4yzMZ3pEA3xdbsWvxm3N3v",
+                        "name": "The Playlist - Summer BBQ"
+                    },
+                    "artists": [
+                        {
+                            "name": "Aswad",
+                            "id": "55LyOQNIa9J8wX6y6eJfc0"
+                        }
+                    ],
+                    "track": {
+                        "name": "Shine",
+                        "id": "2R1Mg2EMJyxf8Tep48D8Xf"
+                    }
+                }
+            },
+            "genre": "World, Central America\/Carribean, Reggae",
+            "spotify_id": "2R1Mg2EMJyxf8Tep48D8Xf",
+            "spotify_album_id": "4yzMZ3pEA3xdbsWvxm3N3v",
+            "spotify_artist_id": "55LyOQNIa9J8wX6y6eJfc0",
+            "popularity": null,
+            "youtube_id": "IIw3BtSPHtI",
+            "metadata_completeness": 85,
+            "quality_score": 65
+        }
+    },
+    {
+        "timestamp": 1750105285,
+        "datetime": "2025-06-16 20:21:25",
+        "source": "ACRCloud",
+        "data": {
+            "title": "Dance Wiv Me (Radio Edit)",
+            "artist": "Dizzee Rascal",
+            "album": "Bravo Hits 65",
+            "release_date": "2500-12-31",
+            "year": "2500",
+            "label": "Ariola",
+            "duration": 202,
+            "timestamp": 1750105285,
+            "confidence": 100,
+            "isrc": "GBWHS0800003",
+            "upc": "0884977029321",
+            "genres": [],
+            "external_metadata": {
+                "youtube": {
+                    "vid": "caHd5F-GWQI"
+                },
+                "deezer": {
+                    "album": {
+                        "id": "147382852",
+                        "name": "Bangers"
+                    },
+                    "artists": [
+                        {
+                            "name": "Dizzee Rascal",
+                            "id": "2388"
+                        },
+                        {
+                            "name": "Calvin Harris",
+                            "id": "12178"
+                        },
+                        {
+                            "name": "Chrome",
+                            "id": "12841"
+                        }
+                    ],
+                    "track": {
+                        "name": "Dance Wiv Me (Radio Edit)",
+                        "id": "956255032"
+                    }
+                },
+                "spotify": {
+                    "album": {
+                        "id": "0nZrMF5LkiXueMQFp3l3tt",
+                        "name": "Summer Mix"
+                    },
+                    "artists": [
+                        {
+                            "name": "Dizzee Rascal",
+                            "id": "0gusqTJKxtU1UTmNRMHZcv"
+                        },
+                        {
+                            "name": "Chrome",
+                            "id": "6rRfU5PFMng3MXEU7xMwUW"
+                        },
+                        {
+                            "name": "Calvin Harris",
+                            "id": "7CajNmpbOovFoOoasH2HaY"
+                        }
+                    ],
+                    "track": {
+                        "name": "Dance Wiv Me - Radio Edit",
+                        "id": "3FdR3FxCADbytfjkSrfAmE"
+                    }
+                }
+            },
+            "genre": "Hip-Hop\/Rap",
+            "spotify_id": "3FdR3FxCADbytfjkSrfAmE",
+            "spotify_album_id": "0nZrMF5LkiXueMQFp3l3tt",
+            "spotify_artist_id": "0gusqTJKxtU1UTmNRMHZcv",
+            "popularity": null,
+            "youtube_id": "caHd5F-GWQI",
+            "metadata_completeness": 85,
+            "quality_score": 65
+        }
+    },
+    {
+        "timestamp": 1750105115,
+        "datetime": "2025-06-16 20:18:35",
+        "source": "ACRCloud",
+        "data": {
+            "title": "Enemy (from the series Arcane League of Legends)",
+            "artist": "Imagine Dragons",
+            "album": "Enemy(from the series Arcane League of Legends)",
+            "release_date": "2021-10-28",
+            "year": "2021",
+            "label": "Kid Ina Korner \/ Interscope",
+            "duration": 173,
+            "timestamp": 1750105115,
+            "confidence": 43,
+            "isrc": "USUM72119916",
+            "upc": "00602445081943",
+            "genres": [],
+            "external_metadata": {
+                "deezer": {
+                    "album": {
+                        "id": "268731422",
+                        "name": "Enemy (from the series Arcane League of Legends)"
+                    },
+                    "artists": [
+                        {
+                            "id": "416239",
+                            "name": "Imagine Dragons"
+                        },
+                        {
+                            "id": "8409650",
+                            "name": "JID"
+                        },
+                        {
+                            "id": "7402526",
+                            "name": "League of Legends"
+                        }
+                    ],
+                    "track": {
+                        "name": "Enemy (from the series Arcane League of Legends)",
+                        "id": "1535046792"
+                    }
+                },
+                "spotify": {
+                    "album": {
+                        "id": "1bTgKomQYSkKYPD9UI9W4b",
+                        "name": "Enemy (with JID) [from the series Arcane League of Legends]"
+                    },
+                    "artists": [
+                        {
+                            "id": "53XhwfbYqKCa1cC15pYq2q",
+                            "name": "Imagine Dragons"
+                        },
+                        {
+                            "id": "6U3ybJ9UHNKEdsH7ktGBZ7",
+                            "name": "JID"
+                        },
+                        {
+                            "id": "47mIJdHORyRerp4os813jD",
+                            "name": "League of Legends"
+                        }
+                    ],
+                    "track": {
+                        "name": "Enemy (with JID) - from the series Arcane League of Legends",
+                        "id": "1r9xUipOqoNwggBpENDsvJ"
+                    }
+                },
+                "youtube": {
+                    "vid": "IOrbP1OqNsg"
+                }
+            },
+            "genre": "Alternative",
+            "spotify_id": "1r9xUipOqoNwggBpENDsvJ",
+            "spotify_album_id": "1bTgKomQYSkKYPD9UI9W4b",
+            "spotify_artist_id": "53XhwfbYqKCa1cC15pYq2q",
+            "popularity": null,
+            "youtube_id": "IOrbP1OqNsg",
+            "metadata_completeness": 85,
+            "quality_score": 65
+        }
+    },
+    {
+        "timestamp": 1750104868,
+        "datetime": "2025-06-16 20:14:28",
+        "source": "ACRCloud",
+        "data": {
+            "title": "The Colour of My Dreams",
+            "artist": "B.G. The Prince Of Rap",
+            "album": "Spring Break - Euro Anthems",
+            "release_date": "2014-05-12",
+            "year": "2014",
+            "label": "Allstar Music",
+            "duration": 235,
+            "timestamp": 1750104868,
+            "confidence": 100,
+            "isrc": "DEMW61200101",
+            "upc": "0884463616301",
+            "genres": [],
+            "external_metadata": {
+                "deezer": {
+                    "album": {
+                        "id": "7753607",
+                        "name": "Spring Break - Euro Anthems"
+                    },
+                    "track": {
+                        "name": "The Colour of My Dreams",
+                        "id": "77992143"
+                    },
+                    "artists": [
+                        {
+                            "name": "B.G. The Prince Of Rap",
+                            "id": "1363260"
+                        }
+                    ]
+                },
+                "spotify": {
+                    "album": {
+                        "id": "797hzrRPiXndnnPk3gdSgY",
+                        "name": "Spring Break - Euro Anthems"
+                    },
+                    "track": {
+                        "name": "The Colour of My Dreams - Dreamedia Mix",
+                        "id": "3BHQrpCutpMXLg7S4d5fFp"
+                    },
+                    "artists": [
+                        {
+                            "name": "B.G. The Prince Of Rap",
+                            "id": "3NyO6lrjoe4s6Uk4ns9Tda"
+                        }
+                    ]
+                },
+                "youtube": {
+                    "vid": "fLbFqO4iKDQ"
+                }
+            },
+            "genre": "Dance",
+            "spotify_id": "3BHQrpCutpMXLg7S4d5fFp",
+            "spotify_album_id": "797hzrRPiXndnnPk3gdSgY",
+            "spotify_artist_id": "3NyO6lrjoe4s6Uk4ns9Tda",
+            "popularity": null,
+            "youtube_id": "fLbFqO4iKDQ",
+            "metadata_completeness": 85,
+            "quality_score": 65
+        }
+    },
+    {
+        "timestamp": 1750104634,
+        "datetime": "2025-06-16 20:10:34",
+        "source": "ACRCloud",
+        "data": {
+            "title": "Magic Carpet Ride",
+            "artist": "Mighty Dub Katz",
+            "album": "Best Dance 101",
+            "release_date": "2010-02-01",
+            "year": "2010",
+            "label": "Warner Music",
+            "duration": 234,
+            "timestamp": 1750104634,
+            "confidence": 100,
+            "isrc": null,
+            "upc": null,
+            "genres": [],
+            "external_metadata": {
+                "youtube": {
+                    "vid": "DWmd_XnO2kk"
+                }
+            },
+            "youtube_id": "DWmd_XnO2kk",
+            "metadata_completeness": 72,
+            "quality_score": 52
+        }
+    },
+    {
+        "timestamp": 1750104387,
+        "datetime": "2025-06-16 20:06:27",
+        "source": "ACRCloud",
+        "data": {
+            "title": "A New Day Has Come (Radio Remix)",
+            "artist": "C\u00e9line Dion",
+            "album": "My Love Ultimate Essential Collection",
+            "release_date": "2500-12-31",
+            "year": "2500",
+            "label": "Columbia",
+            "duration": 263,
+            "timestamp": 1750104387,
+            "confidence": 100,
+            "isrc": "CAC220200030",
+            "upc": "0886447030899",
+            "genres": [],
+            "external_metadata": {
+                "youtube": {
+                    "vid": "NaGLVS5b_ZY"
+                },
+                "deezer": {
+                    "album": {
+                        "id": "71444",
+                        "name": "Falling Into You \/ A New Day Has Come \/ Let's Talk About Love"
+                    },
+                    "artists": [
+                        {
+                            "name": "C\u00e9line Dion",
+                            "id": "198"
+                        }
+                    ],
+                    "track": {
+                        "name": "A New Day Has Come",
+                        "id": "538536"
+                    }
+                },
+                "spotify": {
+                    "album": {
+                        "id": "6RqObIVIT9dR57cmp2tws1",
+                        "name": "Essential - Love"
+                    },
+                    "artists": [
+                        {
+                            "name": "C\u00e9line Dion",
+                            "id": "4S9EykWXhStSc15wEx8QFK"
+                        }
+                    ],
+                    "track": {
+                        "name": "A New Day Has Come - Radio Remix",
+                        "id": "1gupXGXCOJUawuOj1zDyPr"
+                    }
+                }
+            },
+            "genre": "Pop",
+            "spotify_id": "1gupXGXCOJUawuOj1zDyPr",
+            "spotify_album_id": "6RqObIVIT9dR57cmp2tws1",
+            "spotify_artist_id": "4S9EykWXhStSc15wEx8QFK",
+            "popularity": null,
+            "youtube_id": "NaGLVS5b_ZY",
+            "metadata_completeness": 85,
+            "quality_score": 65
+        }
+    },
+    {
+        "timestamp": 1750104205,
+        "datetime": "2025-06-16 20:03:25",
+        "source": "ACRCloud",
+        "data": {
+            "title": "Loveparade 2000",
+            "artist": "Dr. Motte",
+            "album": "Future Trance - Return To The Millennium (Die 2000er)",
+            "release_date": "2018-11-30",
+            "year": "2018",
+            "label": "Polystar",
+            "duration": 208,
+            "timestamp": 1750104205,
+            "confidence": 100,
+            "isrc": "DEN061003506",
+            "upc": "00600753852781",
+            "genres": [],
+            "external_metadata": {
+                "deezer": {
+                    "album": {
+                        "id": "103756852",
+                        "name": "Dance Mania 2000"
+                    },
+                    "artists": [
+                        {
+                            "name": "Dr. Motte & Westbam",
+                            "id": "168238"
+                        }
+                    ],
+                    "track": {
+                        "name": "Love Parade 2000 (One World One Love Parade)",
+                        "id": "712776582"
+                    }
+                },
+                "spotify": {
+                    "album": {
+                        "id": "1wOTc1MvJVM6QF0ylpbq22",
+                        "name": "Love Parade 2000 (One World One Loveparade)"
+                    },
+                    "artists": [
+                        {
+                            "name": "Dr. Motte & WestBam present",
+                            "id": "5KigJR8F4iH5bEWguwZGd5"
+                        }
+                    ],
+                    "track": {
+                        "name": "One World One Love Parade (Short)",
+                        "id": "2Lz79Dh6oEM8B3qh0eJYfv"
+                    }
+                },
+                "youtube": {
+                    "vid": "-qY24N0yRto"
+                }
+            },
+            "genre": "Pop",
+            "spotify_id": "2Lz79Dh6oEM8B3qh0eJYfv",
+            "spotify_album_id": "1wOTc1MvJVM6QF0ylpbq22",
+            "spotify_artist_id": "5KigJR8F4iH5bEWguwZGd5",
+            "popularity": null,
+            "youtube_id": "-qY24N0yRto",
+            "metadata_completeness": 85,
+            "quality_score": 65
+        }
+    },
+    {
+        "timestamp": 1750104191,
+        "datetime": "2025-06-16 20:03:11",
+        "source": "ACRCloud",
+        "data": {
+            "title": "Desire (MEDUZA Extended Remix)",
+            "artist": "Calvin Harris",
+            "album": "Desire",
+            "release_date": "2023-09-29",
+            "year": "2023",
+            "label": "Columbia",
+            "duration": 398,
+            "timestamp": 1750104191,
+            "confidence": 19,
+            "isrc": "GBARL2301305",
+            "upc": "0196871476058",
+            "genres": [],
+            "external_metadata": [],
+            "genre": "Dance",
+            "metadata_completeness": 85,
+            "quality_score": 65
+        }
+    },
+    {
+        "timestamp": 1750104048,
+        "datetime": "2025-06-16 20:00:48",
+        "source": "ACRCloud",
+        "data": {
+            "title": "Bailar",
+            "artist": "Deorro",
+            "album": "Megastar FM",
+            "release_date": "2016-12-02",
+            "year": "2016",
+            "label": "Universal Music Spain S.L.",
+            "duration": 160,
+            "timestamp": 1750104048,
+            "confidence": 100,
+            "isrc": "USUS11600173",
+            "upc": "00600753737446",
+            "genres": [],
+            "external_metadata": {
+                "deezer": {
+                    "artists": [
+                        {
+                            "name": "Deorro",
+                            "id": "3542201"
+                        },
+                        {
+                            "name": "Deorro",
+                            "id": "3542201"
+                        },
+                        {
+                            "name": "Elvis Crespo",
+                            "id": "302"
+                        }
+                    ],
+                    "track": {
+                        "name": "Bailar",
+                        "id": "127728349"
+                    },
+                    "album": {
+                        "id": "13482947",
+                        "name": "Mujeres y Hombres y Viceversa - Los Hits del Verano 2016"
+                    }
+                },
+                "spotify": {
+                    "artists": [
+                        {
+                            "name": "Deorro",
+                            "id": "6VD4UEUPvtsemqD3mmTqCR"
+                        },
+                        {
+                            "name": "Elvis Crespo",
+                            "id": "1c22GXH30ijlOfXhfLz9Df"
+                        }
+                    ],
+                    "track": {
+                        "name": "Bailar - Radio Edit",
+                        "id": "2BzZzOCTEIOaoGz9ZnbEoM"
+                    },
+                    "album": {
+                        "id": "0l8hNNm4XeGXekWW4EeyDK",
+                        "name": "Mujeres y Hombres y Viceversa - Los Hits del Verano 2016"
+                    }
+                },
+                "youtube": {
+                    "vid": "3HWoct79hc8"
+                }
+            },
+            "genre": "Dance",
+            "spotify_id": "2BzZzOCTEIOaoGz9ZnbEoM",
+            "spotify_album_id": "0l8hNNm4XeGXekWW4EeyDK",
+            "spotify_artist_id": "6VD4UEUPvtsemqD3mmTqCR",
+            "popularity": null,
+            "youtube_id": "3HWoct79hc8",
+            "metadata_completeness": 85,
+            "quality_score": 65
+        }
+    },
+    {
+        "timestamp": 1750103970,
+        "datetime": "2025-06-16 19:59:30",
+        "source": "ACRCloud",
+        "data": {
+            "title": "Right Here",
+            "artist": "SWV",
+            "album": "Cool Sweat Classics",
+            "release_date": "2019-07-05",
+            "year": "2019",
+            "label": "Universal Music S.A.",
+            "duration": 229,
+            "timestamp": 1750103970,
+            "confidence": 100,
+            "isrc": "USRC10202372",
+            "upc": "00600753883105",
+            "genres": [],
+            "external_metadata": {
+                "deezer": {
+                    "album": {
+                        "id": "41179731",
+                        "name": "New Jack RnB vol 8"
+                    },
+                    "artists": [
+                        {
+                            "name": "SWV",
+                            "id": "2380"
+                        }
+                    ],
+                    "track": {
+                        "name": "Right Here",
+                        "id": "358364381"
+                    }
+                },
+                "spotify": {
+                    "album": {
+                        "id": "2BBrAtWY0c6dPio5b2JYFK",
+                        "name": "It's About Time"
+                    },
+                    "artists": [
+                        {
+                            "id": "2NmK5FyrQ18HOPXq1UBzqa",
+                            "name": "SWV"
+                        }
+                    ],
+                    "track": {
+                        "name": "Right Here - Human Nature Radio Mix",
+                        "id": "7tUEDtHchueeUJTfEFEhii"
+                    }
+                },
+                "youtube": {
+                    "vid": "tcmM2HUR14g"
+                }
+            },
+            "genre": "R & B",
+            "spotify_id": "7tUEDtHchueeUJTfEFEhii",
+            "spotify_album_id": "2BBrAtWY0c6dPio5b2JYFK",
+            "spotify_artist_id": "2NmK5FyrQ18HOPXq1UBzqa",
+            "popularity": null,
+            "youtube_id": "tcmM2HUR14g",
+            "metadata_completeness": 85,
+            "quality_score": 65
+        }
+    },
+    {
+        "timestamp": 1750103736,
+        "datetime": "2025-06-16 19:55:36",
+        "source": "ACRCloud",
+        "data": {
+            "title": "I'll Make Love To You",
+            "artist": "Boyz II Men",
+            "album": "Love Songs #1's",
+            "release_date": "2007-01-01",
+            "year": "2007",
+            "label": "Universal Music",
+            "duration": 236,
+            "timestamp": 1750103736,
+            "confidence": 100,
+            "isrc": "USMO19400340",
+            "upc": "0600753017234",
+            "genres": [],
+            "external_metadata": {
+                "spotify": {
+                    "album": {
+                        "id": "7scQG4FlF5NGIJK1LM03Ge",
+                        "name": "Supergeil! - Love Songs"
+                    },
+                    "track": {
+                        "name": "I'll Make Love To You",
+                        "id": "3RMP8nzf9LozxS3rUVvW63"
+                    },
+                    "artists": [
+                        {
+                            "name": "Boyz II Men",
+                            "id": "6O74knDqdv3XaWtkII7Xjp"
+                        }
+                    ]
+                },
+                "youtube": {
+                    "vid": "mYcFPlhHmn0"
+                },
+                "deezer": {
+                    "album": {
+                        "id": "102391",
+                        "name": "Love Songs #1's"
+                    },
+                    "track": {
+                        "name": "I'll Make Love To You",
+                        "id": "906609"
+                    },
+                    "artists": [
+                        {
+                            "name": "Boyz II Men",
+                            "id": "799"
+                        }
+                    ]
+                }
+            },
+            "genre": "Pop",
+            "spotify_id": "3RMP8nzf9LozxS3rUVvW63",
+            "spotify_album_id": "7scQG4FlF5NGIJK1LM03Ge",
+            "spotify_artist_id": "6O74knDqdv3XaWtkII7Xjp",
+            "popularity": null,
+            "youtube_id": "mYcFPlhHmn0",
+            "metadata_completeness": 85,
+            "quality_score": 65
+        }
+    },
+    {
+        "timestamp": 1750103729,
+        "datetime": "2025-06-16 19:55:29",
+        "source": "Manual",
+        "data": {
+            "title": "I'll Make Love to You",
+            "artist": "Boyz II Men",
+            "album": null,
+            "year": null,
+            "label": null,
+            "artwork": null,
+            "genre": null,
+            "isrc": null,
+            "upc": null,
+            "spotify_id": null,
+            "youtube_id": null,
+            "source": "ICY",
+            "raw": "Boyz II Men - I'll Make Love to You",
+            "metadata_completeness": 40,
+            "quality_score": 20
+        }
+    },
+    {
+        "timestamp": 1750103554,
+        "datetime": "2025-06-16 19:52:34",
+        "source": "ACRCloud",
+        "data": {
+            "title": "Shotgun",
+            "artist": "George Ezra",
+            "album": "Staying at Tamara's",
+            "release_date": "2018-03-23",
+            "year": "2018",
+            "label": "Columbia",
+            "duration": 201,
+            "timestamp": 1750103554,
+            "confidence": 100,
+            "isrc": "GBARL1701372",
+            "upc": "0886446561875",
+            "genres": [],
+            "external_metadata": {
+                "spotify": {
+                    "artists": [
+                        {
+                            "id": "2ysnwxxNtSgbb9t1m2Ur4j",
+                            "name": "George Ezra"
+                        }
+                    ],
+                    "album": {
+                        "id": "2NaulYO6lGXTyIzWTJvRJj",
+                        "name": "Staying at Tamara's"
+                    },
+                    "track": {
+                        "id": "4ofwffwvvnbSkrMSCKQDaC",
+                        "name": "Shotgun"
+                    }
+                },
+                "youtube": {
+                    "vid": "aAiVsqfbn5g"
+                },
+                "deezer": {
+                    "artists": [
+                        {
+                            "id": "5241932",
+                            "name": "George Ezra"
+                        }
+                    ],
+                    "album": {
+                        "name": ""
+                    },
+                    "track": {
+                        "id": "1106308112",
+                        "name": "Shotgun"
+                    }
+                }
+            },
+            "genre": "Singer-Songwriter",
+            "spotify_id": "4ofwffwvvnbSkrMSCKQDaC",
+            "spotify_album_id": "2NaulYO6lGXTyIzWTJvRJj",
+            "spotify_artist_id": "2ysnwxxNtSgbb9t1m2Ur4j",
+            "popularity": null,
+            "youtube_id": "aAiVsqfbn5g",
+            "metadata_completeness": 85,
+            "quality_score": 65
+        }
+    },
+    {
+        "timestamp": 1750103372,
+        "datetime": "2025-06-16 19:49:32",
+        "source": "ACRCloud",
+        "data": {
+            "title": "Harleys In Hawaii",
+            "artist": "Katy Perry",
+            "album": "Harleys In Hawaii",
+            "release_date": "2019-10-18",
+            "year": "2019",
+            "label": "Capitol Records",
+            "duration": 185,
+            "timestamp": 1750103372,
+            "confidence": 100,
+            "isrc": "USUM71919682",
+            "upc": "00602508402289",
+            "genres": [],
+            "external_metadata": {
+                "deezer": {
+                    "album": {
+                        "id": "114577702",
+                        "name": "Harleys In Hawaii"
+                    },
+                    "artists": [
+                        {
+                            "id": "144227",
+                            "name": "Katy Perry"
+                        }
+                    ],
+                    "track": {
+                        "name": "Harleys In Hawaii",
+                        "id": "774198072"
+                    }
+                },
+                "spotify": {
+                    "album": {
+                        "id": "30UjBkRwwBeCdspCGPBB8V",
+                        "name": "Harleys In Hawaii"
+                    },
+                    "artists": [
+                        {
+                            "id": "6jJ0s89eD6GaHleKKya26X",
+                            "name": "Katy Perry"
+                        }
+                    ],
+                    "track": {
+                        "name": "Harleys In Hawaii",
+                        "id": "5nCthAh3jt4xKuLJAifAaR"
+                    }
+                }
+            },
+            "genre": "Pop",
+            "spotify_id": "5nCthAh3jt4xKuLJAifAaR",
+            "spotify_album_id": "30UjBkRwwBeCdspCGPBB8V",
+            "spotify_artist_id": "6jJ0s89eD6GaHleKKya26X",
+            "popularity": null,
+            "metadata_completeness": 85,
+            "quality_score": 65
+        }
+    },
+    {
+        "timestamp": 1750103346,
+        "datetime": "2025-06-16 19:49:06",
+        "source": "Manual",
+        "data": {
+            "title": "Call Me Maybe",
+            "artist": "Carly Rae Jepsen",
+            "album": null,
+            "year": null,
+            "label": null,
+            "artwork": null,
+            "genre": null,
+            "isrc": null,
+            "upc": null,
+            "spotify_id": null,
+            "youtube_id": null,
+            "source": "ICY",
+            "raw": "Carly Rae Jepsen - Call Me Maybe",
+            "metadata_completeness": 40,
+            "quality_score": 20
+        }
+    },
+    {
+        "timestamp": 1750103203,
+        "datetime": "2025-06-16 19:46:43",
+        "source": "ACRCloud",
+        "data": {
+            "title": "Dance For Fds Mix",
+            "artist": "",
+            "album": "Dance For Fds Mix",
+            "release_date": "2012-07-13",
+            "year": "2012",
+            "label": null,
+            "duration": 375,
+            "timestamp": 1750103203,
+            "confidence": 82,
+            "isrc": null,
+            "upc": null,
+            "genres": [],
+            "external_metadata": [],
+            "metadata_completeness": 47,
+            "quality_score": 35
+        }
+    },
+    {
+        "timestamp": 1750103190,
+        "datetime": "2025-06-16 19:46:30",
+        "source": "ACRCloud",
+        "data": {
+            "title": "Call Me Maybe",
+            "artist": "Carly Rae Jepsen",
+            "album": "538 Hitzone 62",
+            "release_date": "2012-06-29",
+            "year": "2012",
+            "label": "Sony Music Entertainment",
+            "duration": 193,
+            "timestamp": 1750103190,
+            "confidence": 100,
+            "isrc": "CAB391100615",
+            "upc": "0886443358904",
+            "genres": [],
+            "external_metadata": {
+                "deezer": {
+                    "album": {
+                        "id": "152284312",
+                        "name": "SUMMER PARTY I Classici dell'estate"
+                    },
+                    "track": {
+                        "name": "Call Me Maybe",
+                        "id": "978430902"
+                    },
+                    "artists": [
+                        {
+                            "id": "1002521",
+                            "langs": [
+                                {
+                                    "code": "en",
+                                    "name": "Carly Rae Jepsen"
+                                },
+                                {
+                                    "code": "ja-hrkt",
+                                    "name": "\u30ab\u30fc\u30ea\u30fc\u30ec\u30a4\u30b8\u30a7\u30d7\u30bb\u30f3"
+                                },
+                                {
+                                    "code": "ja-jpan",
+                                    "name": "\u30ab\u30fc\u30ea\u30fc\u30fb\u30ec\u30a4\u30fb\u30b8\u30a7\u30d7\u30bb\u30f3"
+                                },
+                                {
+                                    "code": "ja-kana",
+                                    "name": "\u30ab\u30fc\u30ea\u30fc\u30ec\u30a4\u30b8\u30a7\u30d7\u30bb\u30f3"
+                                },
+                                {
+                                    "code": "ar",
+                                    "name": "\u0643\u0627\u0631\u0644\u064a \u0631\u0627\u064a \u062c\u064a\u0628\u0633\u0646"
+                                },
+                                {
+                                    "code": "ja",
+                                    "name": "CARLY RAE JEPSEN"
+                                }
+                            ],
+                            "name": "Carly Rae Jepsen"
+                        }
+                    ]
+                },
+                "spotify": {
+                    "album": {
+                        "id": "137UMRFHstsgxsVx4bGdas",
+                        "name": "Pop Para Tomar Caf\u00e9"
+                    },
+                    "track": {
+                        "name": "Call Me Maybe",
+                        "id": "6yKfRV0yTA3rHabj43Rvm3"
+                    },
+                    "artists": [
+                        {
+                            "name": "Carly Rae Jepsen",
+                            "id": "6sFIWsNpZYqfjUpaCgueju"
+                        }
+                    ]
+                },
+                "youtube": {
+                    "vid": "fWNaR-rxAic"
+                }
+            },
+            "genre": "Pop",
+            "spotify_id": "6yKfRV0yTA3rHabj43Rvm3",
+            "spotify_album_id": "137UMRFHstsgxsVx4bGdas",
+            "spotify_artist_id": "6sFIWsNpZYqfjUpaCgueju",
+            "popularity": null,
+            "youtube_id": "fWNaR-rxAic",
+            "metadata_completeness": 85,
+            "quality_score": 65
+        }
+    },
+    {
+        "timestamp": 1750103086,
+        "datetime": "2025-06-16 19:44:46",
+        "source": "ACRCloud",
+        "data": {
+            "title": "I Kissed A Girl",
+            "artist": "Katy Perry",
+            "album": "I Kissed A Girl",
+            "release_date": "2008-07-19",
+            "year": "2008",
+            "label": "Capitol Records",
+            "duration": 180,
+            "timestamp": 1750103086,
+            "confidence": 25,
+            "isrc": "USCA20803486",
+            "upc": "05099923539051",
+            "genres": [],
+            "external_metadata": {
+                "spotify": {
+                    "artists": [
+                        {
+                            "id": "6jJ0s89eD6GaHleKKya26X",
+                            "name": "Katy Perry"
+                        }
+                    ],
+                    "album": {
+                        "id": "4I0m4cCVE6jE6BEdXgoX3V",
+                        "name": "I Kissed A Girl"
+                    },
+                    "track": {
+                        "id": "3tUhdGku6UQe1VE26YlOd1",
+                        "name": "I Kissed A Girl - Instrumental"
+                    }
+                },
+                "youtube": {
+                    "vid": "tAp9BKosZXs"
+                }
+            },
+            "genre": "Pop",
+            "spotify_id": "3tUhdGku6UQe1VE26YlOd1",
+            "spotify_album_id": "4I0m4cCVE6jE6BEdXgoX3V",
+            "spotify_artist_id": "6jJ0s89eD6GaHleKKya26X",
+            "popularity": null,
+            "youtube_id": "tAp9BKosZXs",
+            "metadata_completeness": 85,
+            "quality_score": 65
+        }
+    }
+]

@@ -1,0 +1,6 @@
+# ads.txt for Ighi's Home Radio
+# Currently no advertising partners
+# Contact: hello@ighishomeradio.com for advertising opportunities
+
+# Format: <domain>, <publisher account ID>, <account type>, <certification authority ID>
+# Example: google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0

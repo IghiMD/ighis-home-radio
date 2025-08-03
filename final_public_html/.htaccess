@@ -1,0 +1,344 @@
+# =============================================
+# IGHI'S HOME RADIO - Apache Configuration
+# =============================================
+
+# Povoliť RewriteEngine
+RewriteEngine On
+
+# =============================================
+# BEZPEČNOSŤ - BLOKUJ CITLIVÉ SÚBORY
+# =============================================
+
+# Blokuj prístup k .env súborom
+<Files ".env*">
+    Order allow,deny
+    Deny from all
+</Files>
+
+# Blokuj prístup k config súborom
+<Files "config.php">
+    Order allow,deny
+    Deny from all
+</Files>
+
+# Blokuj prístup k log súborom
+<FilesMatch "\.(log|txt)$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+# Blokuj prístup k backup súborom
+<FilesMatch "\.(bak|backup|old|tmp)$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+# Blokuj prístup k git súborom
+<FilesMatch "^\.git">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+# Blokuj prístup k composer súborom
+<FilesMatch "composer\.(json|lock)">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+# Blokuj prístup k package súborom
+<FilesMatch "package(-lock)?\.(json|lock)">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+# Blokuj prístup k README a dokumentácii
+<FilesMatch "README\.(md|txt)">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+# =============================================
+# ZABEZPEČENIE ADRESÁROV
+# =============================================
+
+# Blokuj prístup k data adresáru
+<Directory "data">
+    Order allow,deny
+    Deny from all
+</Directory>
+
+# Blokuj prístup k logs adresáru
+<Directory "logs">
+    Order allow,deny
+    Deny from all
+</Directory>
+
+# Blokuj prístup k backups adresáru
+<Directory "backups">
+    Order allow,deny
+    Deny from all
+</Directory>
+
+# Povoliť prístup k cache len pre súbory cez PHP
+<Directory "cache">
+    Order allow,deny
+    Deny from all
+    <Files "*.php">
+        Order allow,deny
+        Allow from all
+    </Files>
+</Directory>
+
+# =============================================
+# CORS NASTAVENIA
+# =============================================
+
+# Povoliť CORS pre API endpointy
+<FilesMatch "\.(php)$">
+    Header always set Access-Control-Allow-Origin "*"
+    Header always set Access-Control-Allow-Methods "GET, POST, OPTIONS"
+    Header always set Access-Control-Allow-Headers "Content-Type, X-API-Token, Authorization"
+    Header always set Access-Control-Max-Age "86400"
+</FilesMatch>
+
+# Špeciálne CORS pre metadata proxy
+<Files "metadata_proxy.php">
+    Header always set Access-Control-Allow-Origin "*"
+    Header always set Access-Control-Allow-Methods "GET, POST, OPTIONS"
+    Header always set Access-Control-Allow-Headers "Content-Type"
+</Files>
+
+# Handle OPTIONS requests for CORS preflight
+RewriteCond %{REQUEST_METHOD} OPTIONS
+RewriteRule ^(.*)$ $1 [R=200,L]
+
+# =============================================
+# BEZPEČNOSTNÉ HEADERS
+# =============================================
+
+# X-Frame-Options (ochrana proti clickjacking)
+Header always set X-Frame-Options "SAMEORIGIN"
+
+# X-Content-Type-Options (ochrana proti MIME sniffing)
+Header always set X-Content-Type-Options "nosniff"
+
+# X-XSS-Protection (ochrana proti XSS)
+Header always set X-XSS-Protection "1; mode=block"
+
+# Referrer Policy
+Header always set Referrer-Policy "strict-origin-when-cross-origin"
+
+# Content Security Policy (prispôsobte podľa potreby)
+Header always set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://client.crisp.chat https://cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://client.crisp.chat; font-src 'self' https://fonts.gstatic.com https://client.crisp.chat data:; img-src 'self' data: https: http: blob: https://image.crisp.chat; media-src 'self' https: blob:; connect-src 'self' https: wss: ws: wss://client.relay.crisp.chat; frame-src 'self' https:; object-src 'none';"
+
+# =============================================
+# CACHE KONTROLA
+# =============================================
+
+# Cache pre statické súbory
+<FilesMatch "\.(css|js|png|jpg|jpeg|gif|ico|svg|woff|woff2|ttf|eot)$">
+    ExpiresActive On
+    ExpiresDefault "access plus 1 month"
+    Header set Cache-Control "public, max-age=2592000"
+</FilesMatch>
+
+# Cache pre HTML súbory
+<FilesMatch "\.(html|htm)$">
+    ExpiresActive On
+    ExpiresDefault "access plus 1 hour"
+    Header set Cache-Control "public, max-age=3600"
+</FilesMatch>
+
+# No-cache pre PHP súbory (okrem špeciálnych)
+<FilesMatch "\.php$">
+    ExpiresActive Off
+    Header set Cache-Control "no-store, no-cache, must-revalidate, max-age=0"
+    Header set Pragma "no-cache"
+</FilesMatch>
+
+# Výnimka: Cache pre metadata proxy (krátky cache)
+<Files "metadata_proxy.php">
+    ExpiresActive On
+    ExpiresDefault "access plus 30 seconds"
+    Header set Cache-Control "public, max-age=30"
+</Files>
+
+# Výnimka: Cache pre AI info (dlhší cache)
+<Files "ai_info.php">
+    ExpiresActive On
+    ExpiresDefault "access plus 5 minutes"
+    Header set Cache-Control "public, max-age=300"
+</Files>
+
+# =============================================
+# GZIP KOMPRESIA
+# =============================================
+
+# Povoliť mod_deflate ak je dostupný
+<IfModule mod_deflate.c>
+    # Kompresuj text súbory
+    AddOutputFilterByType DEFLATE text/plain
+    AddOutputFilterByType DEFLATE text/html
+    AddOutputFilterByType DEFLATE text/xml
+    AddOutputFilterByType DEFLATE text/css
+    AddOutputFilterByType DEFLATE text/javascript
+    AddOutputFilterByType DEFLATE application/xml
+    AddOutputFilterByType DEFLATE application/xhtml+xml
+    AddOutputFilterByType DEFLATE application/rss+xml
+    AddOutputFilterByType DEFLATE application/javascript
+    AddOutputFilterByType DEFLATE application/x-javascript
+    AddOutputFilterByType DEFLATE application/json
+    
+    # Nekompresuj obrázky (už sú kompresované)
+    SetEnvIfNoCase Request_URI \.(?:gif|jpe?g|png|ico)$ no-gzip dont-vary
+    SetEnvIfNoCase Request_URI \.(?:exe|t?gz|zip|bz2|sit|rar)$ no-gzip dont-vary
+</IfModule>
+
+# =============================================
+# URL REWRITING
+# =============================================
+
+# Redirect HTTP na HTTPS (odkomentujte ak chcete vymutiť HTTPS)
+# RewriteCond %{HTTPS} off
+# RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Pretty URLs pre API
+RewriteRule ^api/current/?$ webhook.php?action=current [QSA,L]
+RewriteRule ^api/history/?$ webhook.php?action=history [QSA,L]
+RewriteRule ^api/health/?$ webhook.php?action=health [QSA,L]
+RewriteRule ^api/stats/?$ webhook.php?action=stats [QSA,L]
+
+# Pretty URLs pre admin sekcie
+RewriteRule ^admin/?$ admin.php [QSA,L]
+RewriteRule ^login/?$ login.php [QSA,L]
+RewriteRule ^monitor/?$ monitor.php [QSA,L]
+RewriteRule ^backup/?$ backup.php [QSA,L]
+
+# Pretty URLs pre notifikácie
+RewriteRule ^notifications/?$ notifications.php [QSA,L]
+RewriteRule ^subscribe/?$ notifications.php [QSA,L]
+
+# Pretty URLs pre AI
+RewriteRule ^ai/info/?$ ai_info.php [QSA,L]
+
+# =============================================
+# ERROR PAGES
+# =============================================
+
+# Custom error pages (vytvorte tieto súbory ak chcete vlastné error stránky)
+# ErrorDocument 404 /error/404.html
+# ErrorDocument 403 /error/403.html
+# ErrorDocument 500 /error/500.html
+
+# =============================================
+# PHP NASTAVENIA
+# =============================================
+
+# Zvýš memory limit pre PHP skripty
+php_value memory_limit 256M
+
+# Zvýš execution time
+php_value max_execution_time 120
+
+# Upload limity
+php_value upload_max_filesize 10M
+php_value post_max_size 10M
+
+# Session nastavenia
+php_value session.gc_maxlifetime 14400
+php_value session.cookie_lifetime 0
+
+# Error reporting (vypnúť pre produkciu)
+php_flag display_errors Off
+php_flag log_errors On
+
+# =============================================
+# OPTIMALIZÁCIE
+# =============================================
+
+# Povoliť ETag headers
+FileETag MTime Size
+
+# Povoliť Keep-Alive
+<IfModule mod_headers.c>
+    Header set Connection keep-alive
+</IfModule>
+
+# Remove server signature
+ServerTokens Prod
+
+# =============================================
+# MAINTENANCE MODE (odkomentujte pre údržbu)
+# =============================================
+
+# RewriteCond %{REQUEST_URI} !/maintenance.html$
+# RewriteCond %{REQUEST_URI} !\.(css|js|png|jpg|gif|ico)$
+# RewriteRule ^(.*)$ /maintenance.html [R=503,L]
+
+# =============================================
+# RATE LIMITING (vyžaduje mod_security alebo mod_evasive)
+# =============================================
+
+# Základné rate limiting pre API endpointy
+<IfModule mod_security.c>
+    # Limit 100 požiadaviek za 60 sekúnd pre API
+    SecRule REQUEST_URI "@beginsWith /api/" \
+        "phase:1,id:1001,deny,status:429,msg:'API Rate Limit Exceeded',\
+        setvar:'tx.api_requests=+1',\
+        expirevar:'tx.api_requests=60'"
+    
+    SecRule TX:API_REQUESTS "@gt 100" \
+        "phase:1,id:1002,deny,status:429,msg:'API Rate Limit Exceeded'"
+</IfModule>
+
+# =============================================
+# DODATOČNÉ BEZPEČNOSTNÉ OPATRENIA
+# =============================================
+
+# Blokuj časté útoky
+<IfModule mod_security.c>
+    # SQL injection protection
+    SecRule ARGS "@detectSQLi" \
+        "id:1101,phase:2,block,msg:'SQL Injection Attack Detected',\
+        logdata:'Matched Data: %{MATCHED_VAR} found within %{MATCHED_VAR_NAME}',\
+        severity:'CRITICAL'"
+    
+    # XSS protection
+    SecRule ARGS "@detectXSS" \
+        "id:1102,phase:2,block,msg:'XSS Attack Detected',\
+        logdata:'Matched Data: %{MATCHED_VAR} found within %{MATCHED_VAR_NAME}',\
+        severity:'CRITICAL'"
+</IfModule>
+
+# Blokuj podozrivé user agents
+<IfModule mod_rewrite.c>
+    RewriteCond %{HTTP_USER_AGENT} ^$ [OR]
+    RewriteCond %{HTTP_USER_AGENT} (libwww-perl|wget|python|nikto|curl|scan|java|winhttp|clshttp|loader) [NC,OR]
+    RewriteCond %{HTTP_USER_AGENT} (%0A|%0D|%27|%3C|%3E|%00) [NC,OR]
+    RewriteCond %{HTTP_USER_AGENT} (;|<|>|'|"|\)|\(|%0A|%0D|%22|%27|%28|%3C|%3E|%00).*(libwww-perl|wget|python|nikto|curl|scan|java|winhttp|HTTrack|clshttp|archiver|loader|email|harvest|extract|grab|miner) [NC]
+    RewriteRule .* - [F]
+</IfModule>
+
+# =============================================
+# POZNÁMKY PRE SPRÁVCOV
+# =============================================
+
+# 1. POVINNÉ MODULY:
+#    - mod_rewrite (URL rewriting)
+#    - mod_headers (HTTP headers)
+#    - mod_deflate (gzip kompresia)
+
+# 2. VOLITEĽNÉ MODULY:
+#    - mod_security (pokročilá bezpečnosť)
+#    - mod_evasive (rate limiting)
+#    - mod_expires (cache kontrola)
+
+# 3. BEZPEČNOSŤ:
+#    - Pravidelne aktualizujte tento súbor
+#    - Monitorujte error logy
+#    - Testujte zmeny na staging prostredí
+
+# 4. VÝKON:
+#    - Sledujte load times
+#    - Optimalizujte cache nastavenia
+#    - Používajte CDN pre statické súbory

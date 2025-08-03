@@ -1,0 +1,32 @@
+# Environment files
+.env
+.env.local
+.env.backup
+
+# Data files
+data/
+cache/
+logs/
+backups/
+uploads/
+
+# Sensitive files
+subscribers.json
+notifications_log.json
+*_backup_*.zip
+
+# System files
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.cache
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-*
+
+# PHP files
+vendor/
+composer.lock

@@ -1,0 +1,170 @@
+// config.js.example
+// Skopírujte tento súbor ako config.js a vyplňte hodnoty
+
+// DÔLEŽITÉ: Pridajte config.js do .gitignore aby sa nedostal do Git repozitára!
+
+const RADIO_CONFIG = {
+    // AudD.io Configuration
+    AUDD: {
+        API_TOKEN: 'YOUR_AUDD_API_TOKEN_HERE',
+        LONGPOLL_CATEGORY: 'YOUR_LONGPOLL_CATEGORY_HERE', // Získate po registrácii streamu
+        TIMEOUT: 50, // seconds for long polling
+        ENABLE_WIDGET: false, // true ak chcete použiť widget namiesto long polling
+    },
+    
+    // Crisp Chat Configuration
+    CRISP: {
+        WEBSITE_ID: 'YOUR_CRISP_WEBSITE_ID_HERE',
+        LOCALE: 'en', // alebo 'sk'
+        HIDE_DEFAULT_BUTTON: true,
+        POSITION: 'right', // 'left' alebo 'right'
+    },
+    
+    // Stream Configuration
+    STREAM: {
+        URL: 'https://fra-pioneer01.dedicateware.com:2415/stream',
+        RADIO_ID: 'ighi-home-radio',
+        RADIO_NAME: "Ighi's Home Radio",
+        DESCRIPTION: 'Family Internet Radio from 90s to Today',
+    },
+    
+    // Features
+    FEATURES: {
+        ENABLE_RECOGNITION: true,
+        ENABLE_CHAT: true,
+        ENABLE_DONATIONS: true,
+        ENABLE_SOCIAL_LINKS: true,
+        ENABLE_PHONE_NUMBER: true,
+        SHOW_ARTWORK: true,
+        SHOW_LYRICS: false, // Vyžaduje dodatočné API
+    },
+    
+    // Social Links
+    SOCIAL: {
+        INSTAGRAM: 'https://www.instagram.com/IghisHomeRadio/',
+        TIKTOK: 'https://www.tiktok.com/@ighishomeradio',
+        TWITTER: 'https://x.com/IghisHomeRadio',
+        FACEBOOK: 'https://www.facebook.com/@ighi.s.home.radio',
+        PAYPAL: 'https://paypal.me/ighishomeradio?country.x=CZ&locale.x=en_US',
+    },
+    
+    // Contact Information
+    CONTACT: {
+        EMAIL_GENERAL: 'hello@ighishomeradio.com',
+        EMAIL_REQUESTS: 'requests@ighishomeradio.com',
+        PHONE: '+420603946930',
+        PHONE_DISPLAY: '+420 603 946 930',
+    },
+    
+    // Development/Production
+    ENVIRONMENT: 'production', // 'development' alebo 'production'
+    DEBUG: false, // true pre debug výpisy v console
+    
+    // API Endpoints (pre vlastný backend)
+    API: {
+        BASE_URL: '', // Ak máte vlastný backend
+        CALLBACK_URL: '', // Pre AudD callbacks
+        STATS_URL: '', // Pre štatistiky
+    },
+    
+    // Analytics (voliteľné)
+    ANALYTICS: {
+        GOOGLE_ANALYTICS_ID: '', // UA-XXXXXXXXX-X alebo G-XXXXXXXXXX
+        FACEBOOK_PIXEL_ID: '',
+        ENABLED: false,
+    },
+    
+    // Cache settings
+    CACHE: {
+        TRACK_INFO_TTL: 60000, // 1 minúta
+        ARTWORK_TTL: 300000, // 5 minút
+        ENABLED: true,
+    },
+    
+    // Error messages
+    MESSAGES: {
+        CONNECTION_ERROR: {
+            en: 'Connection error. Please try again.',
+            sk: 'Chyba pripojenia. Skúste to znova.'
+        },
+        RECOGNITION_ERROR: {
+            en: 'Unable to recognize the song.',
+            sk: 'Nepodarilo sa rozpoznať skladbu.'
+        },
+        PLAYBACK_ERROR: {
+            en: 'Playback failed. Please refresh the page.',
+            sk: 'Prehrávanie zlyhalo. Obnovte stránku.'
+        }
+    }
+};
+
+// Export pre použitie v hlavnom súbore
+if (typeof module !== 'undefined' && module.exports) {
+    module.exports = RADIO_CONFIG;
+}
+
+// Pre browser environment
+if (typeof window !== 'undefined') {
+    window.RADIO_CONFIG = RADIO_CONFIG;
+}
+
+/* 
+POUŽITIE V HTML:
+
+1. Pridajte pred hlavný script:
+<script src="config.js"></script>
+
+2. V hlavnom scripte použite:
+const CONFIG = window.RADIO_CONFIG || {
+    AUDD: { API_TOKEN: 'demo', LONGPOLL_CATEGORY: '' },
+    CRISP: { WEBSITE_ID: 'demo' },
+    STREAM: { URL: 'https://...' }
+};
+
+3. Príklad použitia:
+if (CONFIG.DEBUG) {
+    console.log('Debug mode enabled');
+}
+
+if (CONFIG.FEATURES.ENABLE_RECOGNITION && CONFIG.AUDD.API_TOKEN !== 'demo') {
+    startMusicRecognition();
+}
+*/
+
+// Validácia konfigurácie
+function validateConfig() {
+    const errors = [];
+    
+    if (!RADIO_CONFIG.AUDD.API_TOKEN || RADIO_CONFIG.AUDD.API_TOKEN === 'YOUR_AUDD_API_TOKEN_HERE') {
+        errors.push('AudD API token is not configured');
+    }
+    
+    if (!RADIO_CONFIG.CRISP.WEBSITE_ID || RADIO_CONFIG.CRISP.WEBSITE_ID === 'YOUR_CRISP_WEBSITE_ID_HERE') {
+        errors.push('Crisp Website ID is not configured');
+    }
+    
+    if (!RADIO_CONFIG.STREAM.URL) {
+        errors.push('Stream URL is not configured');
+    }
+    
+    if (errors.length > 0) {
+        console.error('Configuration errors:', errors);
+        return false;
+    }
+    
+    return true;
+}
+
+// Auto-validácia pri načítaní
+if (typeof window !== 'undefined') {
+    window.addEventListener('DOMContentLoaded', () => {
+        if (RADIO_CONFIG.DEBUG || RADIO_CONFIG.ENVIRONMENT === 'development') {
+            const isValid = validateConfig();
+            if (!isValid) {
+                console.warn('⚠️ Please configure your API keys in config.js');
+            } else {
+                console.log('✅ Configuration validated successfully');
+            }
+        }
+    });
+}
