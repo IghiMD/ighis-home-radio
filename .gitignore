@@ -30,3 +30,6 @@ Thumbs.db
 # PHP files
 vendor/
 composer.lock
+*backup*/
+_backup*/
+_cleanup*/
