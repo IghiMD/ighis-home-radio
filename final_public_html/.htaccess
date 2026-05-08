@@ -21,11 +21,16 @@ RewriteEngine On
     Deny from all
 </Files>
 
-# Blokuj prístup k log súborom
-<FilesMatch "\.(log|txt)$">
+# Blokuj prístup k log súborom (a citlivým txt logom)
+<FilesMatch "\.log$">
     Order allow,deny
     Deny from all
 </FilesMatch>
+<Files "multi_service_log.txt">
+    Order allow,deny
+    Deny from all
+</Files>
+# robots.txt, ads.txt, security.txt, humans.txt MUSIA byť dostupné
 
 # Blokuj prístup k backup súborom
 <FilesMatch "\.(bak|backup|old|tmp)$">
@@ -90,23 +95,16 @@ RewriteEngine On
 </Directory>
 
 # =============================================
-# CORS NASTAVENIA
+# CORS NASTAVENIA - LEN PRE VEREJNÉ API ENDPOINTY
 # =============================================
+# Login/admin/backup NEMAJÚ mať CORS open (predtým bolo na všetkých .php)
 
-# Povoliť CORS pre API endpointy
-<FilesMatch "\.(php)$">
-    Header always set Access-Control-Allow-Origin "*"
-    Header always set Access-Control-Allow-Methods "GET, POST, OPTIONS"
-    Header always set Access-Control-Allow-Headers "Content-Type, X-API-Token, Authorization"
-    Header always set Access-Control-Max-Age "86400"
-</FilesMatch>
-
-# Špeciálne CORS pre metadata proxy
-<Files "metadata_proxy.php">
+<FilesMatch "^(metadata_proxy|webhook|ai_info|event_api|deezer_proxy|get_config|crisp-config-js)\.php$">
     Header always set Access-Control-Allow-Origin "*"
     Header always set Access-Control-Allow-Methods "GET, POST, OPTIONS"
     Header always set Access-Control-Allow-Headers "Content-Type"
-</Files>
+    Header always set Access-Control-Max-Age "86400"
+</FilesMatch>
 
 # Handle OPTIONS requests for CORS preflight
 RewriteCond %{REQUEST_METHOD} OPTIONS
@@ -122,14 +120,17 @@ Header always set X-Frame-Options "SAMEORIGIN"
 # X-Content-Type-Options (ochrana proti MIME sniffing)
 Header always set X-Content-Type-Options "nosniff"
 
-# X-XSS-Protection (ochrana proti XSS)
-Header always set X-XSS-Protection "1; mode=block"
-
 # Referrer Policy
 Header always set Referrer-Policy "strict-origin-when-cross-origin"
 
-# Content Security Policy (prispôsobte podľa potreby)
-Header always set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://client.crisp.chat https://cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://client.crisp.chat; font-src 'self' https://fonts.gstatic.com https://client.crisp.chat data:; img-src 'self' data: https: http: blob: https://image.crisp.chat; media-src 'self' https: blob:; connect-src 'self' https: wss: ws: wss://client.relay.crisp.chat; frame-src 'self' https:; object-src 'none';"
+# HSTS - vynúť HTTPS (1 rok, includeSubDomains, preload-ready)
+Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
+
+# Permissions Policy - zakáž neznáme API
+Header always set Permissions-Policy "geolocation=(), microphone=(), camera=(), payment=(), usb=()"
+
+# Content Security Policy - bez 'unsafe-eval' (defeats CSP)
+Header always set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' https://client.crisp.chat https://cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://client.crisp.chat; font-src 'self' https://fonts.gstatic.com https://client.crisp.chat data:; img-src 'self' data: https: blob:; media-src 'self' https: blob:; connect-src 'self' https: wss:; frame-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self';"
 
 # =============================================
 # CACHE KONTROLA
@@ -198,9 +199,14 @@ Header always set Content-Security-Policy "default-src 'self'; script-src 'self'
 # URL REWRITING
 # =============================================
 
-# Redirect HTTP na HTTPS (odkomentujte ak chcete vymutiť HTTPS)
-# RewriteCond %{HTTPS} off
-# RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+# Vynúť HTTPS (production)
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP:X-Forwarded-Proto} !=https
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Vynúť www. variant (canonical pre SEO)
+RewriteCond %{HTTP_HOST} ^ighishomeradio\.com$ [NC]
+RewriteRule ^(.*)$ https://www.ighishomeradio.com/$1 [L,R=301]
 
 # Pretty URLs pre API
 RewriteRule ^api/current/?$ webhook.php?action=current [QSA,L]
@@ -225,10 +231,8 @@ RewriteRule ^ai/info/?$ ai_info.php [QSA,L]
 # ERROR PAGES
 # =============================================
 
-# Custom error pages (vytvorte tieto súbory ak chcete vlastné error stránky)
-# ErrorDocument 404 /error/404.html
-# ErrorDocument 403 /error/403.html
-# ErrorDocument 500 /error/500.html
+# Custom 404 page
+ErrorDocument 404 /404.html
 
 # =============================================
 # PHP NASTAVENIA

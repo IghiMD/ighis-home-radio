@@ -1,23 +1,33 @@
 # Robots.txt for Ighi's Home Radio
-# https://ighishomeradio.net/
+# https://www.ighishomeradio.com/
 
 User-agent: *
 Allow: /
-Disallow: /webhook.php
+Allow: /manifest.json
+Disallow: /admin/
+Disallow: /admin.php
+Disallow: /login.php
+Disallow: /logout.php
+Disallow: /backup.php
 Disallow: /monitor.php
-Disallow: /test-audd.html
-Disallow: /*.json$
+Disallow: /webhook.php
+Disallow: /webhook
+Disallow: /notification_trigger.php
+Disallow: /system_checker.php
+Disallow: /health_dashboard.php
+Disallow: /api/
+Disallow: /ai_cache/
+Disallow: /cache/
+Disallow: /data/
+Disallow: /logs/
+Disallow: /backups/
 Disallow: /*.log$
-Disallow: /config.js
+Disallow: /current_song.json
+Disallow: /song_history.json
+Disallow: /metadata_cache.json
+Disallow: /enrichment_status.json
 
-# Sitemaps
-Sitemap: https://ighishomeradio.net/sitemap.xml
-
-# Crawl-delay
-User-agent: *
-Crawl-delay: 1
-
-# Block bad bots
+# Block aggressive SEO scrapers
 User-agent: MJ12bot
 Disallow: /
 
@@ -27,15 +37,8 @@ Disallow: /
 User-agent: SemrushBot
 Disallow: /
 
-# Allow important bots
-User-agent: Googlebot
-Allow: /
+User-agent: DotBot
+Disallow: /
 
-User-agent: Bingbot
-Allow: /
-
-User-agent: facebookexternalhit
-Allow: /
-
-User-agent: Twitterbot
-Allow: /
+# Sitemap
+Sitemap: https://www.ighishomeradio.com/sitemap.xml

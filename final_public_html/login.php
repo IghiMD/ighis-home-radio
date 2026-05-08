@@ -19,45 +19,63 @@ if (isset($_SESSION['authenticated']) && $_SESSION['authenticated'] === true) {
     exit();
 }
 
-// Pokús sa načítať config
+// Načítaj config (POVINNÉ - žiadny hardcoded fallback)
 $config_loaded = false;
 if (file_exists('config.php')) {
     try {
         require_once 'config.php';
-        $config_loaded = true;
+        $config_loaded = defined('ADMIN_USERNAME') && defined('ADMIN_PASSWORD');
     } catch (Exception $e) {
         // Ignoruj chyby
     }
 }
 
-// Definuj konštanty ak neexistujú
-if (!defined('ADMIN_USERNAME')) {
-    define('ADMIN_USERNAME', 'ighi');
+// CSRF token
+if (empty($_SESSION['csrf_token'])) {
+    $_SESSION['csrf_token'] = bin2hex(random_bytes(16));
 }
-if (!defined('ADMIN_PASSWORD')) {
-    define('ADMIN_PASSWORD', 'Ighi@Kika_2025!');
+
+// Rate limit per session (5 pokusov / 15 min)
+if (!isset($_SESSION['login_attempts'])) {
+    $_SESSION['login_attempts'] = ['count' => 0, 'first' => time()];
 }
+$rl =& $_SESSION['login_attempts'];
+if (time() - $rl['first'] > 900) { $rl = ['count' => 0, 'first' => time()]; }
+$locked = $rl['count'] >= 5;
 
 $error = '';
 $success = '';
 
 // Spracovanie prihlásenia
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['login'])) {
-    $username = trim($_POST['username'] ?? '');
-    $password = $_POST['password'] ?? '';
-    
-    // Overenie prihlasovacích údajov
-    if ($username === ADMIN_USERNAME && $password === ADMIN_PASSWORD) {
-        $_SESSION['authenticated'] = true;
-        $_SESSION['username'] = $username;
-        $_SESSION['login_time'] = time();
-        
-        $success = 'Prihlásenie úspešné! Presmerovanie...';
-        
-        // Presmeruj po 2 sekundách
-        header('refresh:2;url=monitor.php');
+    if ($locked) {
+        $error = 'Príliš veľa pokusov. Skús to o 15 minút.';
+    } elseif (!hash_equals($_SESSION['csrf_token'], $_POST['csrf_token'] ?? '')) {
+        $error = 'Neplatný CSRF token. Obnov stránku a skús znova.';
+    } elseif (!$config_loaded) {
+        $error = 'Konfigurácia nie je dostupná. Kontaktuj správcu.';
     } else {
-        $error = 'Nesprávne prihlasovacie údaje!';
+        $username = trim($_POST['username'] ?? '');
+        $password = $_POST['password'] ?? '';
+
+        $stored = ADMIN_PASSWORD;
+        $isHash = (strlen($stored) >= 60 && (str_starts_with($stored, '$2y$') || str_starts_with($stored, '$argon2')));
+        $passOk = $isHash ? password_verify($password, $stored) : hash_equals($stored, $password);
+
+        if ($username === ADMIN_USERNAME && $passOk) {
+            session_regenerate_id(true);
+            $_SESSION['authenticated'] = true;
+            $_SESSION['username'] = $username;
+            $_SESSION['login_time'] = time();
+            unset($_SESSION['login_attempts']);
+
+            $success = 'Prihlásenie úspešné! Presmerovanie...';
+            header('refresh:1;url=monitor.php');
+        } else {
+            $rl['count']++;
+            $error = 'Nesprávne prihlasovacie údaje!';
+            usleep(random_int(200000, 600000)); // jitter proti timing
+        }
     }
 }
 
@@ -267,20 +285,23 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['login'])) {
             <div class="alert alert-success"><?php echo htmlspecialchars($success); ?></div>
         <?php endif; ?>
         
-        <form method="POST">
+        <form method="POST" autocomplete="off">
+            <input type="hidden" name="csrf_token" value="<?php echo htmlspecialchars($_SESSION['csrf_token']); ?>">
             <div class="form-group">
                 <label for="username">Používateľské meno:</label>
-                <input type="text" id="username" name="username" required value="ighi" 
+                <input type="text" id="username" name="username" required
+                       autocomplete="username"
                        placeholder="Zadajte používateľské meno">
             </div>
-            
+
             <div class="form-group">
                 <label for="password">Heslo:</label>
-                <input type="password" id="password" name="password" required 
+                <input type="password" id="password" name="password" required
+                       autocomplete="current-password"
                        placeholder="Zadajte heslo">
             </div>
-            
-            <button type="submit" name="login" class="btn">
+
+            <button type="submit" name="login" class="btn" <?php echo $locked ? 'disabled' : ''; ?>>
                 🔐 Prihlásiť sa
             </button>
         </form>
