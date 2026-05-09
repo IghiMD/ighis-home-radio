@@ -20,7 +20,7 @@ Medzigeneračné internetové rádio vytvorené otcom a dcérou.
 - Multiple API integrácie
 
 ## 📞 Kontakt
-- Web: [ighishomeradio.net](https://ighishomeradio.net)
+- Web: [www.ighishomeradio.com](https://www.ighishomeradio.com)
 - Email: hello@ighishomeradio.com
 
 ## 💖 Podporte nás

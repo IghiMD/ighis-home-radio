@@ -129,14 +129,14 @@ function getEmailTemplate($type, $event, $lang) {
                     </div>
                     
                     <div style="text-align: center; margin: 30px 0;">
-                        <a href="https://ighishomeradio.net" style="background: linear-gradient(135deg, #00ff88, #007aff); color: #000; padding: 15px 30px; text-decoration: none; border-radius: 25px; font-weight: bold;">
+                        <a href="https://www.ighishomeradio.com" style="background: linear-gradient(135deg, #00ff88, #007aff); color: #000; padding: 15px 30px; text-decoration: none; border-radius: 25px; font-weight: bold;">
                             🎵 Listen Now
                         </a>
                     </div>
                     
                     <div style="text-align: center; margin-top: 30px; font-size: 12px; color: #666;">
                         <p>You\'re receiving this because you subscribed to Ighi\'s Home Radio notifications.</p>
-                        <a href="https://ighishomeradio.net/unsubscribe.php?email=' . urlencode('{{EMAIL}}') . '" style="color: #666;">Unsubscribe</a>
+                        <a href="https://www.ighishomeradio.com/unsubscribe.php?email=' . urlencode('{{EMAIL}}') . '" style="color: #666;">Unsubscribe</a>
                     </div>
                 </div>
                 '
@@ -162,14 +162,14 @@ function getEmailTemplate($type, $event, $lang) {
                     </div>
                     
                     <div style="text-align: center; margin: 30px 0;">
-                        <a href="https://ighishomeradio.net" style="background: linear-gradient(135deg, #00ff88, #007aff); color: #000; padding: 15px 30px; text-decoration: none; border-radius: 25px; font-weight: bold;">
+                        <a href="https://www.ighishomeradio.com" style="background: linear-gradient(135deg, #00ff88, #007aff); color: #000; padding: 15px 30px; text-decoration: none; border-radius: 25px; font-weight: bold;">
                             🎵 Počúvať teraz
                         </a>
                     </div>
                     
                     <div style="text-align: center; margin-top: 30px; font-size: 12px; color: #666;">
                         <p>Tento email dostávate, pretože ste sa prihlásili k odbeру notifikácií.</p>
-                        <a href="https://ighishomeradio.net/unsubscribe.php?email=' . urlencode('{{EMAIL}}') . '" style="color: #666;">Odhlásiť odber</a>
+                        <a href="https://www.ighishomeradio.com/unsubscribe.php?email=' . urlencode('{{EMAIL}}') . '" style="color: #666;">Odhlásiť odber</a>
                     </div>
                 </div>
                 '
@@ -191,7 +191,7 @@ function getEmailTemplate($type, $event, $lang) {
                     </div>
                     
                     <div style="text-align: center; margin: 30px 0;">
-                        <a href="https://ighishomeradio.net" style="background: linear-gradient(135deg, #ff2d55, #ff6b35); color: #fff; padding: 20px 40px; text-decoration: none; border-radius: 25px; font-weight: bold; font-size: 18px; animation: pulse 2s infinite;">
+                        <a href="https://www.ighishomeradio.com" style="background: linear-gradient(135deg, #ff2d55, #ff6b35); color: #fff; padding: 20px 40px; text-decoration: none; border-radius: 25px; font-weight: bold; font-size: 18px; animation: pulse 2s infinite;">
                             🎵 JOIN US LIVE!
                         </a>
                     </div>
@@ -213,7 +213,7 @@ function getEmailTemplate($type, $event, $lang) {
                     </div>
                     
                     <div style="text-align: center; margin: 30px 0;">
-                        <a href="https://ighishomeradio.net" style="background: linear-gradient(135deg, #ff2d55, #ff6b35); color: #fff; padding: 20px 40px; text-decoration: none; border-radius: 25px; font-weight: bold; font-size: 18px;">
+                        <a href="https://www.ighishomeradio.com" style="background: linear-gradient(135deg, #ff2d55, #ff6b35); color: #fff; padding: 20px 40px; text-decoration: none; border-radius: 25px; font-weight: bold; font-size: 18px;">
                             🎵 PRIPOJTE SA!
                         </a>
                     </div>
@@ -258,14 +258,14 @@ function getWhatsAppMessage($type, $event, $lang) {
         'announced' => [
             'en' => "🎵 *Ighi's Home Radio*\n\n📅 *NEW SHOW ANNOUNCED!*\n\n🎤 " . ($event['title_en'] ?? '') . "\n\n" . 
                     (($event['date'] && $event['time']) ? "📅 " . date('d.m.Y', strtotime($event['date'])) . " at " . date('H:i', strtotime($event['time'])) . "\n\n" : "") .
-                    "🎧 Listen now: https://ighishomeradio.net",
+                    "🎧 Listen now: https://www.ighishomeradio.com",
             'sk' => "🎵 *Ighi's Home Radio*\n\n📅 *NOVÁ SHOW!*\n\n🎤 " . ($event['title_sk'] ?? '') . "\n\n" . 
                     (($event['date'] && $event['time']) ? "📅 " . date('d.m.Y', strtotime($event['date'])) . " o " . date('H:i', strtotime($event['time'])) . "\n\n" : "") .
-                    "🎧 Počúvať: https://ighishomeradio.net"
+                    "🎧 Počúvať: https://www.ighishomeradio.com"
         ],
         'live' => [
-            'en' => "🔴 *LIVE NOW!*\n\n🎵 *" . ($event['title_en'] ?? '') . "*\n\nWE'RE BROADCASTING RIGHT NOW!\n\n🎧 Join us: https://ighishomeradio.net",
-            'sk' => "🔴 *NAŽIVO!*\n\n🎵 *" . ($event['title_sk'] ?? '') . "*\n\nVYSIELAME PRÁVE TERAZ!\n\n🎧 Pripojte sa: https://ighishomeradio.net"
+            'en' => "🔴 *LIVE NOW!*\n\n🎵 *" . ($event['title_en'] ?? '') . "*\n\nWE'RE BROADCASTING RIGHT NOW!\n\n🎧 Join us: https://www.ighishomeradio.com",
+            'sk' => "🔴 *NAŽIVO!*\n\n🎵 *" . ($event['title_sk'] ?? '') . "*\n\nVYSIELAME PRÁVE TERAZ!\n\n🎧 Pripojte sa: https://www.ighishomeradio.com"
         ]
     ];
     

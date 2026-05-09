@@ -5,9 +5,9 @@
   
   **Cross-Generational Internet Radio Station**
   
-  [![Live Demo](https://img.shields.io/badge/🔴_LIVE-ighishomeradio.net-ff2d55?style=for-the-badge)](https://ighishomeradio.net)
+  [![Live Demo](https://img.shields.io/badge/🔴_LIVE-www.ighishomeradio.com-ff2d55?style=for-the-badge)](https://www.ighishomeradio.com)
   [![PHP](https://img.shields.io/badge/PHP-8.2+-777BB4?style=for-the-badge&logo=php&logoColor=white)](https://php.net)
-  [![Status](https://img.shields.io/badge/status-active-00ff88?style=for-the-badge)](https://ighishomeradio.net)
+  [![Status](https://img.shields.io/badge/status-active-00ff88?style=for-the-badge)](https://www.ighishomeradio.com)
 </div>
 
 ---
@@ -218,7 +218,7 @@ For licensing inquiries, please contact: hello@ighishomeradio.com
 
 ## 📞 Contact
 
-- 🌐 **Website**: [ighishomeradio.net](https://ighishomeradio.net)
+- 🌐 **Website**: [www.ighishomeradio.com](https://www.ighishomeradio.com)
 - 📧 **Email**: hello@ighishomeradio.com
 - 📸 **Instagram**: [@IghisHomeRadio](https://www.instagram.com/IghisHomeRadio/)
 - 🎬 **TikTok**: [@ighishomeradio](https://www.tiktok.com/@ighishomeradio)

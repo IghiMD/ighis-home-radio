@@ -21,6 +21,12 @@ Thumbs.db
 *.log
 *.tmp
 *.cache
+final_public_html/multi_service_log.txt
+final_public_html/song_history.json
+final_public_html/current_song.json
+final_public_html/metadata_cache.json
+final_public_html/enrichment_status.json
+final_public_html/ai_cache/*.json
 
 # IDE files
 .vscode/

@@ -133,7 +133,7 @@ function sendEmail($to, $subject, $htmlBody, $textBody) {
 }
 
 function getEmailTemplate($type, $event, $lang) {
-    $siteUrl = env('SITE_URL', 'https://ighishomeradio.net');
+    $siteUrl = env('SITE_URL', 'https://www.ighishomeradio.com');
     
     $templates = [
         'announced' => [
@@ -287,7 +287,7 @@ function sendWhatsApp($phone, $message) {
 }
 
 function getWhatsAppMessage($type, $event, $lang) {
-    $siteUrl = env('SITE_URL', 'https://ighishomeradio.net');
+    $siteUrl = env('SITE_URL', 'https://www.ighishomeradio.com');
     
     $messages = [
         'announced' => [

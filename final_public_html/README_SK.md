@@ -5,9 +5,9 @@
   
   **Medzigeneračné Internetové Rádio**
   
-  [![Živé vysielanie](https://img.shields.io/badge/🔴_NAŽIVO-ighishomeradio.net-ff2d55?style=for-the-badge)](https://ighishomeradio.net)
+  [![Živé vysielanie](https://img.shields.io/badge/🔴_NAŽIVO-www.ighishomeradio.com-ff2d55?style=for-the-badge)](https://www.ighishomeradio.com)
   [![PHP](https://img.shields.io/badge/PHP-8.2+-777BB4?style=for-the-badge&logo=php&logoColor=white)](https://php.net)
-  [![Status](https://img.shields.io/badge/status-aktívne-00ff88?style=for-the-badge)](https://ighishomeradio.net)
+  [![Status](https://img.shields.io/badge/status-aktívne-00ff88?style=for-the-badge)](https://www.ighishomeradio.com)
 </div>
 
 ---
@@ -156,7 +156,7 @@ Uvítame príspevky! Prosím:
 
 ## 📞 Kontakt
 
-- 🌐 **Web**: [ighishomeradio.net](https://ighishomeradio.net)
+- 🌐 **Web**: [www.ighishomeradio.com](https://www.ighishomeradio.com)
 - 📧 **Email**: hello@ighishomeradio.com
 - 📸 **Instagram**: [@IghisHomeRadio](https://www.instagram.com/IghisHomeRadio/)
 - 🎬 **TikTok**: [@ighishomeradio](https://www.tiktok.com/@ighishomeradio)

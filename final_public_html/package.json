@@ -27,12 +27,12 @@
   "author": {
     "name": "Ighi's Home Radio",
     "email": "hello@ighishomeradio.com",
-    "url": "https://ighishomeradio.net"
+    "url": "https://www.ighishomeradio.com"
   },
   "bugs": {
     "url": "https://github.com/yourusername/ighis-home-radio/issues"
   },
-  "homepage": "https://ighishomeradio.net",
+  "homepage": "https://www.ighishomeradio.com",
   "devDependencies": {
     "prettier": "^3.0.0"
   },

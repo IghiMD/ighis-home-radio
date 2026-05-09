@@ -20,7 +20,7 @@ if (!defined('CURRENT_SONG_FILE')) {
 
 // Function to update song
 function updateFromICY() {
-    $metadataUrl = 'https://ighishomeradio.net/metadata_proxy.php';
+    $metadataUrl = 'https://www.ighishomeradio.com/metadata_proxy.php';
     
     $ch = curl_init($metadataUrl);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
