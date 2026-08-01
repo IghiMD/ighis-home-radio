@@ -38,7 +38,11 @@ if "%MUSIC_FOLDER%"=="" (
     goto :end
 )
 
-rem Strip a trailing backslash (e.g. "C:\Music\") - it breaks quoting on Windows.
+rem Strip any quotes you typed around the path (e.g. "C:\Music") - they get
+rem re-added below, and doubled quotes break the command syntax.
+set MUSIC_FOLDER=%MUSIC_FOLDER:"=%
+
+rem Strip a trailing backslash (e.g. C:\Music\) - it breaks quoting on Windows.
 if "%MUSIC_FOLDER:~-1%"=="\" set MUSIC_FOLDER=%MUSIC_FOLDER:~0,-1%
 
 if not exist "%MUSIC_FOLDER%" (
