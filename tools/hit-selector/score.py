@@ -103,6 +103,12 @@ def main():
     lastfm = {r["song_key"]: int(r["posluchaci"]) for r in read_csv("lastfm.csv")}
     overrides = {norm(r["interpret"]) + "|" + norm(r["nazov"]): r["trieda"].strip().upper()
                  for r in read_csv("vynimky.csv")}
+    manual = {}
+    for name in sorted(os.listdir(D("data"))):
+        if name.startswith("rozhodnutia") and name.endswith(".csv"):  # novší súbor prepíše starší
+            for r in csv.DictReader(open(D("data", name), encoding="utf-8-sig")):
+                if r.get("trieda", "").strip().upper() in "ABCD" and r.get("subor"):
+                    manual[r["subor"]] = r["trieda"].strip().upper()
     or_list = set()
     p = D("data", "operacne_saly.txt")
     if os.path.exists(p):
@@ -220,6 +226,12 @@ def main():
                         "v_mirrore": f["in_mirror"], "v_archive": f["in_archive"],
                         "subor": os.path.basename(f["path_mirror"] or f["path_archive"]),
                         "song_key": s["key"]})
+            # ručné rozhodnutie z posluchu má prednosť (platí pre konkrétny súbor)
+            m = manual.get(row["subor"])
+            if m:
+                row["trieda"], row["rucna_vynimka"] = m, 1
+                row["do_vysielania"] = int(m in "AB")
+            row["len_po_21"] = int(bool(m == "C"))
             rows.append(row)
     rows.sort(key=lambda r: (-(r["skore"] or -1), r["interpret"]))
     cols = list(rows[0].keys())
@@ -246,9 +258,10 @@ def main():
     stats = {
         "IHR_A_megahity.m3u": m3u("IHR_A_megahity.m3u", [r for r in orig if r["trieda"] == "A"]),
         "IHR_B_hity.m3u": m3u("IHR_B_hity.m3u", [r for r in orig if r["trieda"] == "B"]),
-        # pevné pravidlo: remix len večer a len ak je originál trieda A
-        "IHR_vecer_remixy.m3u": m3u("IHR_vecer_remixy.m3u",
-                                    [r for r in air if r["typ_verzie"] == "remix" and r["trieda"] == "A"]),
+        # po 21:00 navyše: remixy (len ak je originál trieda A) a skladby ručne zaradené do C
+        "IHR_vecer_po21.m3u": m3u("IHR_vecer_po21.m3u",
+                                    [r for r in air if r["typ_verzie"] == "remix" and r["trieda"] == "A"]
+                                    + [r for r in rows if r["len_po_21"] and r["v_mirrore"] == "1"]),
     }
 
     # operačné sály 08-16: pevné pravidlá platia vždy (originál, bez explicitných textov, bežná dĺžka)
@@ -287,6 +300,7 @@ def main():
         print(" ", pool, dict(sorted(Counter(s["cls"] for s in songs if s["pool"] == pool).items())))
     print("pokrytie zdrojov:", {n: sum(1 for s in songs if n in s["sig"]) for n in sig_names})
     mir = {r["song_key"] for r in rows if r["v_mirrore"] == "1"}
+    print("ručné rozhodnutia:", len(manual), dict(sorted(Counter(manual.values()).items())))
     print("v mirrore do vysielania:", len({r["song_key"] for r in air}), "z", len(mir))
     print(stats)
 
