@@ -1,8 +1,8 @@
 {
-  "_komentar": "Prahy a pravidlá výberu. Skóre známosti je 0-100.",
-  "trieda_A_od": 80,
-  "trieda_B_od": 58,
-  "trieda_C_od": 45,
+  "_komentar": "Prahy tried. Skóre = 70 % najsilnejší + 30 % druhý najsilnejší signál (0-100).",
+  "trieda_A_od": 78,
+  "trieda_B_od": 55,
+  "trieda_C_od": 40,
   "zanre_len_A": [
     "Rap/Hip Hop",
     "Rock",
@@ -21,8 +21,6 @@
     "Films/Games",
     "Soundtracks"
   ],
-  "vaha_rank": 0.85,
-  "vaha_fanusikovia": 0.15,
   "balada_bpm_pod": 95,
   "max_dlzka_dna_s": 330,
   "bloky": {
@@ -32,10 +30,9 @@
   },
   "czsk": {
     "_komentar": "SK/CZ fond: skóre je percentil vo vlastnom fonde, preto vlastné prahy",
-    "trieda_A_od": 80,
-    "trieda_B_od": 50,
-    "trieda_C_od": 30
+    "trieda_A_od": 75,
+    "trieda_B_od": 52,
+    "trieda_C_od": 35
   },
-  "kworb_streamy_A": 1500000000,
   "operacne_saly_min_skladieb": 250
 }
