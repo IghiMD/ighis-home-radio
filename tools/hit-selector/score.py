@@ -33,7 +33,8 @@ def tkey(title):
 
 
 def tokens(artist):
-    return {w for w in norm(artist).split() if len(w) >= 2 and w not in STOP}
+    t = {w for w in norm(artist).split() if len(w) >= 2 and w not in STOP}
+    return t or {norm(artist).replace(" ", "")}  # napr. "t.A.T.u." -> "tatu"
 
 
 class Index:
@@ -191,7 +192,11 @@ def main():
             th = cfg["czsk"] if s["pool"] == "czsk" else cfg
             sc, n = s["score"], s["n_sig"]
             radio_hit = sig.get("radio_czsk", 0) >= th["radio_staci_od"]
-            if sc >= th["trieda_A_od"] and n >= th["trieda_A_min_zdrojov"]:
+            # megahit musí mať dôkaz masového dosahu (rádiá, rebríčky, playlisty, lokálne Spotify),
+            # nestačí popularita na streamovacích službách
+            mass = max(sig.get(x, 0) for x in ("radio_czsk", "rebricky_us_uk", "playlisty", "spotify_czsk"))
+            a_ok = (sc >= th["trieda_A_od"] and n >= th["trieda_A_min_zdrojov"]) or (sc >= 95 and n >= 2)
+            if a_ok and mass >= th["trieda_A_masovy_zdroj_od"]:
                 s["cls"] = "A"
             elif (sc >= th["trieda_B_od"] and n >= th["trieda_B_min_zdrojov"]) or radio_hit:
                 s["cls"] = "B"

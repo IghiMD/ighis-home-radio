@@ -35,10 +35,12 @@
     "trieda_B_od": 72,
     "trieda_B_min_zdrojov": 2,
     "trieda_C_od": 50,
-    "radio_staci_od": 85
+    "radio_staci_od": 85,
+    "trieda_A_masovy_zdroj_od": 60
   },
   "operacne_saly_min_skladieb": 250,
   "trieda_A_min_zdrojov": 3,
   "trieda_B_min_zdrojov": 2,
-  "radio_staci_od": 85
+  "radio_staci_od": 85,
+  "trieda_A_masovy_zdroj_od": 60
 }
