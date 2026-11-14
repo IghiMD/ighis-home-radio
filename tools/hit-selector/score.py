@@ -96,6 +96,7 @@ def main():
     for r in read_csv("deezer_playlists.csv"):
         plists.add(r["interpret"], r["nazov"], (r["skupina"], int(r["pocet_playlistov"])))
 
+    lastfm = {r["song_key"]: int(r["posluchaci"]) for r in read_csv("lastfm.csv")}
     overrides = {norm(r["interpret"]) + "|" + norm(r["nazov"]): r["trieda"].strip().upper()
                  for r in read_csv("vynimky.csv")}
     or_list = set()
@@ -123,6 +124,7 @@ def main():
                           rank=(d.get("rank") or 0) if d.get("matched") else 0,
                           fans=d.get("artist_fans", 0) if d.get("matched") else 0))
     cz_rank = pct_fn([s["rank"] for s in songs if s["pool"] == "czsk" and s["rank"]])
+    lf_cz = pct_fn([lastfm.get(s["key"], 0) for s in songs if s["pool"] == "czsk" and lastfm.get(s["key"], 0)])
     max_pl = defaultdict(lambda: 1)
     for lst in plists.by_title.values():
         for _, (g, n) in lst:
@@ -164,6 +166,10 @@ def main():
             g, n = max(v, key=lambda x: x[1])
             if n >= 2:
                 sig["playlisty"] = min(100.0, 45 + 55 * math.sqrt(n / max(max_pl[g] * 0.5, 2)))
+        # 7) Last.fm: počet poslucháčov skladby (dlhodobý, nie len aktuálny záujem)
+        lf = lastfm.get(s["key"], 0)
+        if lf:
+            sig["lastfm"] = lf_cz(lf) if s["pool"] == "czsk" else logscale(lf, 3e4, 1.5e6)
         s["sig"] = sig
         vals = sorted(sig.values(), reverse=True) + [0, 0]
         # megahit musí potvrdiť druhý zdroj: 70 % najsilnejší + 30 % druhý najsilnejší signál
@@ -187,7 +193,7 @@ def main():
     # --- výstupy ---------------------------------------------------------
     os.makedirs(D("out"), exist_ok=True)
     sig_names = ["deezer", "spotify_svet", "spotify_czsk", "radio_czsk", "radio_domace",
-                 "rebricky_us_uk", "playlisty"]
+                 "rebricky_us_uk", "playlisty", "lastfm"]
     rows = []
     for s in songs:
         d = s["dz"] if s["dz"].get("matched") else {}
