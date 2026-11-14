@@ -28,6 +28,10 @@ def base_title(t):
     return re.sub(r"\s+-\s+.+$", "", t).strip() or t
 
 
+def tkey(title):
+    return re.sub(r"^(the|a) ", "", norm(base_title(title)))
+
+
 def tokens(artist):
     return {w for w in norm(artist).split() if len(w) >= 2 and w not in STOP}
 
@@ -39,11 +43,11 @@ class Index:
         self.by_title = defaultdict(list)
 
     def add(self, artist, title, value):
-        self.by_title[norm(base_title(title))].append((tokens(artist), value))
+        self.by_title[tkey(title)].append((tokens(artist), value))
 
     def find(self, artist, title):
         ta = tokens(artist)
-        return [v for at, v in self.by_title.get(norm(title), ()) if at & ta]
+        return [v for at, v in self.by_title.get(tkey(title), ()) if at & ta]
 
 
 def pct_fn(values):
@@ -145,16 +149,13 @@ def main():
         if v:
             sig["spotify_czsk"] = logscale(max(v), 1.5e5, 1.5e7)
         # 4) rádiá ČR/SR 2006-2026 (IFPI): všeobecná Top 100 + domáca Top 50
-        v = radio.find(a, t)
-        if v:
-            best = max(v)
-            sig["radio_czsk"] = 55 + 0.45 * best[0]
+        cand = [(55 + 0.45 * x[0], x) for x in radio.find(a, t)]
+        if s["pool"] == "czsk":
+            cand += [(50 + 0.5 * x[0], x) for x in radio_dom.find(a, t)]
+        if cand:
+            val, best = max(cand)
+            sig["radio_czsk"] = val
             s["radio_info"] = f"{best[3]}: {best[1]} týž., max {best[2]}."
-        v = radio_dom.find(a, t)
-        if v and s["pool"] == "czsk":
-            best = max(v)
-            sig["radio_domace"] = 50 + 0.5 * best[0]
-            s.setdefault("radio_info", f"{best[3]}: {best[1]} týž., max {best[2]}.")
         # 5) historické rebríčky US (ročný) a UK (Top 10)
         v = hist.find(a, t)
         if v:
@@ -182,9 +183,16 @@ def main():
             s["cls"] = "?"
         else:
             th = cfg["czsk"] if s["pool"] == "czsk" else cfg
-            sc = s["score"]
-            s["cls"] = ("A" if sc >= th["trieda_A_od"] else "B" if sc >= th["trieda_B_od"]
-                        else "C" if sc >= th["trieda_C_od"] else "D")
+            sc, n = s["score"], s["n_sig"]
+            radio_hit = sig.get("radio_czsk", 0) >= th["radio_staci_od"]
+            if sc >= th["trieda_A_od"] and n >= th["trieda_A_min_zdrojov"]:
+                s["cls"] = "A"
+            elif (sc >= th["trieda_B_od"] and n >= th["trieda_B_min_zdrojov"]) or radio_hit:
+                s["cls"] = "B"
+            elif sc >= th["trieda_C_od"]:
+                s["cls"] = "C"
+            else:
+                s["cls"] = "D"
         k = norm(FEAT_SPLIT.split(a)[0]) + "|" + norm(t)
         if k in overrides or s["key"] in overrides:
             s["cls"], s["override"] = overrides.get(k) or overrides[s["key"]], 1
@@ -192,7 +200,7 @@ def main():
 
     # --- výstupy ---------------------------------------------------------
     os.makedirs(D("out"), exist_ok=True)
-    sig_names = ["deezer", "spotify_svet", "spotify_czsk", "radio_czsk", "radio_domace",
+    sig_names = ["deezer", "spotify_svet", "spotify_czsk", "radio_czsk",
                  "rebricky_us_uk", "playlisty", "lastfm"]
     rows = []
     for s in songs:

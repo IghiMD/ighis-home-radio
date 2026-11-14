@@ -11,20 +11,31 @@ playlisty pre AzuraCast podľa dennej doby.
 | 08–16 | `IHR_operacne_saly` | len najväčšie hity, bez remixov a explicitných textov |
 | 21–06 | A + B + `IHR_vecer_remixy` | navyše remixy skladieb, ktorých originál je trieda A |
 
-## Ako sa počíta známosť (skóre 0–100)
+## Ako sa počíta hitovosť (skóre 0–100)
 
-1. **Deezer rank** skladby (85 %). Berie sa najpopulárnejšia verzia originálu, takže
-   remaster ani remix skóre neznižuje. Zahraničné skladby: logaritmická škála
-   (rank 100 000 = 0, 1 000 000 = 100). SK/CZ skladby: poradie vo vlastnom fonde,
-   lebo svetové čísla ich podhodnocujú.
-2. **Fanúšikovia interpreta** (15 %).
-3. **Spotify – 2 500 najstreamovanejších skladieb všetkých čias** (kworb.net). Skladba
-   z tohto zoznamu nemôže spadnúť pod triedu B; nad 1,5 mld. streamov je vždy A.
-   Vyvažuje to, že Deezer uprednostňuje novinky.
+Každý zdroj dá skladbe signál 0–100. Skóre = 70 % najsilnejší + 30 % druhý najsilnejší
+signál, takže megahit musí potvrdiť aspoň druhý, nezávislý zdroj.
 
-Triedy: **A** megahit, **B** hit, **C** a **D** sa nehrajú (súbory sa nemažú).
+| Zdroj | Čo meria | Súbor |
+|---|---|---|
+| Rádiá ČR a SR (ČNS IFPI) | týždenné hitparády hranosti 2006–2026: Top 100 a domáca Top 50 | `data/ifpi_radio.csv` |
+| Spotify ČR + SR (kworb.net) | prehratia v ČR a SR od 2017, prepočet na obyvateľa | `data/kworb_spotify_czsk.csv` |
+| Spotify svet (kworb.net) | 2 500 najstreamovanejších skladieb všetkých čias | `data/kworb_spotify_top.csv` |
+| Rebríčky US a UK (Wikipédia) | Billboard ročná Top 100 a UK Top 10, 1960–2025 | `data/wiki_charts.csv` |
+| Hitové playlisty (Deezer) | v koľkých playlistoch typu „České hity“, „80s hits“ skladba je | `data/deezer_playlists.csv` |
+| Deezer rank | aktuálna popularita; berie sa najpopulárnejšia verzia originálu | `data/deezer_cache.jsonl` |
+| Last.fm | počet poslucháčov skladby (treba `LASTFM_API_KEY`) | `data/lastfm.csv` |
+
+SK/CZ skladby sa pri Deezeri a Last.fm hodnotia poradím vo vlastnom fonde, lebo svetové
+čísla ich podhodnocujú.
+
+Triedy (prahy sú v `config.json`):
+
+- **A megahit** – vysoké skóre a potvrdenie z viacerých zdrojov,
+- **B hit** – nižšie skóre s aspoň dvoma zdrojmi, alebo veľmi silné hranie v rádiách ČR/SR,
+- **C, D** – nehrajú sa (súbory sa nemažú).
+
 Rap, rock, alternatíva a ďalšie okrajové žánre idú do vysielania len v triede A.
-Prahy sú v `config.json`.
 
 ## Pevné pravidlá (neobíde ich ani ručná výnimka)
 
@@ -55,6 +66,22 @@ python3 fetch_kworb.py
 ```
 
 ```bash
+python3 fetch_ifpi.py
+```
+
+```bash
+python3 fetch_wiki_charts.py
+```
+
+```bash
+python3 fetch_deezer_playlists.py
+```
+
+```bash
+LASTFM_API_KEY=... python3 fetch_lastfm.py
+```
+
+```bash
 python3 score.py
 ```
 
@@ -68,12 +95,18 @@ kde skončilo.
 - `IHR_*.m3u` – playlisty na import do AzuraCastu (názvy súborov z mirroru),
 - `hity_na_doplnenie_do_mirroru.csv` – hity z New Archive, ktoré na streame chýbajú,
 - `vyradit_z_rotacie.csv` – čo je teraz na streame a hitom nie je,
-- `na_rozhodnutie.csv` – skladby, ktoré sa nepodarilo spoľahlivo spárovať.
+- `na_rozhodnutie.csv` – skladby bez akéhokoľvek signálu,
+- `hranicne_pripady.csv` – skladby tesne okolo prahu triedy B, vhodné na ručné posúdenie.
 
 ## Oponentúra
 
 Návrh pripomienkovali GPT-6.1 Sol a Gemini 4 Carbon (14. 11. 2026). Zapracované:
-orezanie škály, samostatné prahy pre SK/CZ, druhý nezávislý signál, pevné pravidlá
-nad výnimkami, najvyšší rank naprieč verziami, minimálna veľkosť denného bloku.
-Nezapracované: lokálne dáta o rádiovom hraní v SK/CZ (IFPI/Radiomonitor nie sú voľne
-dostupné) a test rozpoznania skladieb u poslucháčov.
+orezanie škál, samostatné prahy pre SK/CZ, viac nezávislých zdrojov vrátane lokálneho
+rádiového hrania, pevné pravidlá nad výnimkami, najvyšší rank naprieč verziami,
+minimálna veľkosť denného bloku. Nezapracované: test rozpoznania skladieb u poslucháčov.
+
+## Známe obmedzenia
+
+- Rádiové hitparády ČR/SR sú verejne dostupné až od roku 2006; staršie domáce hity
+  stoja na playlistoch, lokálnom Spotify a Last.fm.
+- Zhoda so zdrojmi ide cez názov a interpreta; odlišne zapísané názvy sa nemusia nájsť.

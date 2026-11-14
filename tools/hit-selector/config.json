@@ -1,8 +1,8 @@
 {
-  "_komentar": "Prahy tried. Skóre = 70 % najsilnejší + 30 % druhý najsilnejší signál (0-100).",
-  "trieda_A_od": 78,
-  "trieda_B_od": 55,
-  "trieda_C_od": 40,
+  "_komentar": "Skóre = 70 % najsilnejší + 30 % druhý najsilnejší signál (0-100). Trieda A/B vyžaduje aj minimálny počet zdrojov so signálom aspoň 50. Skladba s veľmi silným rádiovým hraním v ČR/SR (radio_staci_od) je vždy aspoň B.",
+  "trieda_A_od": 88,
+  "trieda_B_od": 75,
+  "trieda_C_od": 55,
   "zanre_len_A": [
     "Rap/Hip Hop",
     "Rock",
@@ -29,10 +29,16 @@
     "vecer_remixy": "21:00-06:00"
   },
   "czsk": {
-    "_komentar": "SK/CZ fond: skóre je percentil vo vlastnom fonde, preto vlastné prahy",
-    "trieda_A_od": 75,
-    "trieda_B_od": 52,
-    "trieda_C_od": 35
+    "_komentar": "SK/CZ fond má menej zdrojov (bez svetového Spotify a US/UK rebríčkov), preto vlastné prahy",
+    "trieda_A_od": 88,
+    "trieda_A_min_zdrojov": 2,
+    "trieda_B_od": 72,
+    "trieda_B_min_zdrojov": 2,
+    "trieda_C_od": 50,
+    "radio_staci_od": 85
   },
-  "operacne_saly_min_skladieb": 250
+  "operacne_saly_min_skladieb": 250,
+  "trieda_A_min_zdrojov": 3,
+  "trieda_B_min_zdrojov": 2,
+  "radio_staci_od": 85
 }
