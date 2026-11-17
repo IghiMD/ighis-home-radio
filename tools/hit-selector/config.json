@@ -1,0 +1,46 @@
+{
+  "_komentar": "Skóre = 70 % najsilnejší + 30 % druhý najsilnejší signál (0-100). Trieda A/B vyžaduje aj minimálny počet zdrojov so signálom aspoň 50. Skladba s veľmi silným rádiovým hraním v ČR/SR (radio_staci_od) je vždy aspoň B.",
+  "trieda_A_od": 88,
+  "trieda_B_od": 75,
+  "trieda_C_od": 55,
+  "zanre_len_A": [
+    "Rap/Hip Hop",
+    "Rock",
+    "Alternative",
+    "Metal",
+    "Hard Rock",
+    "Indie Rock",
+    "Indie Pop",
+    "R&B",
+    "Reggae",
+    "Country",
+    "Folk",
+    "Jazz",
+    "Blues",
+    "Classical",
+    "Films/Games",
+    "Soundtracks"
+  ],
+  "balada_bpm_pod": 95,
+  "max_dlzka_dna_s": 330,
+  "bloky": {
+    "den_hity": "06:00-08:00 a 16:00-21:00",
+    "operacne_saly": "08:00-16:00",
+    "vecer_remixy": "21:00-06:00"
+  },
+  "czsk": {
+    "_komentar": "SK/CZ fond má menej zdrojov (bez svetového Spotify a US/UK rebríčkov), preto vlastné prahy",
+    "trieda_A_od": 88,
+    "trieda_A_min_zdrojov": 2,
+    "trieda_B_od": 72,
+    "trieda_B_min_zdrojov": 2,
+    "trieda_C_od": 50,
+    "radio_staci_od": 85,
+    "trieda_A_masovy_zdroj_od": 60
+  },
+  "operacne_saly_min_skladieb": 250,
+  "trieda_A_min_zdrojov": 3,
+  "trieda_B_min_zdrojov": 2,
+  "radio_staci_od": 85,
+  "trieda_A_masovy_zdroj_od": 60
+}
