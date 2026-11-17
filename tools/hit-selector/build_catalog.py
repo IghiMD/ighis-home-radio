@@ -15,6 +15,7 @@ SOURCES = [
     (re.compile(r"/RadioLibrary/_azuracast_mirror/[^/]+$"), "mirror", ""),
     (re.compile(r"/New Archive/Dance/[^/]+$"), "archive", "dance"),
     (re.compile(r"/New Archive/CzechoSlovak/[^/]+$"), "archive", "czsk"),
+    (re.compile(r"/New Archive/Pop/[^/]+$"), "archive", "pop"),
 ]
 
 
