@@ -7,7 +7,7 @@ sombr,12 to 12,original,intl,99.6,C,0,6,98,79,100,99,70,,87,"sk_radio100: 62 tý
 Lana Del Rey,Young And Beautiful,original,intl,99.5,B,0,4,98,96,47,59,,,100,"cz_radio100: 9 týž., max 69.",Alternative,1,115.8,0,0,235,,1,0,Lana Del Rey - Young And Beautiful.mp3,lana del rey|young and beautiful,0
 System Of A Down,Toxicity,original,intl,99.3,B,0,3,98,90,11,,,,100,,Rock,1,,0,0,218,,1,0,System Of A Down - Toxicity.mp3,system of|toxicity,0
 Tate McRae,greedy,original,intl,99.3,C,0,6,97,96,100,91,83,,98,"sk_radio100: 41 týž., max 4.",Alternative,0,,0,1,131,1,1,1,Tate McRae - greedy.mp3,tate mcrae|greedy,1
-The Walters,I Love You So,original,intl,99.1,B,0,3,92,97,40,,,,100,,Alternative,1,,0,0,160,,1,0,The Walters - I Love You So.mp3,the walters|i love you so,0
+The Walters,I Love You So,original,intl,99.1,B,0,3,92,97,40,,,,100,,Alternative,1,,0,0,160,,1,1,The Walters - I Love You So.mp3,the walters|i love you so,0
 Muse,Starlight,original,intl,99.0,B,0,2,97,,,,,,100,,Alternative,1,121.6,0,0,243,,1,0,Muse - Starlight.mp3,muse|starlight,0
 Pink Floyd,Time,original,intl,98.9,B,0,2,96,,,,,,100,,Rock,1,,0,0,422,,1,0,Pink Floyd - Time.mp3,pink floyd|time,0
 Billie Eilish,ocean eyes,original,intl,98.8,B,0,3,95,96,46,,,,100,,Alternative,1,145.07,0,0,200,,1,0,Billie Eilish - ocean eyes.mp3,billie eilish|ocean eyes,0
@@ -42,7 +42,7 @@ Mirai,Chci tančit,original,czsk,96.1,C,0,4,88,,45,100,,71,82,"cz_radio100: 150 
 Foo Fighters,My Hero,original,intl,96.0,B,0,2,87,,,,,,100,,Alternative,1,154.27,0,0,260,,1,0,Foo Fighters - My Hero.mp3,foo fighters|my hero,0
 Led Zeppelin,Stairway to Heaven,original,intl,96.0,B,0,3,80,87,,,,,100,,Rock,1,143.1,0,0,482,,1,0,Led Zeppelin - Stairway to Heaven.mp3,led zeppelin|stairway to heaven,0
 Kabát,Na sever,original,czsk,95.9,D,0,4,94,,0,59,,77,97,"cz_radio50_domace: 6 týž., max 32.",Pop,0,107.7,0,0,208,1,1,1,Kabát - Na sever.mp3,kabat|na sever,0
-d4vd,Here With Me,original,intl,95.8,B,0,3,85,92,34,,,,97,,Alternative,1,,0,0,242,,1,0,d4vd - Here With Me.mp3,d4vd|here with me,0
+d4vd,Here With Me,original,intl,95.8,B,0,3,85,92,34,,,,97,,Alternative,1,,0,0,242,,1,1,d4vd - Here With Me.mp3,d4vd|here with me,0
 KT Tunstall,Suddenly I See,original,intl,95.7,B,0,2,93,,,,,,97,,Rock,1,200.7,0,0,192,,1,0,KT Tunstall - Suddenly I See.mp3,kt tunstall|suddenly i see,0
 Lionel Richie,All Night Long (All Night) (Single Version),original,intl,95.7,D,0,2,46,,,,95,96,44,,Classical,1,108.8,0,0,294,1,1,1,Lionel Richie - All Night Long (All Night) (Single Version).mp3,lionel richie|all night long,0
 Fleetwood Mac,The Chain,original,intl,95.5,B,0,3,97,93,0,,,,78,,Rock,1,151.44,0,0,268,,1,0,Fleetwood Mac - The Chain.mp3,fleetwood mac|the chain,0
@@ -82,10 +82,10 @@ Linkin Park,A Place for My Head,original,intl,92.8,B,0,2,89,,0,,,,94,,Alternativ
 beabadoobee,Glue Song,original,intl,92.8,B,0,2,83,,,,,,97,,Alternative,1,,0,0,135,,1,0,beabadoobee - Glue Song.mp3,beabadoobee|glue song,0
 The Drums,Money,original,intl,92.7,B,0,2,86,,,,,,95,,Alternative,1,102.6,0,0,233,,1,0,The Drums - Money.mp3,the drums|money,0
 Linkin Park,Runaway,original,intl,92.4,B,0,2,87,,0,,,,95,,Alternative,1,109.1,0,0,183,,1,0,Linkin Park - Runaway.mp3,linkin park|runaway,0
-50 Cent,Disco Inferno,original,intl,92.3,B,0,2,85,,,,96,,,,Rap/Hip Hop,1,97.05,0,1,216,,1,0,50 Cent - Disco Inferno.mp3,50 cent|disco inferno,0
+50 Cent,Disco Inferno,original,intl,92.3,B,0,2,85,,,,96,,,,Rap/Hip Hop,1,97.05,0,1,216,,1,1,50 Cent - Disco Inferno.mp3,50 cent|disco inferno,0
 David Bowie,Let’s Dance,original,intl,92.3,B,0,2,91,,0,,93,,0,,Rock,1,113.89,0,0,249,,1,0,David Bowie - Let’s Dance.mp3,david bowie|let s dance,0
 David Bowie,Let’s Dance (DMC Remix 2016 DJ Ivan Santana Remix Re-Edit),remix,intl,92.3,B,0,2,91,,0,,93,,0,,Rock,1,113.89,0,0,249,,1,0,David Bowie - Let’s Dance (DMC Remix 2016 DJ Ivan Santana Remix Re-Edit).mp3,david bowie|let s dance,0
-Black Eyed Peas,Don’t Phunk With My Heart,original,intl,92.1,B,0,2,86,,,,95,,0,,Rap/Hip Hop,1,130.8,0,0,244,,1,0,Black Eyed Peas - Don’t Phunk With My Heart.mp3,black eyed peas|don t phunk with my heart,0
+Black Eyed Peas,Don’t Phunk With My Heart,original,intl,92.1,B,0,2,86,,,,95,,0,,Rap/Hip Hop,1,130.8,0,0,244,,1,1,Black Eyed Peas - Don’t Phunk With My Heart.mp3,black eyed peas|don t phunk with my heart,0
 Trevor Daniel,Falling,original,intl,92.1,D,0,5,89,93,85,,91,,80,,Pop,0,126.82,0,0,159,1,1,1,Trevor Daniel - Falling.mp3,trevor daniel|falling,0
 Led Zeppelin,Immigrant Song,original,intl,92.0,B,0,3,90,82,,,,,93,,Rock,1,112.3,0,0,146,,1,0,Led Zeppelin - Immigrant Song.mp3,led zeppelin|immigrant song,0
 Lorde,Green Light,original,intl,91.9,D,0,5,84,77,33,69,,74,95,"cz_radio100: 6 týž., max 29.",Alternative,1,128.8,0,0,234,1,1,1,Lorde - Green Light.mp3,lorde|green light,0
@@ -156,7 +156,7 @@ Duran Duran,Hungry Like the Wolf,original,intl,88.7,D,0,4,78,,,,93,74,77,,Rock,1
 Giveon,Heartbreak Anniversary,original,intl,88.7,B,0,3,87,90,31,,,,80,,R&B,1,,0,0,198,,1,0,Giveon - Heartbreak Anniversary.mp3,giveon|heartbreak anniversary,0
 My Chemical Romance,Dead!,original,intl,88.7,B,0,2,77,,,,,,94,,Alternative,1,99.38,0,1,196,,1,0,My Chemical Romance - Dead!.mp3,my chemical romance|dead,0
 The Notorious B.I.G.,Mo Money Mo Problems (Radio Mix),original,intl,88.7,B,0,2,81,,,,92,,36,,Rap/Hip Hop,1,208.8,0,1,257,,1,0,The Notorious B.I.G. - Mo Money Mo Problems (Radio Mix).mp3,the notorious b i g|mo money mo problems,0
-Beyoncé & Shakira,Beautiful Liar,original,intl,88.6,B,0,2,49,,,86,90,,0,"cz_radio100: 19 týž., max 8.",R&B,1,183.8,0,0,148,,1,0,Beyoncé & Shakira - Beautiful Liar.mp3,beyonce|beautiful liar,0
+Beyoncé & Shakira,Beautiful Liar,original,intl,88.6,B,0,2,49,,,86,90,,0,"cz_radio100: 19 týž., max 8.",R&B,1,183.8,0,0,148,,1,1,Beyoncé & Shakira - Beautiful Liar.mp3,beyonce|beautiful liar,0
 Chinaski,Vrchlabí,original,czsk,88.6,C,0,3,16,,,96,,71,71,"cz_radio50_domace: 51 týž., max 2.",Pop,0,86,1,0,234,1,1,0,Chinaski - Vrchlabí.mp3,chinaski|vrchlabi,1
 Ella Mai,Boo’d Up,original,intl,88.6,B,0,2,76,,0,,94,,0,,R&B,1,164.06,0,0,239,,1,0,Ella Mai - Boo’d Up.mp3,ella mai|boo d up,0
 The Who,Behind Blue Eyes,original,intl,88.6,B,0,2,88,,,,,,89,,Rock,1,124.2,0,0,220,,1,0,The Who - Behind Blue Eyes.mp3,the who|behind blue eyes,0
@@ -197,7 +197,7 @@ Post Malone,White Iverson,original,intl,87.5,B,0,4,83,88,0,,74,,87,,Rap/Hip Hop,
 Rammstein,Amerika,original,intl,87.5,B,0,2,89,,0,,,,85,,Metal,1,124.91,0,0,226,,1,0,Rammstein - Amerika.mp3,rammstein|amerika,0
 Taylor Swift,willow,original,intl,87.5,B,0,4,85,83,39,,83,,89,,Alternative,1,,0,0,214,,1,0,Taylor Swift - willow.mp3,taylor swift|willow,0
 Atomic Kitten,The Tide Is High (Get the Feeling),original,intl,87.4,B,0,2,82,,,,90,,8,,Rock,1,103.9,0,0,206,,1,0,Atomic Kitten - The Tide Is High (Get the Feeling).mp3,atomic kitten|the tide is high,0
-Atomic Kitten,The Tide Is High (Radio Mix),original,intl,87.4,B,0,2,82,,,,90,,8,,Rock,1,103.9,0,0,206,,1,0,Atomic Kitten - The Tide Is High (Radio Mix).mp3,atomic kitten|the tide is high,0
+Atomic Kitten,The Tide Is High (Radio Mix),original,intl,87.4,B,0,2,82,,,,90,,8,,Rock,1,103.9,0,0,206,,1,1,Atomic Kitten - The Tide Is High (Radio Mix).mp3,atomic kitten|the tide is high,0
 Dove Cameron,Boyfriend,original,intl,87.4,C,0,5,89,78,58,,63,,85,,Alternative,0,,0,1,153,1,1,1,Dove Cameron - Boyfriend.mp3,dove cameron|boyfriend,1
 Pop Smoke,What You Know Bout Love,original,intl,87.4,B,0,5,88,87,67,,80,,80,,Rap/Hip Hop,1,,0,0,160,,1,0,Pop Smoke - What You Know Bout Love.mp3,pop smoke|what you know bout love,0
 Scorpions,Send Me An Angel,original,intl,87.4,B,0,2,92,,,,,,77,,Rock,1,,0,0,273,,1,0,Scorpions - Send Me An Angel.mp3,scorpions|send me an angel,0
@@ -212,9 +212,9 @@ Diana Ross,I’m Coming Out,original,intl,87.2,B,0,3,87,,,,61,87,0,,R&B,1,,0,0,3
 JAY-Z,99 Problems,original,intl,87.2,B,0,2,0,,,,,81,90,,Rap/Hip Hop,1,,0,1,237,,1,0,JAY-Z - 99 Problems.mp3,jay z|99 problems,0
 Luke Combs,Fast Car,original,intl,87.2,B,0,3,89,82,,,,,65,,Country,1,,0,0,265,,1,0,Luke Combs - Fast Car.mp3,luke combs|fast car,0
 Tina & Tomáš Maštalír,Jedno ráno,original,czsk,87.2,B,0,3,81,,,74,,90,7,"sk_radio50_domace: 10 týž., max 7.",Rap/Hip Hop,1,,0,0,251,,1,0,Tina & Tomáš Maštalír - Jedno ráno.mp3,tina|jedno rano,0
-Atomic Kitten,Whole Again,original,intl,87.1,B,0,4,73,,,,90,81,51,,Rock,1,94,1,0,184,,1,0,Atomic Kitten - Whole Again.mp3,atomic kitten|whole again,0
+Atomic Kitten,Whole Again,original,intl,87.1,B,0,4,73,,,,90,81,51,,Rock,1,94,1,0,184,,1,1,Atomic Kitten - Whole Again.mp3,atomic kitten|whole again,0
 Cardi B,Please Me,original,intl,87.1,B,0,5,88,80,19,67,85,,86,"cz_radio100: 7 týž., max 44.",Rap/Hip Hop,1,133.8,0,1,200,,1,0,Cardi B - Please Me.mp3,cardi b|please me,0
-Chris Brown,Turn Up the Music,original,intl,87.1,B,0,5,80,,,75,90,81,65,"cz_radio100: 8 týž., max 38.",Rap/Hip Hop,1,130.01,0,0,229,,1,0,Chris Brown - Turn Up the Music.mp3,chris brown|turn up the music,0
+Chris Brown,Turn Up the Music,original,intl,87.1,B,0,5,80,,,75,90,81,65,"cz_radio100: 8 týž., max 38.",Rap/Hip Hop,1,130.01,0,0,229,,1,1,Chris Brown - Turn Up the Music.mp3,chris brown|turn up the music,0
 Nickelback,Burn It to the Ground,original,intl,87.1,B,0,2,89,,,,,,83,,Rock,1,132.1,0,0,211,,1,0,Nickelback - Burn It to the Ground.mp3,nickelback|burn it to the ground,0
 T. Rex,Get It On,original,intl,87.1,B,0,3,47,,,,90,81,70,,Rock,1,125.28,0,0,374,,1,0,T. Rex - Get It On.mp3,t rex|get it on,0
 Judas Priest,Breaking the Law,original,intl,87.0,B,0,2,81,,,,,,89,,Rock,1,,0,0,153,,1,0,Judas Priest - Breaking the Law.mp3,judas priest|breaking the law,0
@@ -256,7 +256,7 @@ Blues Traveler,Run-Around,original,intl,86.3,B,0,3,67,,,,94,,65,,Rock,1,151.4,0,
 Candi Staton,Young Hearts Run Free,original,intl,86.3,B,0,4,86,,,,86,74,72,,R&B,1,115.5,0,0,248,,1,0,Candi Staton - Young Hearts Run Free.mp3,candi staton|young hearts run free,0
 JoJo,Leave (Get Out),original,intl,86.3,B,0,2,86,,,,86,,0,,R&B,1,,0,0,242,,1,0,JoJo - Leave (Get Out).mp3,jojo|leave,0
 Michael Jackson,One Day In Your Life,original,intl,86.3,B,0,2,79,,,,90,,40,,R&B,1,160.9,0,0,253,,1,0,Michael Jackson - One Day In Your Life.mp3,michael jackson|one day in your life,0
-AJR,Weak,original,intl,86.2,B,0,4,10,76,46,88,,81,68,"cz_radio100: 24 týž., max 11.",Alternative,1,,0,0,196,,1,0,AJR - Weak.mp3,ajr|weak,0
+AJR,Weak,original,intl,86.2,B,0,4,10,76,46,88,,81,68,"cz_radio100: 24 týž., max 11.",Alternative,1,,0,0,196,,1,1,AJR - Weak.mp3,ajr|weak,0
 Audioslave,Cochise,original,intl,86.2,B,0,2,80,,,,,,89,,Rock,1,160.9,0,0,222,,1,0,Audioslave - Cochise.mp3,audioslave|cochise,0
 Bryson Tiller,Exchange,original,intl,86.2,B,0,4,82,87,,,79,,85,,R&B,1,160.2,0,1,194,,1,0,Bryson Tiller - Exchange.mp3,bryson tiller|exchange,0
 Chris Brown,Gimme That,original,intl,86.2,B,0,3,11,,,92,72,,70,"cz_radio100: 30 týž., max 19.",R&B,1,,0,0,187,,1,0,Chris Brown - Gimme That.mp3,chris brown|gimme that,0
@@ -285,10 +285,10 @@ Jack Harlow,First Class,original,intl,85.8,B,0,6,84,82,64,59,86,,83,"sk_radio100
 Lil Wayne,How To Love,original,intl,85.8,B,0,3,74,,,,91,,69,,Rap/Hip Hop,1,154.3,0,0,240,,1,0,Lil Wayne - How To Love.mp3,lil wayne|how to love,0
 Rammstein,Ich will,original,intl,85.8,B,0,2,86,,0,,,,85,,Metal,1,128,0,0,218,,1,0,Rammstein - Ich will.mp3,rammstein|ich will,0
 The Kinks,All Day and All of the Night,original,intl,85.8,B,0,4,78,,,,75,74,89,,Rock,1,,0,0,144,,1,0,The Kinks - All Day and All of the Night.mp3,the kinks|all day and all of the night,0
-Chris Brown,Don’t Wake Me Up,original,intl,85.7,B,0,3,84,,,76,86,,0,"cz_radio100: 11 týž., max 34.",Rap/Hip Hop,1,128,0,0,222,,1,0,Chris Brown - Don’t Wake Me Up.mp3,chris brown|don t wake me up,0
+Chris Brown,Don’t Wake Me Up,original,intl,85.7,B,0,3,84,,,76,86,,0,"cz_radio100: 11 týž., max 34.",Rap/Hip Hop,1,128,0,0,222,,1,1,Chris Brown - Don’t Wake Me Up.mp3,chris brown|don t wake me up,0
 JAY-Z,Hard Knock Life (Ghetto Anthem),original,intl,85.7,B,0,2,84,,,,86,,36,,Rap/Hip Hop,1,,0,1,238,,1,0,JAY-Z - Hard Knock Life (Ghetto Anthem).mp3,jay z|hard knock life,0
 Missy Elliott,Get Ur Freak On,original,intl,85.7,B,0,4,85,,,,86,81,82,,R&B,1,177.4,0,1,236,,1,0,Missy Elliott - Get Ur Freak On.mp3,missy elliott|get ur freak on,0
-Oliver Tree,Life Goes On,original,intl,85.7,B,0,4,89,79,66,,,,78,,Alternative,1,,0,0,161,,1,0,Oliver Tree - Life Goes On.mp3,oliver tree|life goes on,0
+Oliver Tree,Life Goes On,original,intl,85.7,B,0,4,89,79,66,,,,78,,Alternative,1,,0,0,161,,1,1,Oliver Tree - Life Goes On.mp3,oliver tree|life goes on,0
 Robbie Williams & Nicole Kidman,Somethin’ Stupid (Revibes Mix Especial),original,intl,85.7,B,0,2,76,,,,90,,0,,Rock,1,106,0,0,171,,1,0,Robbie Williams & Nicole Kidman - Somethin’ Stupid (Revibes Mix Especial).mp3,robbie williams|somethin stupid,0
 Robbie Williams feat. Nicole Kidman,Somethin stupid,original,intl,85.7,B,0,2,76,,,,90,,0,,Rock,1,106,0,0,171,,1,0,Robbie Williams feat. Nicole Kidman - Somethin stupid.mp3,robbie williams|somethin stupid,0
 Soul II Soul feat. Caron Wheeler,Back to Life (However Do You Want Me),original,intl,85.7,B,0,3,76,,,,90,,54,,Rap/Hip Hop,1,,0,0,228,,1,0,Soul II Soul feat. Caron Wheeler - Back to Life (However Do You Want Me).mp3,soul ii soul|back to life,0
@@ -301,15 +301,15 @@ Run-D.M.C. feat. Aerosmith,Walk This Way,original,intl,85.6,B,0,3,83,,,,67,87,49
 Starsailor,Four to the Floor,original,intl,85.6,B,0,3,87,,,82,,,54,"cz_radio100: 16 týž., max 38.",Rock,1,186.23,0,0,233,,1,0,Starsailor - Four to the Floor.mp3,starsailor|four to the floor,0
 The Rembrandts,I’ll Be There for You (Theme from ''Friends’),original,intl,85.6,B,0,2,88,,,,,81,0,,Rock,1,190.5,0,0,189,,1,0,The Rembrandts - I’ll Be There for You (Theme from ''Friends’).mp3,the rembrandts|i ll be there for you,0
 Bon Jovi,Runaway,original,intl,85.5,B,0,2,88,,,,,,80,,Rock,1,,0,0,230,,1,0,Bon Jovi - Runaway.mp3,bon jovi|runaway,0
-Destiny’s Child,Lose My Breath,original,intl,85.5,B,0,2,16,,,,86,,83,,R&B,1,130,0,0,554,,1,0,Destiny’s Child - Lose My Breath.mp3,destiny s child|lose my breath,0
+Destiny’s Child,Lose My Breath,original,intl,85.5,B,0,2,16,,,,86,,83,,R&B,1,130,0,0,554,,1,1,Destiny’s Child - Lose My Breath.mp3,destiny s child|lose my breath,0
 Imagine Dragons,Wake Up,original,intl,85.5,B,0,2,86,,7,85,,,35,"sk_radio100: 30 týž., max 21.",Alternative,1,,0,0,167,,1,0,Imagine Dragons - Wake Up.mp3,imagine dragons|wake up,0
-Shania Twain,That Don’t Impress Me Much,original,intl,85.5,B,0,2,81,,,,87,,0,,Country,1,124.91,0,0,239,,1,0,Shania Twain - That Don’t Impress Me Much.mp3,shania twain|that don t impress me much,0
+Shania Twain,That Don’t Impress Me Much,original,intl,85.5,B,0,2,81,,,,87,,0,,Country,1,124.91,0,0,239,,1,1,Shania Twain - That Don’t Impress Me Much.mp3,shania twain|that don t impress me much,0
 Bastille,Of The Night,original,intl,85.4,B,0,4,72,,,83,86,,64,"cz_radio100: 20 týž., max 20.",Alternative,1,124.9,0,0,214,,1,0,Bastille - Of The Night.mp3,bastille|of the night,0
-Usher,Caught Up,original,intl,85.4,B,0,4,83,,,57,86,,65,"cz_radio100: 3 týž., max 90.",R&B,1,110,0,0,224,,1,0,Usher - Caught Up.mp3,usher|caught up,0
+Usher,Caught Up,original,intl,85.4,B,0,4,83,,,57,86,,65,"cz_radio100: 3 týž., max 90.",R&B,1,110,0,0,224,,1,1,Usher - Caught Up.mp3,usher|caught up,0
 2Pac,Dear Mama,original,intl,85.3,B,0,2,86,,,,,,83,,Rap/Hip Hop,1,84,1,1,280,,1,0,2Pac - Dear Mama.mp3,2pac|dear mama,0
 Coldplay,Magic,original,intl,85.3,B,0,6,85,78,0,79,60,74,85,"cz_radio100: 13 týž., max 8.",Alternative,1,93.5,1,0,285,,1,0,Coldplay - Magic.mp3,coldplay|magic,0
 Creedence Clearwater Revival,Up Around The Bend,original,intl,85.3,B,0,2,44,,,,83,,86,,Rock,1,140.6,0,0,161,,1,0,Creedence Clearwater Revival - Up Around The Bend.mp3,creedence clearwater revival|up around the bend,0
-DeBarge,Rhythm Of The Night,original,intl,85.3,B,0,4,75,,,,87,81,54,,R&B,1,115.2,0,0,228,,1,0,DeBarge - Rhythm Of The Night.mp3,debarge|rhythm of the night,0
+DeBarge,Rhythm Of The Night,original,intl,85.3,B,0,4,75,,,,87,81,54,,R&B,1,115.2,0,0,228,,1,1,DeBarge - Rhythm Of The Night.mp3,debarge|rhythm of the night,0
 Desmod,Zober Ma Domov,original,czsk,85.3,B,0,3,3,,,88,,77,78,"cz_radio50_domace: 27 týž., max 10.",Rock,1,119.8,0,0,261,,1,1,Desmod - Zober Ma Domov.mp3,desmod|zober ma domov,0
 Pras feat. Ol’ Dirty Bastard Mýa,Ghetto Supastar (That is What You Are),original,intl,85.3,B,0,3,83,,,,86,81,0,,R&B,1,99.9,0,0,261,,1,0,Pras feat. Ol’ Dirty Bastard Mýa - Ghetto Supastar (That is What You Are).mp3,pras|ghetto supastar,0
 Ramz,Barking,original,intl,85.3,B,0,4,83,,,,86,74,52,,Rap/Hip Hop,1,103.1,0,0,202,,1,0,Ramz - Barking.mp3,ramz|barking,0
@@ -322,7 +322,7 @@ Coldplay,The Hardest Part,original,intl,85.1,B,0,2,81,,,,,,87,,Rock,1,123.8,0,0,
 Edwyn Collins,A Girl Like You,original,intl,85.1,B,0,4,87,,,,80,74,68,,Alternative,1,126,0,0,236,,1,0,Edwyn Collins - A Girl Like You.mp3,edwyn collins|a girl like you,0
 Feargal Sharkey,A Good Heart,original,intl,85.1,B,0,3,69,,,,90,74,34,,Rock,1,104.7,0,0,281,,1,0,Feargal Sharkey - A Good Heart.mp3,feargal sharkey|a good heart,0
 Megadeth,Symphony Of Destruction,original,intl,85.1,B,0,2,83,,,,,,86,,Metal,1,140.1,0,0,243,,1,0,Megadeth - Symphony Of Destruction.mp3,megadeth|symphony of destruction,0
-Melanie C & Lisa ’Left Eye’ Lopes,Never Be The Same Again,original,intl,85.1,B,0,2,74,,,,90,,49,,Rock,1,160.2,0,0,292,,1,0,Melanie C & Lisa ’Left Eye’ Lopes - Never Be The Same Again.mp3,melanie c|never be the same again,0
+Melanie C & Lisa ’Left Eye’ Lopes,Never Be The Same Again,original,intl,85.1,B,0,2,74,,,,90,,49,,Rock,1,160.2,0,0,292,,1,1,Melanie C & Lisa ’Left Eye’ Lopes - Never Be The Same Again.mp3,melanie c|never be the same again,0
 TOOL,Sober,original,intl,85.1,B,0,2,82,,,,,,86,,Rock,1,149.8,0,1,306,,1,0,TOOL - Sober.mp3,tool|sober,0
 Deftones,Change (In the House of Flies),original,intl,85.0,B,0,2,88,78,,,,,22,,Rock,1,136.9,0,0,299,,1,0,Deftones - Change (In the House of Flies).mp3,deftones|change,0
 Lana Del Rey,Blue Jeans,original,intl,85.0,B,0,2,54,,,,,,98,,Alternative,1,118.1,0,1,218,,1,0,Lana Del Rey - Blue Jeans.mp3,lana del rey|blue jeans,0
@@ -352,7 +352,7 @@ Incubus,Pardon Me,original,intl,84.6,B,0,2,75,,,,,,89,,Alternative,1,152,0,0,224
 SZA,Blind,original,intl,84.6,B,0,2,78,,,,,,88,,R&B,1,,0,1,150,,1,0,SZA - Blind.mp3,sza|blind,0
 The Weeknd,In The Night,original,intl,84.6,B,0,5,85,,10,64,76,74,84,"cz_radio100: 5 týž., max 63.",R&B,1,,0,1,236,,1,0,The Weeknd - In The Night.mp3,the weeknd|in the night,0
 Travis Scott,Antidote,original,intl,84.6,B,0,4,85,78,,,70,,85,,Rap/Hip Hop,1,,0,1,264,,1,0,Travis Scott - Antidote.mp3,travis scott|antidote,0
-Usher,Scream,original,intl,84.6,B,0,5,86,,,75,82,74,70,"cz_radio100: 9 týž., max 32.",R&B,1,,0,0,235,,1,0,Usher - Scream.mp3,usher|scream,0
+Usher,Scream,original,intl,84.6,B,0,5,86,,,75,82,74,70,"cz_radio100: 9 týž., max 32.",R&B,1,,0,0,235,,1,1,Usher - Scream.mp3,usher|scream,0
 AC-DC,Dirty Deeds Done Dirt Cheap,original,intl,84.5,B,0,2,83,,0,,,,85,,Rock,1,135.6,0,0,231,,1,0,AC-DC - Dirty Deeds Done Dirt Cheap.mp3,ac dc|dirty deeds done dirt cheap,0
 Don Henley,The Boys Of Summer,original,intl,84.5,B,0,5,86,77,,,79,81,82,,Rock,1,177.4,0,0,287,,1,0,Don Henley - The Boys Of Summer.mp3,don henley|the boys of summer,0
 Fort Minor feat. Styles of Beyond,Remember the Name,original,intl,84.5,B,0,3,86,80,,,,,67,,Rap/Hip Hop,1,170.14,0,1,230,,1,0,Fort Minor feat. Styles of Beyond - Remember the Name.mp3,fort minor|remember the name,0
@@ -391,7 +391,7 @@ Polo G,RAPSTAR,original,intl,83.8,B,0,4,77,84,48,,83,,75,,Rap/Hip Hop,1,,0,1,166
 The Dandy Warhols,Bohemian Like You,original,intl,83.7,B,0,2,83,,,,,,84,,Rock,1,,0,0,211,,1,0,The Dandy Warhols - Bohemian Like You.mp3,the dandy warhols|bohemian like you,0
 The Offspring,Hit That,original,intl,83.7,B,0,2,85,,,,,,80,,Rock,1,132.09,0,0,169,,1,0,The Offspring - Hit That.mp3,the offspring|hit that,0
 blink-182,Feeling This,original,intl,83.7,B,0,2,80,,,,,,85,,Rock,1,172.99,0,1,173,,1,0,blink-182 - Feeling This.mp3,blink 182|feeling this,0
-Nicki Minaj,Pound The Alarm,original,intl,83.6,B,0,4,85,,,72,70,,82,"cz_radio100: 7 týž., max 41.",Rap/Hip Hop,1,124.91,0,1,206,,1,0,Nicki Minaj - Pound The Alarm.mp3,nicki minaj|pound the alarm,0
+Nicki Minaj,Pound The Alarm,original,intl,83.6,B,0,4,85,,,72,70,,82,"cz_radio100: 7 týž., max 41.",Rap/Hip Hop,1,124.91,0,1,206,,1,1,Nicki Minaj - Pound The Alarm.mp3,nicki minaj|pound the alarm,0
 Womack & Womack & Rules,Teardrops (Rules Remix),remix,intl,83.6,B,0,3,84,,,,83,,50,,R&B,1,133.8,0,0,300,,1,0,Womack & Womack & Rules - Teardrops (Rules Remix).mp3,womack|teardrops,0
 Coldplay,Charlie Brown,original,intl,83.5,B,0,2,84,,,,,,82,,Rock,1,137.8,0,0,285,,1,0,Coldplay - Charlie Brown.mp3,coldplay|charlie brown,0
 Queen,Fat Bottomed Girls,original,intl,83.5,B,0,2,84,,,,,,82,,Rock,1,,0,0,255,,1,0,Queen - Fat Bottomed Girls.mp3,queen|fat bottomed girls,0
@@ -403,7 +403,7 @@ Olympic,Osmý Den,original,czsk,83.4,B,0,3,64,,,,,90,68,,Rock,1,,0,0,235,,1,1,Ol
 Rascal Flatts,What Hurts The Most,original,intl,83.4,B,0,3,69,,,,90,,69,,Country,1,136,0,0,214,,1,0,Rascal Flatts - What Hurts The Most.mp3,rascal flatts|what hurts the most,0
 Red Hot Chili Peppers,Dosed,original,intl,83.4,B,0,2,81,,,,,,84,,Alternative,1,104.1,0,0,311,,1,0,Red Hot Chili Peppers - Dosed.mp3,red hot chili peppers|dosed,0
 Arcade Fire,Ready to Start,original,intl,83.3,B,0,2,77,,,,,,86,,Alternative,1,95.48,0,0,255,,1,0,Arcade Fire - Ready to Start.mp3,arcade fire|ready to start,0
-BoyWithUke,Toxic,original,intl,83.3,B,0,4,85,79,79,,,,64,,Alternative,1,,0,0,168,,1,0,BoyWithUke - Toxic.mp3,boywithuke|toxic,0
+BoyWithUke,Toxic,original,intl,83.3,B,0,4,85,79,79,,,,64,,Alternative,1,,0,0,168,,1,1,BoyWithUke - Toxic.mp3,boywithuke|toxic,0
 KISS,Detroit Rock City,original,intl,83.3,B,0,2,82,,,,,,84,,Rock,1,90.7,1,0,215,,1,0,KISS - Detroit Rock City.mp3,kiss|detroit rock city,0
 Nirvana,In Bloom,original,intl,83.3,C,0,1,44,,,,,,100,,Rock,1,153.7,0,0,276,,1,0,Nirvana - In Bloom.mp3,nirvana|in bloom,0
 Talk Talk,It's my life (Dario Caminita Revibe),remix,intl,83.3,B,0,3,87,,,,,74,60,,Rock,1,126.4,0,0,232,,1,0,Talk Talk - It's my life (Dario Caminita Revibe).mp3,talk talk|it s my life,0
@@ -457,7 +457,7 @@ Ugly Kid Joe,Everything About You,original,intl,82.2,B,0,2,80,,,,83,,50,,Rock,1,
 Bon Jovi,Bad Medicine,original,intl,82.1,B,0,3,79,,,,84,,72,,Rock,1,118.1,0,0,316,,1,0,Bon Jovi - Bad Medicine.mp3,bon jovi|bad medicine,0
 Coldplay,Every Teardrop Is a Waterfall,original,intl,82.1,B,0,4,59,,,59,73,,86,"cz_radio100: 6 týž., max 69.",Alternative,1,118.12,0,0,244,,1,0,Coldplay - Every Teardrop Is a Waterfall.mp3,coldplay|every teardrop is a waterfall,0
 Electric Light Orchestra,Don’t Bring Me Down,original,intl,82.1,B,0,3,80,,,,83,74,0,,Rock,1,,0,0,243,,1,0,Electric Light Orchestra - Don’t Bring Me Down.mp3,electric light orchestra|don t bring me down,0
-Aya Nakamura,Djadja,original,intl,82.0,B,0,2,94,,0,,,,53,,R&B,1,97.97,0,0,171,,1,0,Aya Nakamura - Djadja.mp3,aya nakamura|djadja,0
+Aya Nakamura,Djadja,original,intl,82.0,B,0,2,94,,0,,,,53,,R&B,1,97.97,0,0,171,,1,1,Aya Nakamura - Djadja.mp3,aya nakamura|djadja,0
 David Bowie,Life on Mars,original,intl,82.0,B,0,2,39,,0,,83,,80,,Rock,1,111.44,0,0,282,,1,0,David Bowie - Life on Mars.mp3,david bowie|life on mars,0
 Don Toliver,Cardigan,original,intl,82.0,B,0,2,82,,0,,,,82,,Rap/Hip Hop,1,142.07,0,0,158,,1,0,Don Toliver - Cardigan.mp3,don toliver|cardigan,0
 Janet Jackson,Miss You Much,original,intl,82.0,C,0,1,0,,,,98,,45,,Pop,0,,0,0,444,,1,0,Janet Jackson - Miss You Much.mp3,janet jackson|miss you much,0
@@ -512,7 +512,7 @@ The Flamingos,I Only Have Eyes for You,original,intl,80.6,B,0,3,80,,,,,74,81,,R&
 Bread,Everything I Own,original,intl,80.5,B,0,4,78,,,,79,81,60,,Rock,1,150.89,0,0,187,,1,0,Bread - Everything I Own.mp3,bread|everything i own,0
 Red Hot Chili Peppers,I Could Die for You,original,intl,80.5,B,0,2,74,,,,,,83,,Alternative,1,168.8,0,0,192,,1,0,Red Hot Chili Peppers - I Could Die for You.mp3,red hot chili peppers|i could die for you,0
 Status Quo,Rockin’ All over the World,original,intl,80.5,B,0,3,73,,,,83,74,0,,Rock,1,131.2,0,0,208,,1,0,Status Quo - Rockin’ All over the World.mp3,status quo|rockin all over the world,0
-Big Shaq,Man’s Not Hot,original,intl,80.4,B,0,2,74,,38,,83,,0,,Rap/Hip Hop,1,135.11,0,0,186,,1,0,Big Shaq - Man’s Not Hot.mp3,big shaq|man s not hot,0
+Big Shaq,Man’s Not Hot,original,intl,80.4,B,0,2,74,,38,,83,,0,,Rap/Hip Hop,1,135.11,0,0,186,,1,1,Big Shaq - Man’s Not Hot.mp3,big shaq|man s not hot,0
 Hanumankind,Big Dawgs,original,intl,80.4,B,0,3,85,,70,,,,66,,Rap/Hip Hop,1,,0,1,191,,1,0,Hanumankind - Big Dawgs.mp3,hanumankind|big dawgs,0
 Ludacris,Money Maker,original,intl,80.4,B,0,2,67,,,,86,,42,,Rap/Hip Hop,1,,0,1,230,,1,0,Ludacris - Money Maker.mp3,ludacris|money maker,0
 Maxine Nightingale,Right Back Where We Started From,original,intl,80.4,B,0,2,0,,,,89,,61,,R&B,1,,0,0,148,,1,0,Maxine Nightingale - Right Back Where We Started From.mp3,maxine nightingale|right back where we started from,0
@@ -535,7 +535,7 @@ Skee-Lo,I Wish,original,intl,80.0,B,0,3,81,,,,77,,67,,Rap/Hip Hop,1,97.7,0,0,252
 Aneta Langerová,Delfín,original,czsk,79.9,D,0,1,41,,,,,,96,,Pop,0,,0,0,234,1,1,1,Aneta Langerová - Delfín.mp3,aneta langerova|delfin,0
 Natalie Cole,Miss You Like Crazy,original,intl,79.9,B,0,2,65,,,,86,,29,,R&B,1,,0,0,232,,1,0,Natalie Cole - Miss You Like Crazy.mp3,natalie cole|miss you like crazy,0
 Stereophonics,Have A Nice Day,original,intl,79.9,B,0,3,81,,,,76,,70,,Rock,1,120.9,0,0,206,,1,0,Stereophonics - Have A Nice Day.mp3,stereophonics|have a nice day,0
-Ayra Starr,Rush,original,intl,79.8,C,0,1,93,,,,,,49,,,0,,0,0,185,,1,0,Ayra Starr - Rush.mp3,ayra starr|rush,0
+Ayra Starr,Rush,original,intl,79.8,C,0,1,93,,,,,,49,,,0,,0,0,185,,1,1,Ayra Starr - Rush.mp3,ayra starr|rush,0
 Black Eyed Peas,Hey Mama (Album Version),original,intl,79.8,B,0,3,83,,,,73,,71,,R&B,1,,0,1,214,,1,0,Black Eyed Peas - Hey Mama (Album Version).mp3,black eyed peas|hey mama,0
 Black Eyed Peas,Hey Mama (full version),original,intl,79.8,B,0,3,83,,,,73,,71,,R&B,1,,0,1,214,,1,0,Black Eyed Peas - Hey Mama (full version).mp3,black eyed peas|hey mama,0
 Pearl Jam,Better Man,original,intl,79.8,B,0,2,80,,,,,,79,,Alternative,1,125.7,0,0,269,,1,0,Pearl Jam - Better Man.mp3,pearl jam|better man,0
@@ -551,7 +551,7 @@ Lorde,The Louvre,original,intl,79.5,B,0,2,70,,0,,,,83,,Alternative,1,123.05,0,0,
 Bad Wolves,Zombie,original,intl,79.4,B,0,2,89,,,,,,56,,Rock,1,154.27,0,0,254,,1,0,Bad Wolves - Zombie.mp3,bad wolves|zombie,0
 Barry White,Let The Music Play (Single Version),original,intl,79.4,B,0,2,86,,,,63,,45,,R&B,1,98.2,0,0,208,,1,0,Barry White - Let The Music Play (Single Version).mp3,barry white|let the music play,0
 Nightwish,Nemo,original,intl,79.4,B,0,2,80,,,,,,78,,Metal,1,,0,0,276,,1,0,Nightwish - Nemo.mp3,nightwish|nemo,0
-Cardi B,Up,original,intl,79.3,B,0,4,77,78,52,,,,80,,Rap/Hip Hop,1,,0,1,156,,1,0,Cardi B - Up.mp3,cardi b|up,0
+Cardi B,Up,original,intl,79.3,B,0,4,77,78,52,,,,80,,Rap/Hip Hop,1,,0,1,156,,1,1,Cardi B - Up.mp3,cardi b|up,0
 Fleetwood Mac,You Make Loving Fun,original,intl,79.3,B,0,2,82,,,,,,72,,Rock,1,126.4,0,0,213,,1,0,Fleetwood Mac - You Make Loving Fun.mp3,fleetwood mac|you make loving fun,0
 JAY-Z,Can I Get A,original,intl,79.3,B,0,2,67,,,,84,,0,,Rap/Hip Hop,1,,0,1,313,,1,0,JAY-Z - Can I Get A.mp3,jay z|can i get a,0
 "Young Thug feat. Gunna, Travis Scott",Hot (Remix),remix,intl,79.3,B,0,2,83,,1,,71,,0,,Rap/Hip Hop,1,112.04,0,1,279,,1,0,"Young Thug feat. Gunna, Travis Scott - Hot (Remix).mp3",young thug|hot,0
@@ -568,7 +568,7 @@ The Beatles,She Loves You,original,intl,78.9,B,0,2,78,,0,,,,79,,Rock,1,149.8,0,0
 The Killers,Jenny Was A Friend Of Mine,original,intl,78.9,C,0,1,36,,,,,,97,,Alternative,1,124.16,0,0,267,,1,0,The Killers - Jenny Was A Friend Of Mine.mp3,the killers|jenny was a friend of mine,0
 Bastille,Good Grief,original,intl,78.8,B,0,2,84,,0,,,,67,,Alternative,1,119.84,0,0,206,,1,0,Bastille - Good Grief.mp3,bastille|good grief,0
 Khia,"My Neck, My Back (Lick It)",original,intl,78.8,B,0,2,76,,,,80,,23,,R&B,1,102.1,0,1,222,,1,0,"Khia - My Neck, My Back (Lick It).mp3",khia|my neck my back,0
-Good Charlotte,Lifestyles of the Rich & Famous,original,intl,78.7,B,0,2,82,,,,,,71,,Rock,1,106.3,0,0,190,,1,0,Good Charlotte - Lifestyles of the Rich & Famous.mp3,good charlotte|lifestyles of the rich famous,0
+Good Charlotte,Lifestyles of the Rich & Famous,original,intl,78.7,B,0,2,82,,,,,,71,,Rock,1,106.3,0,0,190,,1,1,Good Charlotte - Lifestyles of the Rich & Famous.mp3,good charlotte|lifestyles of the rich famous,0
 Lucie,Srdce,original,czsk,78.7,C,0,3,54,,,56,,,88,"cz_radio50_domace: 4 týž., max 29.",Pop,0,,0,0,206,1,1,1,Lucie - Srdce.mp3,lucie|srdce,1
 Ozzy Osbourne,Dreamer,original,intl,78.7,B,0,2,82,,14,,,,72,,Rock,1,,0,0,285,,1,0,Ozzy Osbourne - Dreamer.mp3,ozzy osbourne|dreamer,0
 Skillet,Whispers in the Dark,original,intl,78.7,B,0,2,79,,,,,,78,,Rock,1,187.9,0,0,204,,1,0,Skillet - Whispers in the Dark.mp3,skillet|whispers in the dark,0
@@ -616,7 +616,7 @@ Whitney Houston,One Moment in Time,original,intl,77.2,C,0,1,,,,,90,,48,,,0,,0,,,
 Blanco Brown,The Git Up,original,intl,77.1,B,0,2,76,,12,,78,,37,,Country,1,,0,0,200,,1,0,Blanco Brown - The Git Up.mp3,blanco brown|the git up,0
 Drake,Search & Rescue,original,intl,77.1,B,0,3,77,,0,,76,,72,,Rap/Hip Hop,1,,0,1,272,,1,0,Drake - Search & Rescue.mp3,drake|search rescue,0
 Josh Turner,Your Man,original,intl,77.1,B,0,2,83,,,,,,64,,Country,1,100.6,0,0,211,,1,0,Josh Turner - Your Man.mp3,josh turner|your man,0
-Will Smith,Switch,original,intl,77.1,C,0,1,0,,,,89,,50,,R&B,1,102.59,0,0,230,,1,0,Will Smith - Switch.mp3,will smith|switch,0
+Will Smith,Switch,original,intl,77.1,C,0,1,0,,,,89,,50,,R&B,1,102.59,0,0,230,,1,1,Will Smith - Switch.mp3,will smith|switch,0
 Foo Fighters,These Days,original,intl,77.0,B,0,2,79,,,,,,73,,Rock,1,136,0,0,298,,1,0,Foo Fighters - These Days.mp3,foo fighters|these days,0
 "KAROL G & Judeline , rusowsky",BbY WOW,original,intl,76.8,C,0,1,99,,23,,,,25,,Latin Music,0,,0,0,225,,1,0,"KAROL G & Judeline , rusowsky - BbY WOW.mp3",karol g|bby wow,0
 Miroslav Žbirka,22 Dní,original,intl,76.8,C,0,1,23,,13,,,100,0,,Pop,0,,0,0,222,,1,0,Miroslav Žbirka - 22 Dní.mp3,miroslav zbirka|22 dni,0
@@ -643,7 +643,7 @@ Outkast,Rosa Parks,original,intl,76.0,B,0,2,73,,,,,,77,,Rap/Hip Hop,1,103.88,0,1
 3 Doors Down,It’s Not My Time,original,intl,75.9,B,0,2,68,,,,79,,,,Rock,1,,0,0,242,,1,0,3 Doors Down - It’s Not My Time.mp3,3 doors down|it s not my time,0
 Albert Hammond,It Never Rains in Southern California,original,intl,75.9,B,0,3,81,,,,61,,65,,Rock,1,116.8,0,0,230,,1,0,Albert Hammond - It Never Rains in Southern California.mp3,albert hammond|it never rains in southern california,0
 Good Charlotte,I Just Wanna Live,original,intl,75.9,B,0,3,0,,,67,63,,80,"cz_radio100: 6 týž., max 52.",Rock,1,109.4,0,0,163,,1,0,Good Charlotte - I Just Wanna Live.mp3,good charlotte|i just wanna live,0
-Crowded House,Weather With You,original,intl,75.8,B,0,4,76,,,,70,74,68,,Rock,1,187.9,0,0,221,,1,0,Crowded House - Weather With You.mp3,crowded house|weather with you,0
+Crowded House,Weather With You,original,intl,75.8,B,0,4,76,,,,70,74,68,,Rock,1,187.9,0,0,221,,1,1,Crowded House - Weather With You.mp3,crowded house|weather with you,0
 Phantom Planet,California (Jack Joseph Puig Mix),original,intl,75.8,B,0,3,78,,,,63,,70,,Rock,1,159,0,0,194,,1,0,Phantom Planet - California (Jack Joseph Puig Mix).mp3,phantom planet|california,0
 Alicia Keys,Doesn’t Mean Anything,original,intl,75.7,B,0,3,76,,,75,67,,0,"cz_radio100: 15 týž., max 31.",R&B,1,103.9,0,0,272,,1,0,Alicia Keys - Doesn’t Mean Anything.mp3,alicia keys|doesn t mean anything,0
 James Taylor,Fire and Rain,original,intl,75.7,B,0,4,76,,,,73,74,72,,Rock,1,151.44,0,0,200,,1,0,James Taylor - Fire and Rain.mp3,james taylor|fire and rain,0
@@ -655,13 +655,13 @@ Gucci Mane feat. Migos,I Get the Bag,original,intl,75.6,B,0,2,77,,0,,71,,0,,Rap/
 Kevin Gates,2 Phones,original,intl,75.6,B,0,3,72,,,,77,,61,,Rap/Hip Hop,1,122,0,1,240,,1,0,Kevin Gates - 2 Phones.mp3,kevin gates|2 phones,0
 Shakedown,At Night,original,intl,75.6,C,0,2,77,,,,73,,42,,Electro,0,,0,0,184,1,1,1,Shakedown - At Night.mp3,shakedown|at night,1
 Talk Talk,Such A Shame,original,intl,75.6,C,0,1,87,,,,,,50,,Rock,1,114.2,0,0,335,,1,0,Talk Talk - Such A Shame.mp3,talk talk|such a shame,0
-Dr. Alban,Sing Hallelujah!,original,intl,75.5,C,0,1,87,,,,,,48,,Pop,0,,0,0,241,,1,0,Dr. Alban - Sing Hallelujah!.mp3,dr alban|sing hallelujah,0
+Dr. Alban,Sing Hallelujah!,original,intl,75.5,C,0,1,87,,,,,,48,,Pop,0,,0,0,241,,1,1,Dr. Alban - Sing Hallelujah!.mp3,dr alban|sing hallelujah,0
 Flo Rida,"Turn Around (5,4,3,2,1)",original,intl,75.5,B,0,2,71,,,77,,,0,"cz_radio100: 14 týž., max 26.",Rap/Hip Hop,1,128,0,0,201,,1,0,"Flo Rida - Turn Around (5,4,3,2,1).mp3",flo rida|turn around,0
 Loona,Vamos a la Playa,original,intl,75.5,C,0,1,88,,,,,,47,,Pop,0,,0,0,180,,1,0,Loona - Vamos a la Playa.mp3,loona|vamos a la playa,0
 Sam Sparro,Black & Gold,original,intl,75.5,B,0,3,66,,,79,,,53,"cz_radio100: 13 týž., max 32.",R&B,1,136,0,0,277,,1,0,Sam Sparro - Black & Gold.mp3,sam sparro|black gold,0
 Ugly Kid Joe,Cats in the Cradle,original,intl,75.5,B,0,2,83,,,,,,59,,Rock,1,150.9,0,0,241,,1,1,Ugly Kid Joe - Cats in the Cradle.mp3,ugly kid joe|cats in the cradle,0
 Rage Against The Machine,Calm Like a Bomb,original,intl,75.4,B,0,2,71,,,,,,77,,Rock,1,148.7,0,0,299,,1,0,Rage Against The Machine - Calm Like a Bomb.mp3,rage against the machine|calm like a bomb,0
-Boyzone,No Matter What,original,intl,75.3,C,0,1,,,,,90,,42,,,0,,0,,,,1,0,Boyzone - No Matter What.mp3,boyzone|no matter what,0
+Boyzone,No Matter What,original,intl,75.3,C,0,1,,,,,90,,42,,,0,,0,,,,1,1,Boyzone - No Matter What.mp3,boyzone|no matter what,0
 Duran Duran,Girls On Film,original,intl,75.3,B,0,2,20,,,,76,,72,,Rock,1,132.1,0,0,359,,1,0,Duran Duran - Girls On Film.mp3,duran duran|girls on film,0
 En Vogue,Giving Him Something He Can Feel,original,intl,75.3,C,0,1,45,,,,88,,30,,R&B,1,102.1,0,0,235,,1,0,En Vogue - Giving Him Something He Can Feel.mp3,en vogue|giving him something he can feel,0
 Kim Wilde,Cambodia,original,intl,75.3,C,0,1,89,,,,,,43,,Pop,0,110.8,0,0,236,,1,0,Kim Wilde - Cambodia.mp3,kim wilde|cambodia,0
@@ -675,7 +675,7 @@ America,Tin Man,original,intl,75.2,B,0,2,78,,,,,,68,,Rock,1,172.3,0,0,209,,1,0,A
 Dr. Dre,Keep Their Heads Ringin’,original,intl,75.2,B,0,2,67,,,,79,,0,,Rap/Hip Hop,1,,0,1,238,,1,0,Dr. Dre - Keep Their Heads Ringin’.mp3,dr dre|keep their heads ringin,0
 Spacehog,In the Meantime,original,intl,75.2,B,0,2,79,,,,,,67,,Alternative,1,168.8,0,0,299,,1,0,Spacehog - In the Meantime.mp3,spacehog|in the meantime,0
 The Struts,Could Have Been Me,original,intl,75.2,B,0,2,80,,,,,,65,,Rock,1,160.25,0,0,190,,1,0,The Struts - Could Have Been Me.mp3,the struts|could have been me,0
-Tove Lo,Cool Girl,original,intl,75.2,B,0,3,79,,36,57,,,67,"sk_radio100: 3 týž., max 82.",Alternative,1,102.08,0,1,197,,1,0,Tove Lo - Cool Girl.mp3,tove lo|cool girl,0
+Tove Lo,Cool Girl,original,intl,75.2,B,0,3,79,,36,57,,,67,"sk_radio100: 3 týž., max 82.",Alternative,1,102.08,0,1,197,,1,1,Tove Lo - Cool Girl.mp3,tove lo|cool girl,0
 Muni Long,Hrs & Hrs,original,intl,75.1,B,0,2,81,,,,,,61,,R&B,1,,0,1,204,,1,0,Muni Long - Hrs & Hrs.mp3,muni long|hrs hrs,0
 Bros,When Will I Be Famous,original,intl,75.0,C,0,1,48,,,,86,,0,,Pop,0,123.4,0,0,302,,1,0,Bros - When Will I Be Famous.mp3,bros|when will i be famous,0
 Maggie Rogers,Alaska,original,intl,75.0,B,0,2,77,,0,,,,71,,Alternative,1,103.88,0,0,189,,1,0,Maggie Rogers - Alaska.mp3,maggie rogers|alaska,0
@@ -708,7 +708,7 @@ Peggy Lee,Fever,original,intl,74.6,C,0,2,67,,,,,,78,,Pop,0,,0,0,204,,1,0,Peggy L
 Rammstein,Benzin,original,intl,74.6,C,0,2,77,,,,,,69,,Metal,1,,0,0,226,,1,0,Rammstein - Benzin.mp3,rammstein|benzin,0
 Aaliyah,Are You That Somebody,original,intl,74.5,C,0,2,78,,,,,,67,,R&B,1,,0,0,265,,1,0,Aaliyah - Are You That Somebody.mp3,aaliyah|are you that somebody,0
 Backstreet Boys,Anywhere for You,original,intl,74.4,C,0,2,62,,,,80,,26,,Pop,0,129.6,0,0,280,,1,0,Backstreet Boys - Anywhere for You.mp3,backstreet boys|anywhere for you,0
-John Legend,Love Me Now,original,intl,74.4,C,0,2,80,,28,61,,,48,"sk_radio100: 6 týž., max 80.",Pop,0,124.91,0,0,210,,1,0,John Legend - Love Me Now.mp3,john legend|love me now,0
+John Legend,Love Me Now,original,intl,74.4,C,0,2,80,,28,61,,,48,"sk_radio100: 6 týž., max 80.",Pop,0,124.91,0,0,210,,1,1,John Legend - Love Me Now.mp3,john legend|love me now,0
 Shawn Mendes,Lost In Japan,original,intl,74.4,C,0,3,74,,41,71,,,74,"sk_radio100: 10 týž., max 44.",Pop,0,104.93,0,0,201,,1,0,Shawn Mendes - Lost In Japan.mp3,shawn mendes|lost in japan,0
 Elton John,Candle In The Wind,original,intl,74.3,C,0,2,42,,,,76,,69,,Rock,1,,0,0,230,,1,0,Elton John - Candle In The Wind.mp3,elton john|candle in the wind,0
 PAWSA,TOO COOL TO BE CARELESS,original,intl,74.3,D,0,1,86,,,,,,48,,Electro,0,,0,0,220,1,1,1,PAWSA - TOO COOL TO BE CARELESS.mp3,pawsa|too cool to be careless,0
@@ -731,7 +731,7 @@ Atomic Kitten,If You Come To Me,original,intl,74.0,C,0,2,53,,,,83,,11,,Rock,1,16
 Donny Hathaway,A Song for You,original,intl,74.0,C,0,2,83,,,,,,52,,Rock,1,134.7,0,0,325,,1,0,Donny Hathaway - A Song for You.mp3,donny hathaway|a song for you,0
 Gigi D’Agostino,Another Way (Tanzen Mix),original,intl,74.0,C,0,2,73,,,,,74,0,,Dance,0,130,0,0,365,,1,0,Gigi D’Agostino - Another Way (Tanzen Mix).mp3,gigi d agostino|another way,0
 Haddaway,Life (Radio Edit),original,intl,74.0,C,0,3,73,,,,73,74,8,,Pop,0,,0,0,257,,1,0,Haddaway - Life (Radio Edit).mp3,haddaway|life,0
-Jesse McCartney,Beautiful Soul,original,intl,74.0,C,0,3,75,,,,70,,71,,Rock,1,179.8,0,0,214,,1,0,Jesse McCartney - Beautiful Soul.mp3,jesse mccartney|beautiful soul,0
+Jesse McCartney,Beautiful Soul,original,intl,74.0,C,0,3,75,,,,70,,71,,Rock,1,179.8,0,0,214,,1,1,Jesse McCartney - Beautiful Soul.mp3,jesse mccartney|beautiful soul,0
 M,Pop Muzik,original,intl,74.0,C,0,1,3,,,,86,,45,,Reggae,0,,0,0,217,,1,0,M - Pop Muzik.mp3,m|pop muzik,0
 O-Town,Liquid Dreams,original,intl,74.0,C,0,2,53,,,,83,,18,,Pop,0,108,0,0,210,,1,0,O-Town - Liquid Dreams.mp3,o town|liquid dreams,0
 Rozalla,Everybody’s Free (To Feel Good),original,intl,74.0,C,0,2,0,,,,73,74,0,,Dance,0,,0,0,305,,1,0,Rozalla - Everybody’s Free (To Feel Good).mp3,rozalla|everybody s free,0
@@ -823,10 +823,10 @@ Alec Benjamin,Devil Doesn’t Bargain,original,intl,72.5,C,0,3,75,,,66,,,50,"cz_
 Alok & James Arthur,Work With My Love,original,intl,72.4,C,0,2,75,,,66,,,24,"sk_radio100: 3 týž., max 43.",Electro,0,,0,0,150,,1,0,Alok & James Arthur - Work With My Love.mp3,alok|work with my love,0
 Candlebox,Far Behind,original,intl,72.4,C,0,2,73,,,,,,71,,Pop,0,89.5,1,0,299,,1,0,Candlebox - Far Behind.mp3,candlebox|far behind,0
 Kabát,Lady Lane,original,czsk,72.4,C,0,1,50,,,,,,82,,Pop,0,136.4,0,0,158,,1,0,Kabát - Lady Lane.mp3,kabat|lady lane,0
-Mary J. Blige,No More Drama,original,intl,72.4,C,0,3,74,,,,68,,51,,R&B,1,98,0,0,267,,1,0,Mary J. Blige - No More Drama.mp3,mary j blige|no more drama,0
+Mary J. Blige,No More Drama,original,intl,72.4,C,0,3,74,,,,68,,51,,R&B,1,98,0,0,267,,1,1,Mary J. Blige - No More Drama.mp3,mary j blige|no more drama,0
 Public Domain,Operation Blade (7 radio edit),original,intl,72.4,C,0,2,63,,,,76,,0,,Pop,0,140.1,0,0,186,,1,0,Public Domain - Operation Blade (7 radio edit).mp3,public domain|operation blade,0
 Boston,Amanda,original,intl,72.3,C,0,2,,,,,80,,54,,,0,,0,,,,1,0,Boston - Amanda.mp3,boston|amanda,0
-Lutricia McNeal,Ain’t That Just the Way,original,intl,72.3,C,0,2,70,,,,73,,0,,R&B,1,,0,0,214,,1,0,Lutricia McNeal - Ain’t That Just the Way.mp3,lutricia mcneal|ain t that just the way,0
+Lutricia McNeal,Ain’t That Just the Way,original,intl,72.3,C,0,2,70,,,,73,,0,,R&B,1,,0,0,214,,1,1,Lutricia McNeal - Ain’t That Just the Way.mp3,lutricia mcneal|ain t that just the way,0
 Madonna,Girl Gone Wild,original,intl,72.3,C,0,3,78,,,58,,,57,"cz_radio100: 7 týž., max 85.",Pop,0,,0,0,223,,1,0,Madonna - Girl Gone Wild.mp3,madonna|girl gone wild,0
 Skid Row,Youth Gone Wild,original,intl,72.3,C,0,2,74,,,,,,67,,Metal,1,,0,0,198,,1,0,Skid Row - Youth Gone Wild.mp3,skid row|youth gone wild,0
 Demi Lovato,Neon Lights,original,intl,72.2,C,0,3,74,,,68,,,66,"cz_radio100: 11 týž., max 47.",Pop,0,126,0,0,234,,1,0,Demi Lovato - Neon Lights.mp3,demi lovato|neon lights,0
@@ -870,13 +870,13 @@ S’Express,Theme From S’Express,original,intl,71.4,C,0,1,29,,,,90,,0,,Electro
 S’Express,Theme from S’Express (King Roc Remix),remix,intl,71.4,C,0,1,29,,,,90,,0,,Electro,0,,0,0,408,,1,0,S’Express - Theme from S’Express (King Roc Remix).mp3,s express|theme from s express,0
 Tonic,If You Could Only See,original,intl,71.4,C,0,2,70,,,,,,72,,Rock,1,190.5,0,0,261,,1,0,Tonic - If You Could Only See.mp3,tonic|if you could only see,0
 southstar,Miss You,original,intl,71.4,C,0,1,82,,34,,,,47,,Dance,0,,0,1,206,,1,0,southstar - Miss You.mp3,southstar|miss you,0
-Dario G,Carnaval de Paris (Radio Mix),original,intl,71.3,C,0,2,59,,,,76,,0,,Dance,0,,0,0,232,,1,0,Dario G - Carnaval de Paris (Radio Mix).mp3,dario g|carnaval de paris,0
+Dario G,Carnaval de Paris (Radio Mix),original,intl,71.3,C,0,2,59,,,,76,,0,,Dance,0,,0,0,232,,1,1,Dario G - Carnaval de Paris (Radio Mix).mp3,dario g|carnaval de paris,0
 Elán,Neviem Byt Sam,original,czsk,71.3,C,0,4,72,,14,51,,71,64,"sk_radio50_domace: 7 týž., max 30.",Rock,1,168.06,0,0,231,,1,1,Elán - Neviem Byt Sam.mp3,elan|neviem byt sam,0
 KALEO,No Good,original,intl,71.3,C,0,2,78,,,,,,56,,Alternative,1,107.95,0,0,234,,1,0,KALEO - No Good.mp3,kaleo|no good,0
 MIKA,Happy Ending,original,intl,71.3,C,0,4,55,,,64,70,,72,"cz_radio100: 5 týž., max 70.",Pop,0,,0,0,346,,1,0,MIKA - Happy Ending.mp3,mika|happy ending,0
 Milky Chance,Cocoon,original,intl,71.3,C,0,2,23,,0,79,,,54,"sk_radio100: 20 týž., max 47.",Alternative,1,,0,0,266,,1,0,Milky Chance - Cocoon.mp3,milky chance|cocoon,0
 Razorlight,Wire To Wire,original,intl,71.3,C,0,2,,,,,76,,59,,,0,,0,,,,1,0,Razorlight - Wire To Wire.mp3,razorlight|wire to wire,0
-Vengaboys,Kiss (When The Sun Don’t Shine),original,intl,71.3,C,0,1,44,,,,83,,0,,Pop,0,,0,0,324,,1,0,Vengaboys - Kiss (When The Sun Don’t Shine).mp3,vengaboys|kiss,0
+Vengaboys,Kiss (When The Sun Don’t Shine),original,intl,71.3,C,0,1,44,,,,83,,0,,Pop,0,,0,0,324,,1,1,Vengaboys - Kiss (When The Sun Don’t Shine).mp3,vengaboys|kiss,0
 Vinylshakerz,One Night In Bangkok (Vinylshakers Screen Cut),original,intl,71.3,C,0,2,64,,,,,74,15,,Electro,0,130,0,0,208,,1,0,Vinylshakerz - One Night In Bangkok (Vinylshakers Screen Cut).mp3,vinylshakerz|one night in bangkok,0
 Armand Van Helden feat. Tara McDonald,My My My (Vocal Mix),original,intl,71.2,C,0,2,78,,,,,,55,,Dance,0,127.6,0,0,182,,1,0,Armand Van Helden feat. Tara McDonald - My My My (Vocal Mix).mp3,armand van helden|my my my,0
 BANKS,Beggin For Thread,original,intl,71.2,C,0,2,74,,0,,,,65,,Alternative,1,108,0,0,249,,1,0,BANKS - Beggin For Thread.mp3,banks|beggin for thread,0
@@ -889,7 +889,7 @@ Sugababes,Overload,original,intl,71.1,C,0,2,66,,,,73,,49,,Pop,0,124.9,0,0,275,,1
 Bryan Adams,The Only Thing That Looks Good On Me Is You,original,intl,71.0,C,0,2,66,,,,73,,34,,Pop,0,118.8,0,0,220,,1,0,Bryan Adams - The Only Thing That Looks Good On Me Is You.mp3,bryan adams|the only thing that looks good on me is you,0
 Ewa Farna,Tělo,original,czsk,71.0,C,0,2,59,,38,76,,,,"cz_radio50_domace: 7 týž., max 14.",Pop,0,,0,0,248,,1,0,Ewa Farna - Tělo.mp3,ewa farna|telo,0
 Otis Redding,Stand by Me,original,intl,71.0,C,0,2,,,0,,,74,63,,,0,,0,,,,1,0,Otis Redding - Stand by Me.mp3,otis redding|stand by me,0
-Atomic Kitten,Eternal Flame (Single Version),original,intl,70.9,C,0,1,,,,,90,,27,,,0,,0,,,,1,0,Atomic Kitten - Eternal Flame (Single Version).mp3,atomic kitten|eternal flame,0
+Atomic Kitten,Eternal Flame (Single Version),original,intl,70.9,C,0,1,,,,,90,,27,,,0,,0,,,,1,1,Atomic Kitten - Eternal Flame (Single Version).mp3,atomic kitten|eternal flame,0
 Burna Boy,Alone,original,intl,70.9,C,0,1,86,,,,,,35,,Films/Games,0,,0,0,221,,1,0,Burna Boy - Alone.mp3,burna boy|alone,0
 Denzel Curry,Ultimate,original,intl,70.9,C,0,2,73,,,,,,66,,Rap/Hip Hop,1,113.89,0,1,190,,1,0,Denzel Curry - Ultimate.mp3,denzel curry|ultimate,0
 Faithless,We Come 1 (Radio Edit),original,intl,70.9,C,0,1,30,,,,83,,42,,Electro,0,136,0,0,223,,1,0,Faithless - We Come 1 (Radio Edit).mp3,faithless|we come 1,0
@@ -901,7 +901,7 @@ Peter Fox,Haus am See,original,intl,70.9,C,0,2,79,,,,,,52,,Rap/Hip Hop,0,123.8,0
 Caifanes,Afuera,original,intl,70.8,C,0,2,80,,,,,,50,,Pop,0,126,0,0,290,,1,0,Caifanes - Afuera.mp3,caifanes|afuera,0
 Jane’s Addiction,Jane Says,original,intl,70.8,C,0,2,64,,,,,,74,,Alternative,1,164.72,0,0,287,,1,0,Jane’s Addiction - Jane Says.mp3,jane s addiction|jane says,0
 Local H,Bound For The Floor,original,intl,70.8,C,0,2,67,,,,,,72,,Rock,1,119,0,0,223,,1,0,Local H - Bound For The Floor.mp3,local h|bound for the floor,0
-NSYNC,This I Promise You,original,intl,70.8,C,0,2,,,,,80,,50,,,0,,0,,,,1,0,NSYNC - This I Promise You.mp3,nsync|this i promise you,0
+NSYNC,This I Promise You,original,intl,70.8,C,0,2,,,,,80,,50,,,0,,0,,,,1,1,NSYNC - This I Promise You.mp3,nsync|this i promise you,0
 J Balvin,Amarillo,original,intl,70.7,C,0,1,83,,,,,,42,,Rap/Hip Hop,0,183.75,0,0,157,,1,0,J Balvin - Amarillo.mp3,j balvin|amarillo,0
 Keri Hilson,Pretty Girl Rock,original,intl,70.7,C,0,3,68,,,,72,,66,,R&B,1,160.2,0,0,244,,1,0,Keri Hilson - Pretty Girl Rock.mp3,keri hilson|pretty girl rock,0
 Technohead,I Wanna Be a Hippy,original,intl,70.7,C,0,2,65,,,,73,,26,,Dance,0,177.4,0,0,196,,1,0,Technohead - I Wanna Be a Hippy.mp3,technohead|i wanna be a hippy,0
@@ -917,7 +917,7 @@ Olympic,Okno Mé Lásky (Láska),original,czsk,70.5,C,0,4,56,,,52,,77,51,"sk_rad
 Dido,Life for Rent,original,intl,70.4,C,0,2,31,,,,67,,72,,Pop,0,166,0,0,294,,1,0,Dido - Life for Rent.mp3,dido|life for rent,0
 Dr. Alban,Look Who’s Talking (Long Version),original,intl,70.4,C,0,2,61,,,,,74,0,,Pop,0,,0,0,324,,1,0,Dr. Alban - Look Who’s Talking (Long Version).mp3,dr alban|look who s talking,0
 Biffy Clyro,Many of Horror (When We Collide),original,intl,70.3,C,0,3,72,,,,67,,64,,Alternative,1,164.1,0,0,258,,1,0,Biffy Clyro - Many of Horror (When We Collide).mp3,biffy clyro|many of horror,0
-Destiny’s Child,"Independent Women, Pt. 1",original,intl,70.3,C,0,1,87,,,,,,31,,Pop,0,97.97,0,0,223,,1,0,"Destiny’s Child - Independent Women, Pt. 1.mp3",destiny s child|independent women pt 1,0
+Destiny’s Child,"Independent Women, Pt. 1",original,intl,70.3,C,0,1,87,,,,,,31,,Pop,0,97.97,0,0,223,,1,1,"Destiny’s Child - Independent Women, Pt. 1.mp3",destiny s child|independent women pt 1,0
 Maná,Rayando el Sol,original,intl,70.3,C,0,1,79,,,,,,50,,Pop,0,112.7,0,0,250,,1,0,Maná - Rayando el Sol.mp3,mana|rayando el sol,0
 Mylo,Drop the Pressure (Felix Da HouseCat),original,intl,70.3,C,0,2,77,,,,,,56,,Electro,0,,0,1,255,,1,0,Mylo - Drop the Pressure (Felix Da HouseCat).mp3,mylo|drop the pressure,0
 The Game,Dreams,original,intl,70.3,C,0,2,71,,,,,,69,,Rap/Hip Hop,1,156,0,1,287,,1,0,The Game - Dreams.mp3,the game|dreams,0
@@ -945,7 +945,7 @@ Tarkan,Şımarık (long version),original,intl,69.9,C,0,1,83,,,,,,39,,Pop,0,97.0
 ADÉLA,Boys,original,intl,69.8,C,0,1,84,,16,,,,37,,Pop,0,,0,1,145,,1,0,ADÉLA - Boys.mp3,adela|boys,0
 Backstreet Boys,I’ll Never Break Your Heart,original,intl,69.8,C,0,2,71,,,,67,,0,,Pop,0,162.1,0,0,288,,1,0,Backstreet Boys - I’ll Never Break Your Heart.mp3,backstreet boys|i ll never break your heart,0
 D12,Fight Music,original,intl,69.8,C,0,2,78,,,,,,51,,Rap/Hip Hop,1,89.5,1,1,262,,1,0,D12 - Fight Music.mp3,d12|fight music,0
-Demi Lovato,I Will Survive,original,intl,69.8,C,0,1,84,,,,,,37,,Films/Games,0,121.96,0,0,245,,1,0,Demi Lovato - I Will Survive.mp3,demi lovato|i will survive,0
+Demi Lovato,I Will Survive,original,intl,69.8,C,0,1,84,,,,,,37,,Films/Games,0,121.96,0,0,245,,1,1,Demi Lovato - I Will Survive.mp3,demi lovato|i will survive,0
 Ewa Farna,TO JE MOJE HOLKA,original,czsk,69.8,C,0,2,42,,3,70,,,69,"cz_radio50_domace: 9 týž., max 15.",Pop,0,,0,0,185,,1,0,Ewa Farna - TO JE MOJE HOLKA.mp3,ewa farna|to je moje holka,0
 Michael Jackson,Come Together,original,intl,69.8,C,0,2,78,,,,,,51,,Pop,0,89.5,1,0,242,,1,0,Michael Jackson - Come Together.mp3,michael jackson|come together,0
 Shawn Mendes,Nervous,original,intl,69.8,C,0,2,66,,7,72,,,44,"sk_radio100: 7 týž., max 35.",Pop,0,121.96,0,0,164,,1,0,Shawn Mendes - Nervous.mp3,shawn mendes|nervous,0
@@ -956,7 +956,7 @@ Air Supply,Making Love Out of Nothing at All,original,intl,69.7,C,0,3,51,,,,74,,
 Blu Cantrell,Hit ’Em Up Style (Oops!),original,intl,69.7,C,0,1,9,,,,96,,0,,R&B,0,,0,0,220,,1,0,Blu Cantrell - Hit ’Em Up Style (Oops!).mp3,blu cantrell|hit em up style,0
 Chinaski,Muj svet,original,czsk,69.7,C,0,2,44,,,57,,,75,"cz_radio50_domace: 1 týž., max 39.",Pop,0,106.8,0,0,216,,1,1,Chinaski - Muj svet.mp3,chinaski|muj svet,0
 Fedde Le Grand,Put Your Hands Up For Detroit,original,intl,69.7,C,0,2,76,,,,,,55,,Electro,0,,0,0,146,,1,0,Fedde Le Grand - Put Your Hands Up For Detroit.mp3,fedde le grand|put your hands up for detroit,0
-Fedde Le Grand,Put Your Hands Up For Detroit (Club Mix),remix,intl,69.7,C,0,2,76,,,,,,55,,Electro,0,,0,0,146,,1,0,Fedde Le Grand - Put Your Hands Up For Detroit (Club Mix).mp3,fedde le grand|put your hands up for detroit,0
+Fedde Le Grand,Put Your Hands Up For Detroit (Club Mix),remix,intl,69.7,C,0,2,76,,,,,,55,,Electro,0,,0,0,146,,1,1,Fedde Le Grand - Put Your Hands Up For Detroit (Club Mix).mp3,fedde le grand|put your hands up for detroit,0
 Michael Bolton,When a Man Loves a Woman,original,intl,69.7,C,0,1,28,,,,78,,49,,Pop,0,,0,0,236,,1,0,Michael Bolton - When a Man Loves a Woman.mp3,michael bolton|when a man loves a woman,0
 Nickelback,Lullaby,original,intl,69.7,C,0,2,76,,,,,,55,,Rock,1,136,0,0,228,,1,0,Nickelback - Lullaby.mp3,nickelback|lullaby,0
 Seeed,Ding,original,intl,69.6,C,0,1,79,,,,,,49,,Reggae,1,,0,0,206,,1,0,Seeed - Ding.mp3,seeed|ding,0
@@ -966,7 +966,7 @@ Forest Blakk,If You Love Her,original,intl,69.5,C,0,1,80,,,,,,45,,Pop,0,,0,0,217
 Joey Bada$$,Survival Tactics,original,intl,69.5,C,0,2,65,,,,,,71,,Rap/Hip Hop,1,99.86,0,1,202,,1,0,Joey Bada$$ - Survival Tactics.mp3,joey bada|survival tactics,0
 Los Prisioneros,Tren Al Sur,original,intl,69.5,C,0,2,76,,,,,,55,,Rock,1,90.3,1,0,337,,1,0,Los Prisioneros - Tren Al Sur.mp3,los prisioneros|tren al sur,0
 ATEEZ,HALAZIA,original,intl,69.4,C,0,2,77,,,,,,52,,Asian Music,0,,0,0,197,,1,0,ATEEZ - HALAZIA.mp3,ateez|halazia,0
-Blue,All Rise,original,intl,69.4,C,0,1,0,,,,80,,45,,Pop,0,98,0,0,202,,1,0,Blue - All Rise.mp3,blue|all rise,0
+Blue,All Rise,original,intl,69.4,C,0,1,0,,,,80,,45,,Pop,0,98,0,0,202,,1,1,Blue - All Rise.mp3,blue|all rise,0
 Dj Spiller feat. Sophie Ellis-Bextor,Groovejet (If This Ain’t Love),original,intl,69.4,C,0,1,17,,,,90,,22,,Electro,0,,0,0,369,,1,0,Dj Spiller feat. Sophie Ellis-Bextor - Groovejet (If This Ain’t Love).mp3,dj spiller|groovejet,0
 Gibson Brothers,Que Sera Mi Vida (Dave Kurtis radio edit),original,intl,69.4,C,0,2,53,,,,76,,0,,Pop,0,131.2,0,0,352,,1,0,Gibson Brothers - Que Sera Mi Vida (Dave Kurtis radio edit).mp3,gibson brothers|que sera mi vida,0
 Mary J. Blige,Just Fine,original,intl,69.4,C,0,2,70,,,,67,,45,,R&B,1,123,0,0,242,,1,0,Mary J. Blige - Just Fine.mp3,mary j blige|just fine,0
@@ -992,14 +992,14 @@ Chinaski,Bylo-Nebylo,original,czsk,68.8,C,0,2,39,,,52,,,76,"cz_radio50_domace: 1
 Desmod,Niekto ti to povie skor nez ja,original,czsk,68.8,C,0,3,31,,,64,,71,57,"cz_radio50_domace: 1 týž., max 17.",Rock,1,119.8,0,0,277,,1,1,Desmod - Niekto ti to povie skor nez ja.mp3,desmod|niekto ti to povie skor nez ja,0
 Olympic,Otázky,original,czsk,68.8,D,0,2,47,,,,,71,64,,Pop,0,,0,0,253,1,1,1,Olympic - Otázky.mp3,olympic|otazky,0
 Sigrid,Strangers,original,intl,68.8,C,0,3,73,,0,57,60,,49,"sk_radio100: 2 týž., max 57.",Pop,0,114.84,0,0,233,,1,0,Sigrid - Strangers.mp3,sigrid|strangers,0
-Sugababes,Too Lost In You,original,intl,68.8,C,0,3,73,,,,60,,58,,Pop,0,98,0,0,252,,1,0,Sugababes - Too Lost In You.mp3,sugababes|too lost in you,0
-Yazoo,Don’t Go,original,intl,68.8,C,0,1,35,,,,83,,0,,Pop,0,,0,0,356,,1,0,Yazoo - Don’t Go.mp3,yazoo|don t go,0
+Sugababes,Too Lost In You,original,intl,68.8,C,0,3,73,,,,60,,58,,Pop,0,98,0,0,252,,1,1,Sugababes - Too Lost In You.mp3,sugababes|too lost in you,0
+Yazoo,Don’t Go,original,intl,68.8,C,0,1,35,,,,83,,0,,Pop,0,,0,0,356,,1,1,Yazoo - Don’t Go.mp3,yazoo|don t go,0
 Jess Glynne,Right Here,original,intl,68.7,C,0,2,58,,,,73,,27,,Pop,0,119.8,0,0,220,,1,0,Jess Glynne - Right Here.mp3,jess glynne|right here,0
 Ja Rule,I’m Real (Murder Remix),remix,intl,68.6,C,0,1,0,,,,98,,0,,Pop,0,83.52,1,0,145,,1,0,Ja Rule - I’m Real (Murder Remix).mp3,ja rule|i m real,0
 Marie Rottrová,Řeka Lásky,original,czsk,68.6,C,0,1,25,,,,,82,38,,Pop,0,,0,0,200,,1,1,Marie Rottrová - Řeka Lásky.mp3,marie rottrova|reka lasky,0
 Michael Bublé,Home,original,intl,68.6,C,0,2,55,,,,,74,0,,,0,,0,0,222,,1,0,Michael Bublé - Home.mp3,michael buble|home,0
 Polarkreis 18,Allein Allein,original,intl,68.6,C,0,2,74,,,57,,,34,"cz_radio100: 7 týž., max 88.",Alternative,1,132.1,0,0,242,,1,0,Polarkreis 18 - Allein Allein.mp3,polarkreis 18|allein allein,0
-Uniting Nations,Out of Touch,original,intl,68.6,C,0,3,59,,,66,70,,34,"cz_radio100: 8 týž., max 70.",Electro,0,130,0,0,171,,1,0,Uniting Nations - Out of Touch.mp3,uniting nations|out of touch,0
+Uniting Nations,Out of Touch,original,intl,68.6,C,0,3,59,,,66,70,,34,"cz_radio100: 8 týž., max 70.",Electro,0,130,0,0,171,,1,1,Uniting Nations - Out of Touch.mp3,uniting nations|out of touch,0
 Uniting Nations,Out of Touch (Radio Mix),original,intl,68.6,C,0,3,59,,,66,70,,34,"cz_radio100: 8 týž., max 70.",Electro,0,130,0,0,171,,1,0,Uniting Nations - Out of Touch (Radio Mix).mp3,uniting nations|out of touch,0
 Cro,Einmal um die Welt,original,intl,68.5,C,0,1,79,,,,,,45,,Rap/Hip Hop,1,,0,0,141,,1,0,Cro - Einmal um die Welt.mp3,cro|einmal um die welt,0
 DNCE,Toothbrush,original,intl,68.5,C,0,3,69,,1,59,,,66,"sk_radio100: 4 týž., max 58.",Pop,0,,0,0,231,,1,0,DNCE - Toothbrush.mp3,dnce|toothbrush,0
@@ -1035,7 +1035,7 @@ Peter Fox,Schwarz zu blau,original,intl,67.7,C,0,1,76,,,,,,48,,Rap/Hip Hop,0,162
 Vengaboys,Uncle John From Jamaica (hitradio mix),original,intl,67.7,C,0,2,55,,,,73,,0,,Pop,0,,0,0,188,,1,0,Vengaboys - Uncle John From Jamaica (hitradio mix).mp3,vengaboys|uncle john from jamaica,0
 Apollo 440,Ain’t Talkin’ ’Bout Dub (440 radio edit),original,intl,67.5,C,0,2,62,,,,70,,0,,Pop,0,164.1,0,0,270,,1,0,Apollo 440 - Ain’t Talkin’ ’Bout Dub (440 radio edit).mp3,apollo 440|ain t talkin bout dub,0
 Disclosure,Magnets,original,intl,67.5,C,0,2,47,,0,63,,,70,"cz_radio100: 4 týž., max 50.",Electro,0,124.9,0,0,260,,1,0,Disclosure - Magnets.mp3,disclosure|magnets,0
-Pharrell Williams,Marilyn Monroe,original,intl,67.5,C,0,1,76,,,,,,48,,Pop,0,,0,0,351,,1,0,Pharrell Williams - Marilyn Monroe.mp3,pharrell williams|marilyn monroe,0
+Pharrell Williams,Marilyn Monroe,original,intl,67.5,C,0,1,76,,,,,,48,,Pop,0,,0,0,351,,1,1,Pharrell Williams - Marilyn Monroe.mp3,pharrell williams|marilyn monroe,0
 Queen,Too Much Love Will Kill You,original,intl,67.5,C,0,2,72,,,,,,56,,Rock,1,,0,0,260,,1,0,Queen - Too Much Love Will Kill You.mp3,queen|too much love will kill you,0
 Shawn Mendes,Something Big,original,intl,67.5,C,0,1,76,,0,,,,47,,Pop,0,,0,0,161,,1,0,Shawn Mendes - Something Big.mp3,shawn mendes|something big,0
 Aventura,Obsession,original,intl,67.4,C,0,1,96,,,,,,0,,Latin Music,0,133.8,0,0,254,,1,0,Aventura - Obsession.mp3,aventura|obsession,0
@@ -1063,7 +1063,7 @@ Taio Cruz feat. Ludacris,Break Your Heart Remix - qHD (Xtendz),remix,intl,67.0,C
 ATB,Ecstasy (Rayan Myers Remix),remix,intl,66.9,C,0,2,71,,,,,,57,,Electro,0,,0,0,261,,1,0,ATB - Ecstasy (Rayan Myers Remix).mp3,atb|ecstasy,0
 Alejandro Sanz,Amiga mía,original,intl,66.9,C,0,1,77,,,,,,44,,Pop,0,144.1,0,0,290,,1,0,Alejandro Sanz - Amiga mía.mp3,alejandro sanz|amiga mia,0
 Deep Purple,Highway Star,original,intl,66.9,C,0,1,29,,,,,,83,,Rock,1,101.6,0,0,370,,1,0,Deep Purple - Highway Star.mp3,deep purple|highway star,0
-MIKA,Lollipop,original,intl,66.9,C,0,1,41,,,,,,78,,Pop,0,,0,0,224,,1,0,MIKA - Lollipop.mp3,mika|lollipop,0
+MIKA,Lollipop,original,intl,66.9,C,0,1,41,,,,,,78,,Pop,0,,0,0,224,,1,1,MIKA - Lollipop.mp3,mika|lollipop,0
 OneRepublic,If I Lose Myself (Alesso vs OneRepublic),original,intl,66.9,C,0,3,,,,67,67,,61,"cz_radio100: 14 týž., max 57.",,0,,0,,,,1,0,OneRepublic - If I Lose Myself (Alesso vs OneRepublic).mp3,onerepublic|if i lose myself,0
 Sam Fender,Spit Of You,original,intl,66.9,C,0,1,78,,,,,,40,,Singer & Songwriter,0,,0,0,273,,1,0,Sam Fender - Spit Of You.mp3,sam fender|spit of you,0
 ClockClock,Someday Soon,original,intl,66.8,C,0,2,68,,,64,,,0,"cz_radio100: 10 týž., max 17.",Pop,0,,0,1,204,,1,0,ClockClock - Someday Soon.mp3,clockclock|someday soon,0
@@ -1080,7 +1080,7 @@ Capital Cities,Kangaroo Court,original,intl,66.5,C,0,2,68,,,,,,64,,Alternative,1
 Chicane,Offshore (Disco Citizens Remix),remix,intl,66.5,C,0,1,77,,,,,,41,,Dance,0,,0,0,268,,1,0,Chicane - Offshore (Disco Citizens Remix).mp3,chicane|offshore,0
 Cappella,Move On Baby,original,intl,66.4,C,0,2,58,,,,70,,7,,,0,,0,0,291,,1,0,Cappella - Move On Baby.mp3,cappella|move on baby,0
 Colbie Caillat,Fallin’ For You,original,intl,66.4,C,0,2,51,,,,73,,0,,Country,1,,0,0,216,,1,0,Colbie Caillat - Fallin’ For You.mp3,colbie caillat|fallin for you,0
-Céline Dion,I’m Alive,original,intl,66.4,C,0,1,95,,,,,,0,,Pop,0,102.1,0,0,210,,1,0,Céline Dion - I’m Alive.mp3,celine dion|i m alive,0
+Céline Dion,I’m Alive,original,intl,66.4,C,0,1,95,,,,,,0,,Pop,0,102.1,0,0,210,,1,1,Céline Dion - I’m Alive.mp3,celine dion|i m alive,0
 Twenty One Pilots,Saturday,original,intl,66.4,C,0,2,69,,0,,,,59,,Alternative,1,,0,0,172,,1,0,Twenty One Pilots - Saturday.mp3,twenty one pilots|saturday,0
 Benzz,Je M’appelle,original,intl,66.3,C,0,2,71,,56,,,,0,,Rap/Hip Hop,1,,0,0,139,,1,0,Benzz - Je M’appelle.mp3,benzz|je m appelle,0
 Benson Boone,Before You,original,intl,66.2,C,0,1,78,,,,,,39,,Pop,0,,0,0,187,,1,0,Benson Boone - Before You.mp3,benson boone|before you,0
@@ -1132,7 +1132,7 @@ Cascada,Because The Night,original,intl,64.3,C,0,1,76,,,,,,37,,Electro,0,140.2,0
 Oxlade,KU LO SA - A COLORS SHOW,original,intl,64.3,C,0,1,87,,,,,,11,,African Music,0,,0,0,147,,1,0,Oxlade - KU LO SA - A COLORS SHOW.mp3,oxlade|ku lo sa,0
 ADÉLA,STARVING ARTIST,original,intl,64.2,C,0,1,80,,0,,,,28,,Pop,0,,0,0,180,,1,0,ADÉLA - STARVING ARTIST.mp3,adela|starving artist,0
 Coldplay,Don’t Panic,original,intl,64.2,C,0,1,92,,,,,,0,,Rock,1,122.3,0,0,136,,1,0,Coldplay - Don’t Panic.mp3,coldplay|don t panic,0
-Lily Allen,Fuck You,original,intl,64.2,C,0,1,0,,,,,,92,,Pop,0,130,0,1,381,,1,0,Lily Allen - Fuck You.mp3,lily allen|fuck you,0
+Lily Allen,Fuck You,original,intl,64.2,C,0,1,0,,,,,,92,,Pop,0,130,0,1,381,,1,1,Lily Allen - Fuck You.mp3,lily allen|fuck you,0
 "Raffa FL, HUGEL",Ritmo (HUGEL Edit),original,intl,64.2,C,0,1,80,,,,,,27,,Electro,0,,0,0,183,,1,0,"Raffa FL, HUGEL - Ritmo (HUGEL Edit).mp3",raffa fl|ritmo,0
 Raffa Fl,Ritmo,original,intl,64.2,C,0,1,80,,,,,,27,,Electro,0,,0,0,183,,1,0,Raffa Fl - Ritmo.mp3,raffa fl|ritmo,0
 Horkýže Slíže,Jogín,original,czsk,64.1,C,0,1,25,,,,,,81,,Pop,0,80.5,1,1,222,,1,0,Horkýže Slíže - Jogín.mp3,horkyze slize|jogin,0
@@ -1185,7 +1185,7 @@ Dr. Dre,What’s The Difference,original,intl,63.0,C,0,1,90,,,,,,0,,Rap/Hip Hop,
 Jam & Spoon feat. Plavka,Right in the Night (Fall in Love with Music),original,intl,63.0,C,0,2,64,,,,60,,0,,Dance,0,136.9,0,0,364,,1,0,Jam & Spoon feat. Plavka - Right in the Night (Fall in Love with Music).mp3,jam|right in the night,0
 UB40,Kingstown Town,original,intl,62.9,C,0,1,90,,,,,,0,,Rock,1,102.1,0,0,226,,1,0,UB40 - Kingstown Town.mp3,ub40|kingstown town,0
 Atomic Kitten,Tide Is High (Get the Feeling),original,intl,62.8,C,0,1,,,,,90,,0,,,0,,0,,,,1,0,Atomic Kitten - Tide Is High (Get the Feeling).mp3,atomic kitten|tide is high,0
-B-Witched,C’est La Vie,original,intl,62.8,C,0,1,0,,,,90,,0,,Pop,0,,0,0,405,,1,0,B-Witched - C’est La Vie.mp3,b witched|c est la vie,0
+B-Witched,C’est La Vie,original,intl,62.8,C,0,1,0,,,,90,,0,,Pop,0,,0,0,405,,1,1,B-Witched - C’est La Vie.mp3,b witched|c est la vie,0
 Eamon,F--k It (I Don't Want You Back),original,intl,62.8,C,0,1,,,,,90,,0,,,0,,0,,,,1,0,Eamon - F--k It (I Don't Want You Back).mp3,eamon|f k it,0
 HUGEL & Snoop Dogg,H.O.U.S.E,original,intl,62.8,C,0,1,90,,,,,,0,,Electro,0,,0,0,151,,1,0,HUGEL & Snoop Dogg - H.O.U.S.E.mp3,hugel|h o u s e,0
 Horkýže Slíže,Traja spití roboši,original,czsk,62.8,C,0,1,17,,,,,,83,,Pop,0,84.7,1,1,100,,1,0,Horkýže Slíže - Traja spití roboši.mp3,horkyze slize|traja spiti robosi,0
@@ -1214,7 +1214,7 @@ Santigold,Disparate Youth,original,intl,62.2,C,0,1,,,,,,,89,,,0,,0,,,,1,0,Santig
 Carin Leon,Que Vuelvas,original,intl,62.1,C,0,1,81,,,,,,19,,Banda/Grupero,0,,0,0,169,,1,0,Carin Leon - Que Vuelvas.mp3,carin leon|que vuelvas,0
 Die Toten Hosen,Tage wie diese,original,intl,62.1,C,0,1,78,,,,,,24,,Rock,1,194.1,0,0,268,,1,0,Die Toten Hosen - Tage wie diese.mp3,die toten hosen|tage wie diese,0
 Teddy Swims,Devil in a Dress,original,intl,62.1,C,0,1,77,,,,,,28,,Pop,0,,0,0,175,,1,0,Teddy Swims - Devil in a Dress.mp3,teddy swims|devil in a dress,0
-Zara Larsson,All the Time,original,intl,62.1,C,0,1,71,,0,,,,41,,Pop,0,102.08,0,0,228,,1,0,Zara Larsson - All the Time.mp3,zara larsson|all the time,0
+Zara Larsson,All the Time,original,intl,62.1,C,0,1,71,,0,,,,41,,Pop,0,102.08,0,0,228,,1,1,Zara Larsson - All the Time.mp3,zara larsson|all the time,0
 Snoop Dogg,Who Am I (What’s My Name),original,intl,62.0,C,0,1,89,,,,,,0,,Rap/Hip Hop,1,,0,1,246,,1,0,Snoop Dogg - Who Am I (What’s My Name).mp3,snoop dogg|who am i,0
 Snoop Doggy Dogg,Who Am I - Atomic Dogg (What’s My Name),original,intl,62.0,C,0,1,89,,,,,,0,,Rap/Hip Hop,1,,0,1,246,,1,0,Snoop Doggy Dogg - Who Am I - Atomic Dogg (What’s My Name).mp3,snoop doggy dogg|who am i,0
 ADÉLA,HITACHI,original,intl,61.9,C,0,1,78,,0,,,,24,,Pop,0,,0,0,216,,1,0,ADÉLA - HITACHI.mp3,adela|hitachi,0
@@ -1235,19 +1235,19 @@ The Prince Karma,Later Bitches,original,intl,61.5,C,0,1,31,,,,,74,28,,Dance,0,,0
 Kabát,Elvis,original,czsk,61.4,C,0,1,28,,,,,,76,,Pop,0,164.7,0,0,208,,1,0,Kabát - Elvis.mp3,kabat|elvis,0
 OneRepublic,Marchin On,original,intl,61.4,C,0,2,,,,66,,,50,"cz_radio100: 6 týž., max 42.",,0,,0,,,,1,0,OneRepublic - Marchin On.mp3,onerepublic|marchin on,0
 Kabát,Pohromy,original,czsk,61.3,C,0,1,38,,,,,,71,,Pop,0,116.5,0,1,108,,1,0,Kabát - Pohromy.mp3,kabat|pohromy,0
-Milk Inc.,Walk on Water (H2O Radio Mix),original,intl,61.3,C,0,2,62,,,,60,,10,,Electro,0,141.1,0,0,192,,1,0,Milk Inc. - Walk on Water (H2O Radio Mix).mp3,milk inc|walk on water,0
+Milk Inc.,Walk on Water (H2O Radio Mix),original,intl,61.3,C,0,2,62,,,,60,,10,,Electro,0,141.1,0,0,192,,1,1,Milk Inc. - Walk on Water (H2O Radio Mix).mp3,milk inc|walk on water,0
 Lucie,Noc,original,czsk,61.1,C,0,1,25,,,,,,77,,Pop,0,,0,0,231,,1,0,Lucie - Noc.mp3,lucie|noc,0
 Peha,Chodec na lane,original,czsk,61.1,C,0,1,6,,,,,,85,,Pop,0,170.8,0,0,159,,1,0,Peha - Chodec na lane.mp3,peha|chodec na lane,0
 Drake,Can’t Take A Joke,original,intl,61.0,C,0,2,59,,0,,,,62,,Rap/Hip Hop,1,173.71,0,1,164,,1,0,Drake - Can’t Take A Joke.mp3,drake|can t take a joke,0
 Lucie,Mít tě sám,original,czsk,61.0,C,0,1,33,,,,,,73,,Pop,0,,0,0,260,,1,0,Lucie - Mít tě sám.mp3,lucie|mit te sam,0
 Sara Bareilles,King of Anything,original,intl,61.0,C,0,3,57,,,,62,,59,,Pop,0,118.8,0,0,207,,1,0,Sara Bareilles - King of Anything.mp3,sara bareilles|king of anything,0
 Kasabian,Shoot the Runner,original,intl,60.9,C,0,1,19,,,,,,79,,Pop,0,130.8,0,0,321,,1,0,Kasabian - Shoot the Runner.mp3,kasabian|shoot the runner,0
-Simple Plan,I’m Just a Kid,original,intl,60.9,C,0,1,87,,,,,,0,,Pop,0,110,0,0,198,,1,0,Simple Plan - I’m Just a Kid.mp3,simple plan|i m just a kid,0
+Simple Plan,I’m Just a Kid,original,intl,60.9,C,0,1,87,,,,,,0,,Pop,0,110,0,0,198,,1,1,Simple Plan - I’m Just a Kid.mp3,simple plan|i m just a kid,0
 Horkýže Slíže,Onania,original,czsk,60.8,C,0,1,22,,,,,,78,,Rock,1,,0,0,125,,1,0,Horkýže Slíže - Onania.mp3,horkyze slize|onania,0
 P!nk,Just Like a Pill,original,intl,60.8,C,0,2,57,,,,,,63,,Pop,0,,0,0,244,,1,0,P!nk - Just Like a Pill.mp3,p nk|just like a pill,0
 ’N Sync feat. Nelly,Girlfriend (The Neptunes Remix),remix,intl,60.8,C,0,1,,,,,87,,0,,,0,,0,,,,1,0,’N Sync feat. Nelly - Girlfriend (The Neptunes Remix).mp3,n sync|girlfriend,0
 Kabát,Všechno bude jako dřív,original,czsk,60.7,C,0,1,44,,,,,,68,,Pop,0,139.2,0,0,146,,1,0,Kabát - Všechno bude jako dřív.mp3,kabat|vsechno bude jako driv,0
-Kate Ryan,Voyage Voyage,original,intl,60.7,C,0,1,72,,,,,,33,,Dance,0,130,0,0,185,,1,0,Kate Ryan - Voyage Voyage.mp3,kate ryan|voyage voyage,0
+Kate Ryan,Voyage Voyage,original,intl,60.7,C,0,1,72,,,,,,33,,Dance,0,130,0,0,185,,1,1,Kate Ryan - Voyage Voyage.mp3,kate ryan|voyage voyage,0
 Lara Fabian,Je t’aime,original,intl,60.7,C,0,1,86,,,,,,1,,Alternative,0,,0,0,261,,1,0,Lara Fabian - Je t’aime.mp3,lara fabian|je t aime,0
 Drake,Summer Games,original,intl,60.6,C,0,2,64,,0,,,,52,,Rap/Hip Hop,1,136,0,0,248,,1,0,Drake - Summer Games.mp3,drake|summer games,0
 Roxette,Crash! Boom! Bang!,original,intl,60.6,C,0,1,72,,,,,,35,,Pop,0,142.1,0,0,266,,1,0,Roxette - Crash! Boom! Bang!.mp3,roxette|crash boom bang,0
@@ -1274,7 +1274,7 @@ Modern Talking feat. Eric Singleton,Brother Louie Mix ’98 (Radio Edit),origina
 Ellie Goulding,Something In The Way You Move,original,intl,59.9,C,0,1,65,,2,,,,49,,Pop,0,109.1,0,0,227,,1,0,Ellie Goulding - Something In The Way You Move.mp3,ellie goulding|something in the way you move,0
 Horkýže Slíže,Horkyze Slize,original,czsk,59.9,C,0,1,43,,,,,,67,,Rock,1,,0,0,167,,1,0,Horkýže Slíže - Horkyze Slize.mp3,horkyze slize|horkyze slize,0
 Morgan Wallen,Thought You Should Know,original,intl,59.8,C,0,1,69,,,,,,40,,Country,1,,0,1,215,,1,0,Morgan Wallen - Thought You Should Know.mp3,morgan wallen|thought you should know,0
-P!nk,God Is a DJ,original,intl,59.8,C,0,1,67,,,,,,43,,Pop,0,,0,1,224,,1,0,P!nk - God Is a DJ.mp3,p nk|god is a dj,0
+P!nk,God Is a DJ,original,intl,59.8,C,0,1,67,,,,,,43,,Pop,0,,0,1,224,,1,1,P!nk - God Is a DJ.mp3,p nk|god is a dj,0
 Shirin David,bauch beine po,original,intl,59.8,C,0,1,78,,,,,,18,,Rap/Hip Hop,1,,0,1,134,,1,0,Shirin David - bauch beine po.mp3,shirin david|bauch beine po,0
 G-Unit,Poppin’ Them Thangs,original,intl,59.7,C,0,1,85,,,,,,0,,Rap/Hip Hop,1,175.9,0,1,241,,1,0,G-Unit - Poppin’ Them Thangs.mp3,g unit|poppin them thangs,0
 Raf,Self Control,original,intl,59.7,C,0,1,76,,,,,,23,,Pop,0,,0,0,238,,1,0,Raf - Self Control.mp3,raf|self control,0
@@ -1317,13 +1317,13 @@ Gigi D’Agostino,The Riddle,original,intl,58.4,C,0,1,83,,,,,,0,,Dance,0,126.8,0
 "HUGEL, LaBritney & Mili",Stay Sexy (Soul Wave Sounds Remix),remix,intl,58.4,C,0,1,83,,,,,,0,,Electro,0,,0,1,126,,1,0,"HUGEL, LaBritney & Mili - Stay Sexy (Soul Wave Sounds Remix).mp3",hugel|stay sexy,0
 Kabát,Brouk Pytlík,original,czsk,58.4,C,0,1,27,,,,,,72,,Pop,0,142.6,0,1,230,,1,0,Kabát - Brouk Pytlík.mp3,kabat|brouk pytlik,0
 Mariah Carey & Luther Vandross,Endless Love,original,intl,58.4,C,0,1,1,,,,83,,0,,Pop,0,,0,0,248,,1,0,Mariah Carey & Luther Vandross - Endless Love.mp3,mariah carey|endless love,0
-Destiny’s Child,Bug a Boo,original,intl,58.3,C,0,1,,,,,63,,47,,,0,,0,,,,1,0,Destiny’s Child - Bug a Boo.mp3,destiny s child|bug a boo,0
+Destiny’s Child,Bug a Boo,original,intl,58.3,C,0,1,,,,,63,,47,,,0,,0,,,,1,1,Destiny’s Child - Bug a Boo.mp3,destiny s child|bug a boo,0
 Micky Green,Oh!,original,intl,58.3,C,0,1,83,,,,,,1,,Pop,0,119.8,0,0,227,,1,0,Micky Green - Oh!.mp3,micky green|oh,0
 "David Guetta,Mason,Princess Superstar",Perfect (Exceeder),original,intl,58.2,C,0,1,0,,,,83,,0,,Dance,0,,0,0,59,,1,0,"David Guetta,Mason,Princess Superstar - Perfect (Exceeder).mp3",david guetta|perfect,0
 Parov Stelar,All Night,original,intl,58.2,C,0,2,58,,,,,,58,,Electro,0,,0,0,263,,1,0,Parov Stelar - All Night.mp3,parov stelar|all night,0
 System F,Out of the Blue,original,intl,58.2,C,0,1,66,,,,,,40,,Dance,0,,0,0,234,,1,0,System F - Out of the Blue.mp3,system f|out of the blue,0
 Cro,Whatever,original,intl,58.1,C,0,1,75,,,,,,19,,Rap/Hip Hop,1,,0,0,193,,1,0,Cro - Whatever.mp3,cro|whatever,0
-Justin Bieber,Somebody To Love,original,intl,58.1,C,0,1,,,,,,,83,,,0,,0,,,,1,0,Justin Bieber - Somebody To Love.mp3,justin bieber|somebody to love,0
+Justin Bieber,Somebody To Love,original,intl,58.1,C,0,1,,,,,,,83,,,0,,0,,,,1,1,Justin Bieber - Somebody To Love.mp3,justin bieber|somebody to love,0
 Modern Talking,"You're my heart, you're my soul (Dario Caminita Revibe)",remix,intl,58.1,C,0,1,83,,,,,,0,,Pop,0,117.5,0,0,195,,1,0,"Modern Talking - You're my heart, you're my soul (Dario Caminita Revibe).mp3",modern talking|you re my heart you re my soul,0
 Modern Talking,"You’re My Heart, You’re My Soul (Remix 2k18)",remix,intl,58.1,C,0,1,83,,,,,,0,,Pop,0,117.5,0,0,195,,1,0,"Modern Talking - You’re My Heart, You’re My Soul (Remix 2k18).mp3",modern talking|you re my heart you re my soul,0
 Morcheeba,Rome Wasn’t Built in a Day,original,intl,58.1,C,0,1,83,,,,,,0,,Pop,0,112,0,0,214,,1,0,Morcheeba - Rome Wasn’t Built in a Day.mp3,morcheeba|rome wasn t built in a day,0
@@ -1391,7 +1391,7 @@ Die Fantastischen Vier,Sie ist weg (Unplugged),other,intl,55.7,C,0,1,68,,,,,,28,
 Halestorm,I Miss the Misery,original,intl,55.7,C,0,1,36,,,,,,64,,Rock,1,,0,0,201,,1,0,Halestorm - I Miss the Misery.mp3,halestorm|i miss the misery,0
 The Ian Carey Project,Get Shaky,original,intl,55.7,C,0,1,72,,,,,,19,,Dance,0,,0,0,150,,1,0,The Ian Carey Project - Get Shaky.mp3,the ian carey project|get shaky,0
 Fountains of Wayne,Stacy’s Mom,original,intl,55.6,C,0,1,79,,,,,,0,,Pop,0,,0,0,197,,1,0,Fountains of Wayne - Stacy’s Mom.mp3,fountains of wayne|stacy s mom,0
-George Benson,Nothing’s Gonna Change My Love for You,original,intl,55.6,C,0,1,79,,,,,,0,,Pop,0,136.9,0,0,242,,1,0,George Benson - Nothing’s Gonna Change My Love for You.mp3,george benson|nothing s gonna change my love for you,0
+George Benson,Nothing’s Gonna Change My Love for You,original,intl,55.6,C,0,1,79,,,,,,0,,Pop,0,136.9,0,0,242,,1,1,George Benson - Nothing’s Gonna Change My Love for You.mp3,george benson|nothing s gonna change my love for you,0
 Dr. Dre,Fuck Wit Dre Day (And Everybody’s Celebratin’),original,intl,55.5,C,0,1,79,,,,,,0,,Rap/Hip Hop,1,,0,1,292,,1,0,Dr. Dre - Fuck Wit Dre Day (And Everybody’s Celebratin’).mp3,dr dre|fuck wit dre day,0
 Michele Morrone,Hard For Me,original,intl,55.5,C,0,1,79,,0,,,,0,,Pop,0,,0,0,177,,1,0,Michele Morrone - Hard For Me.mp3,michele morrone|hard for me,0
 Spiller,Groove Jet (If This Ain’t Love),original,intl,55.5,C,0,1,79,,,,,,0,,Electro,0,,0,0,227,,1,0,Spiller - Groove Jet (If This Ain’t Love).mp3,spiller|groove jet,0
@@ -1541,7 +1541,7 @@ No Angels,Daylight in Your Eyes (Radio Version),original,intl,48.8,D,0,1,70,,,,,
 Jamie Miller,Here’s Your Perfect,original,intl,48.7,D,0,1,70,,,,,,0,,Pop,0,,0,0,158,,1,0,Jamie Miller - Here’s Your Perfect.mp3,jamie miller|here s your perfect,0
 Lucie,Vona říká jó,original,czsk,48.5,D,0,1,0,,,,,,69,,Pop,0,,0,0,198,,1,0,Lucie - Vona říká jó.mp3,lucie|vona rika jo,0
 Paul Elstak,Rainbow in the Sky,original,intl,48.5,D,0,1,69,,,,,,0,,Dance,0,,0,0,208,,1,0,Paul Elstak - Rainbow in the Sky.mp3,paul elstak|rainbow in the sky,0
-Captain Hollywood Project,Flying High (Radio Mix),original,intl,48.4,D,0,1,69,,,,,,0,,Dance,0,,0,0,226,,1,0,Captain Hollywood Project - Flying High (Radio Mix).mp3,captain hollywood project|flying high,0
+Captain Hollywood Project,Flying High (Radio Mix),original,intl,48.4,D,0,1,69,,,,,,0,,Dance,0,,0,0,226,,1,1,Captain Hollywood Project - Flying High (Radio Mix).mp3,captain hollywood project|flying high,0
 Blümchen,Nur Geträumt,original,intl,48.2,D,0,1,62,,,,,,16,,Dance,0,182.1,0,0,225,,1,0,Blümchen - Nur Geträumt.mp3,blumchen|nur getraumt,0
 Leon Machère,Copacabana,original,intl,48.2,D,0,1,69,,,,,,,,Pop,0,97.97,0,0,209,,1,0,Leon Machère - Copacabana.mp3,leon machere|copacabana,0
 Andrea Bocelli,Con Te Partirò,original,intl,48.1,D,0,1,41,,,,,,51,,Classical,1,,0,0,255,,1,0,Andrea Bocelli - Con Te Partirò.mp3,andrea bocelli|con te partiro,0
@@ -1612,7 +1612,7 @@ Charly Lownoise & Mental Theo,Wonderful Days,original,intl,43.8,D,0,1,63,,,,,,0,
 Rea Garvey,Kiss Me,original,intl,43.8,D,0,1,63,,,,,,0,,Pop,0,153.12,0,0,223,,1,0,Rea Garvey - Kiss Me.mp3,rea garvey|kiss me,0
 Massari,Be Easy,original,intl,43.7,D,0,1,62,,,,,,0,,R&B,1,95.93,0,0,205,,1,0,Massari - Be Easy.mp3,massari|be easy,0
 Pet Shop Boys,Opportunities (Let’s Make Lots of Money) (Revibes Mix Especial),original,intl,43.7,D,0,1,62,,,,,,0,,Pop,0,120.2,0,0,224,,1,0,Pet Shop Boys - Opportunities (Let’s Make Lots of Money) (Revibes Mix Especial).mp3,pet shop boys|opportunities,0
-Zara Larsson,Don’t Worry Bout Me,original,intl,43.7,D,0,1,62,,0,,,,0,,Pop,0,,0,0,208,,1,0,Zara Larsson - Don’t Worry Bout Me.mp3,zara larsson|don t worry bout me,0
+Zara Larsson,Don’t Worry Bout Me,original,intl,43.7,D,0,1,62,,0,,,,0,,Pop,0,,0,0,208,,1,1,Zara Larsson - Don’t Worry Bout Me.mp3,zara larsson|don t worry bout me,0
 LOTTE,Mehr davon,original,intl,43.5,D,0,1,62,,,,,,0,,Pop,0,,0,0,173,,1,0,LOTTE - Mehr davon.mp3,lotte|mehr davon,0
 Backstreet Boys,Chances,original,intl,43.3,D,0,1,59,,,,,,6,,Pop,0,109.96,0,0,172,,1,0,Backstreet Boys - Chances.mp3,backstreet boys|chances,0
 Fun Factory,I Wanna B with U (Extended),remix,intl,43.3,D,0,1,62,,,,,,0,,Electro,0,,0,0,213,,1,0,Fun Factory - I Wanna B with U (Extended).mp3,fun factory|i wanna b with u,0
@@ -1630,7 +1630,7 @@ Ch!Pz,1001 Arabian Nights,original,intl,41.8,D,0,1,60,,,,,,0,,Pop,0,,0,0,186,,1,
 Carolina Liar,Show Me What I’m Looking For,original,intl,41.7,D,0,1,60,,,,,,0,,Pop,0,105.2,0,0,240,,1,0,Carolina Liar - Show Me What I’m Looking For.mp3,carolina liar|show me what i m looking for,0
 Scooter,Posse (I Need You On The Floor),original,intl,41.7,D,0,1,60,,,,,,0,,Dance,0,,0,0,230,,1,0,Scooter - Posse (I Need You On The Floor).mp3,scooter|posse,0
 Modern Talking feat. Eric Singleton,Sexy Sexy Lover (rap version),original,intl,41.6,D,0,1,59,,,,,,0,,Pop,0,128.8,0,1,212,,1,0,Modern Talking feat. Eric Singleton - Sexy Sexy Lover (rap version).mp3,modern talking|sexy sexy lover,0
-K.Maro,Femme Like U,original,intl,41.5,D,0,1,0,,,59,,,0,"cz_radio100: 1 týž., max 71.",Electro,0,,0,0,137,,1,0,K.Maro - Femme Like U.mp3,k maro|femme like u,0
+K.Maro,Femme Like U,original,intl,41.5,D,0,1,0,,,59,,,0,"cz_radio100: 1 týž., max 71.",Electro,0,,0,0,137,,1,1,K.Maro - Femme Like U.mp3,k maro|femme like u,0
 The Script,We Cry,original,intl,41.5,D,0,1,0,,,,,,59,,Pop,0,,0,0,255,,1,0,The Script - We Cry.mp3,the script|we cry,0
 Gang Starr,Above The Clouds,original,intl,41.4,D,0,1,,,,,,,59,,,0,,0,,,,1,0,Gang Starr - Above The Clouds.mp3,gang starr|above the clouds,0
 Marusha,Somewhere Over the Rainbow (short),original,intl,41.4,D,0,1,59,,,,,,0,,Electro,0,,0,0,331,,1,0,Marusha - Somewhere Over the Rainbow (short).mp3,marusha|somewhere over the rainbow,0
@@ -1658,7 +1658,7 @@ Drunkenmunky,E (as in Eveline),original,intl,39.9,D,0,1,57,,,,,,0,,Electro,0,,0,
 K2,Der Berg ruft (Original-Club-Mix),original,intl,39.9,D,0,1,57,,,,,,0,,Pop,0,,0,0,298,,1,0,K2 - Der Berg ruft (Original-Club-Mix).mp3,k2|der berg ruft,0
 Magic Affair,In The Middle Of The Night,original,intl,39.9,D,0,1,57,,,,,,0,,Dance,0,139.7,0,0,382,,1,0,Magic Affair - In The Middle Of The Night.mp3,magic affair|in the middle of the night,0
 No Angels,Something About Us (R&B single edit),original,intl,39.9,D,0,1,57,,,,,,0,,Pop,0,,0,0,206,,1,0,No Angels - Something About Us (R&B single edit).mp3,no angels|something about us,0
-Jessy Matador,Allez Ola Olé,original,intl,39.8,D,0,1,57,,,,,,0,,Electro,0,128.8,0,0,173,,1,0,Jessy Matador - Allez Ola Olé.mp3,jessy matador|allez ola ole,0
+Jessy Matador,Allez Ola Olé,original,intl,39.8,D,0,1,57,,,,,,0,,Electro,0,128.8,0,0,173,,1,1,Jessy Matador - Allez Ola Olé.mp3,jessy matador|allez ola ole,0
 Elvis Costello,She,original,intl,39.7,D,0,1,,,,,,,57,,,0,,0,,,,1,0,Elvis Costello - She.mp3,elvis costello|she,0
 Army Of Lovers,Crucified,original,intl,39.4,D,0,1,11,,,,,,52,,Pop,0,,0,0,373,,1,0,Army Of Lovers - Crucified.mp3,army of lovers|crucified,0
 Max Giesinger,Irgendwann ist jetzt,original,intl,39.3,D,0,1,56,,,,,,0,,Pop,0,,0,0,178,,1,0,Max Giesinger - Irgendwann ist jetzt.mp3,max giesinger|irgendwann ist jetzt,0
